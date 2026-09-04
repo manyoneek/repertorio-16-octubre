@@ -1,0 +1,8 @@
+[deploy]
+startCommand = "python3 server.py"
+
+[deploy.healthcheck]
+path = "/index.html"
+
+[[services]]
+name = "repertorio"

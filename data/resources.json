@@ -112,8 +112,21 @@
     "note": "Versión alternativa en el subdominio de chords."
    }
   ],
-  "videos": [],
-  "notes": "Tabs sólidas y el tono coincide. No se encontró ningún video de lección verificable: Jaime Roos tiene poca cobertura de tutoriales. Los tres charts alcanzan, siendo un candombe en La mayor bastante directo."
+  "videos": [
+   {
+    "channel": "Guzmán Lazo",
+    "title": "Colombina - Jaime Roos: Tutorial de Guitarra (Acordes + Ritmo)",
+    "url": "https://www.youtube.com/watch?v=8NK9Uszs4j8",
+    "quality_note": "Canal uruguayo chico, pero cubre acordes Y el rasgueo de candombe/murga, que es la parte difícil del tema."
+   },
+   {
+    "channel": "Guillermo Volpi",
+    "title": "COLOMBINA - JAIME ROOS, TUTORIAL (ACORDES)",
+    "url": "https://www.youtube.com/watch?v=Edn-MJXsR5E",
+    "quality_note": "Canal chico independiente, tutorial de acordes en español. Es una lección dedicada real para un tema con casi nada de cobertura."
+   }
+  ],
+  "notes": "Tabs sólidas y el tono coincide. No se encontró ningún video de lección verificable: Jaime Roos tiene poca cobertura de tutoriales. Los tres charts alcanzan, siendo un candombe en La mayor bastante directo. Videos agregados en una segunda pasada de búsqueda."
  },
  {
   "title": "Creep",
@@ -408,8 +421,21 @@
     "note": "Desglose escrito con los seis acordes principales (C#m7, F#9, A/B, E, Amaj7, G#7#5), confirmando Mi mayor."
    }
   ],
-  "videos": [],
-  "notes": "El chart dice E y la transcripción de Songsterr es del disco original, también en E: transpone 1:1, sin cejilla. No se pudo atribuir con confianza ningún video de lección a un canal conocido, así que quedó vacío en vez de adivinar."
+  "videos": [
+   {
+    "channel": "EricBlackmonGuitar",
+    "title": "How To Play ISN'T SHE LOVELY - Stevie Wonder Guitar Chords Lesson Motown 1976",
+    "url": "https://www.youtube.com/watch?v=abViaqvOC18",
+    "quality_note": "Canal grande y conocido; lección de acordes referida a la grabación original del 76."
+   },
+   {
+    "channel": "Your Guitar Academy",
+    "title": "How To Play Isn't She Lovely by Stevie Wonder - Guitar Lesson",
+    "url": "https://www.youtube.com/watch?v=Q0tSWeaCSBs",
+    "quality_note": "Canal de enseñanza establecido; lección basada en acordes, buena para los cambios en Mi."
+   }
+  ],
+  "notes": "El chart dice E y la transcripción de Songsterr es del disco original, también en E: transpone 1:1, sin cejilla. No se pudo atribuir con confianza ningún video de lección a un canal conocido, así que quedó vacío en vez de adivinar. Videos agregados en una segunda pasada de búsqueda."
  },
  {
   "title": "It's My Life",
@@ -451,8 +477,21 @@
     "note": "Lección oficial (SG-170) con acordes, tabs y video embebido. Grado 2, con hilo de discusión activo de la comunidad."
    }
   ],
-  "videos": [],
-  "notes": "El chart dice G, que coincide con el original de Dylan (progresión G-D-Am): sin transposición. Ojo que muchos resultados de búsqueda cubren el arreglo de Guns N' Roses, que es más largo y agrega solos."
+  "videos": [
+   {
+    "channel": "Andy Guitar",
+    "title": "Knocking On Heaven's Door - EASY 4 Chord Guitar Lesson (Bob Dylan)",
+    "url": "https://www.youtube.com/watch?v=pWIL4N6QZ-Y",
+    "quality_note": "Canal grande. El título confirma que es la versión de Dylan, no la de Guns N' Roses. Cómodo en G."
+   },
+   {
+    "channel": "GuitarZero2Hero",
+    "title": "Knockin' On Heaven's Door Guitar Tutorial - Bob Dylan |Chords + Strumming|",
+    "url": "https://www.youtube.com/watch?v=7WIhl7lTYy8",
+    "quality_note": "Canal grande; acordes más rasgueo. También confirma versión Dylan."
+   }
+  ],
+  "notes": "El chart dice G, que coincide con el original de Dylan (progresión G-D-Am): sin transposición. Ojo que muchos resultados de búsqueda cubren el arreglo de Guns N' Roses, que es más largo y agrega solos. Videos agregados en una segunda pasada de búsqueda."
  },
  {
   "title": "La Flaca",
@@ -469,8 +508,21 @@
     "note": "Etiquetado explícito 'Tono: Am', 'Sin capo'. Acordes Am, E, D, F/A, E/G#, E7. Cruza limpio con lacuerda. También hay Guitar Pro en /guitarpro/."
    }
   ],
-  "videos": [],
-  "notes": "Dos fuentes independientes en español confirman Am. No se pudo verificar ningún video de un canal establecido: los resultados eran de subidores individuales sin confirmar."
+  "videos": [
+   {
+    "channel": "guitarraviva",
+    "title": "Cómo tocar LA FLACA - Arpegios y acordes - Jarabe de Palo | Guitarraviva",
+    "url": "https://www.youtube.com/watch?v=iTLpyJfyBW8",
+    "quality_note": "Canal grande en español; cubre arpegios y acordes, útil para el patrón de púa del tema."
+   },
+   {
+    "channel": "christianvib",
+    "title": "Cómo tocar \"La Flaca\" de Jarabe De Palo en Guitarra (HD) Tutorial",
+    "url": "https://www.youtube.com/watch?v=pwa71J7dono",
+    "quality_note": "Uno de los canales de guitarra en español más grandes; tutorial completo. Va bien con el Am."
+   }
+  ],
+  "notes": "Dos fuentes independientes en español confirman Am. No se pudo verificar ningún video de un canal establecido: los resultados eran de subidores individuales sin confirmar. Videos agregados en una segunda pasada de búsqueda."
  },
  {
   "title": "Miss You",
@@ -487,8 +539,21 @@
     "note": "Lección oficial (ST-369) con acordes, tabs y letra."
    }
   ],
-  "videos": [],
-  "notes": "El chart dice Am, igual que el original: sin transposición. La identidad del tema está en la figura sincopada de Keith más que en el lead, así que abrí la pista t3 en Songsterr."
+  "videos": [
+   {
+    "channel": "JustinGuitar Songs",
+    "title": "Miss You by The Rolling Stones | Guitar Lesson",
+    "url": "https://www.youtube.com/watch?v=5qbpU2flN3U",
+    "quality_note": "JustinGuitar, de los canales de enseñanza más confiables que hay."
+   },
+   {
+    "channel": "Andy Guitar",
+    "title": "The Rolling Stones - 'Miss You' Guitar Lesson Tutorial",
+    "url": "https://www.youtube.com/watch?v=DiX9OkhrXPU",
+    "quality_note": "Canal grande; tutorial de eléctrica cubriendo el riff principal."
+   }
+  ],
+  "notes": "El chart dice Am, igual que el original: sin transposición. La identidad del tema está en la figura sincopada de Keith más que en el lead, así que abrí la pista t3 en Songsterr. Videos agregados en una segunda pasada de búsqueda."
  },
  {
   "title": "Mustang Sally",
@@ -505,8 +570,21 @@
     "note": "Lección escrita alternativa verificada."
    }
   ],
-  "videos": [],
-  "notes": "El chart dice C y el original de Pickett está en C, así que la tab calza. Ojo: el arreglo de The Commitments, que enseñan muchos tutoriales, suele ir en otro tono. No se encontró video de un canal reconocido."
+  "videos": [
+   {
+    "channel": "CWZ Guitar",
+    "title": "Wilson Pickett Mustang Sally Guitar Chords Lesson & Tab Tutorial (también Steve Cropper)",
+    "url": "https://www.youtube.com/watch?v=dNA8qg5TXCE",
+    "quality_note": "Canal mediano, más detallado: incluye tabs y las partes rítmicas de Steve Cropper."
+   },
+   {
+    "channel": "Andy Guitar",
+    "title": "Mustang Sally EASY 3 CHORD GUITAR SONG (Commitments / Wilson Pickett)",
+    "url": "https://www.youtube.com/watch?v=m6h8-qI3zqQ",
+    "quality_note": "Canal grande; enfoque simplificado de 3 acordes, calza con la estructura de 12 compases en Do."
+   }
+  ],
+  "notes": "El chart dice C y el original de Pickett está en C, así que la tab calza. Ojo: el arreglo de The Commitments, que enseñan muchos tutoriales, suele ir en otro tono. No se encontró video de un canal reconocido. Videos agregados en una segunda pasada de búsqueda."
  },
  {
   "title": "No Pienses de Más",
@@ -597,8 +675,21 @@
     "note": "Vista dedicada de la pista del solo."
    }
   ],
-  "videos": [],
-  "notes": "El chart dice Dm y las fuentes de acordes lo describen con quintas D5/F5/C5/Bb5 e intro Dm-C-F, consistente con un centro en Dm. No se encontró video de un canal establecido."
+  "videos": [
+   {
+    "channel": "CWZ Guitar",
+    "title": "Pet Sematary Guitar Tab & Chords with Guitar Lesson - The Ramones",
+    "url": "https://www.youtube.com/watch?v=tEbr_ZCj77M",
+    "quality_note": "Canal mediano; acordes más lección con tab, sirve para el Dm."
+   },
+   {
+    "channel": "Syl Riff",
+    "title": "Pet Sematary RAMONES Guitar Lesson w/ TABS (How to Play)",
+    "url": "https://www.youtube.com/watch?v=L9VqZnvqluw",
+    "quality_note": "Canal chico, pero es una lección en serio con tabs en pantalla. Ningún canal grande cubre este tema."
+   }
+  ],
+  "notes": "El chart dice Dm y las fuentes de acordes lo describen con quintas D5/F5/C5/Bb5 e intro Dm-C-F, consistente con un centro en Dm. No se encontró video de un canal establecido. Videos agregados en una segunda pasada de búsqueda."
  },
  {
   "title": "Rehab",
