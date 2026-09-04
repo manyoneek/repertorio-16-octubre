@@ -99,6 +99,20 @@ TILDE = {
 
 # Con contexto: la regla de arriba no alcanza, pero la frase resuelve la duda.
 CONTEXTO = [
+    (r"\bgrabo\b", "grabó"), (r"\bmovio\b", "movió"), (r"\bsalio\b", "salió"),
+    (r"\bdescribio\b", "describió"), (r"\bconto que\b", "contó que"),
+    (r"\bregalo la\b", "regaló la"), (r"\bentro después\b", "entró después"),
+    (r"\bque toco este\b", "que tocó este"), (r"\bClapton escucho\b", "Clapton escuchó"),
+    (r"\bque escucho nunca\b", "que escuché nunca"),
+    (r"\bpaso (?=(la|el|los|las) )", "pasó "),
+    (r"\b(documentación|sesión|EMI) publica\b", lambda m: m.group(1) + " pública"),
+    (r"\bnunca este del todo\b", "nunca esté del todo"),
+    (r"\bdiga cual\b", "diga cuál"), (r"\bse agrego\b", "se agregó"),
+    (r"\batandose\b", "atándose"), (r"\bambiguedad\b", "ambigüedad"),
+    (r"\bconseguis\b", "conseguís"), (r"\bestas haciendo\b", "estás haciendo"),
+    (r"\bacompanar\b", "acompañar"), (r"\bpoeelo\b", "ponelo"),
+    (r"\bdonde esta la\b", "donde está la"), (r"\ble sacas\b", "le sacás"),
+    (r"\blo escuchas\b", "lo escuchás"), (r"\bmas precisamente\b", "más precisamente"),
     (r"\bla practica\b", "la práctica"),
     (r"\bfuente publica\b", "fuente pública"),
     (r"\bque (?=(guitarra|guitarras|pedal|pedales|amplificador|equipo|modelo|cuerdas|efectos)\b)", "qué "),
@@ -147,7 +161,10 @@ def fix(text):
         t = re.sub(rf"\b{plain}\b",
                    lambda m, a=acc: cap(m.group(0), a), t, flags=re.IGNORECASE)
     for pat, acc in CONTEXTO:
-        t = re.sub(pat, lambda m, a=acc: cap(m.group(0), a), t, flags=re.IGNORECASE)
+        if callable(acc):
+            t = re.sub(pat, acc, t, flags=re.IGNORECASE)
+        else:
+            t = re.sub(pat, lambda m, a=acc: cap(m.group(0), a), t, flags=re.IGNORECASE)
     return re.sub(r"\x00(\d+)\x00", lambda m: holes[int(m.group(1))], t)
 
 
