@@ -273,20 +273,18 @@
   },
   {
     "title": "Knockin' on Heaven's Door",
-    "guitarist": "Bob Dylan en voz y guitarra, y Roger McGuinn (el de los Byrds) en guitarra. Grabado en febrero de 1973 en Burbank, California, para la banda de sonido de Pat Garrett and Billy the Kid. Completan Terry Paul en bajo, Jim Keltner en batería, Carl Fortina en armonio, Gary Foster en flauta y Carol Hunter, Donna Weiss y Brenda Patterson en coros.",
-    "guitar": "Sin documentación de instrumentos para esta sesión. Lo que se escucha son guitarras acústicas rasgueadas. McGuinn es famoso por su Rickenbacker de doce cuerdas, pero no hay ninguna fuente que confirme que la haya usado acá, así que no lo demos por hecho.",
-    "amp": "Sin dato. No hay evidencia de guitarra eléctrica amplificada destacada en la grabación de Dylan.",
-    "effects": "Ninguno. Es una grabación desnuda: guitarras, bajo, batería muy suave, armonio y coros.",
-    "signature_move": "Tres acordes y aire. La progresión es G, D, A menor en la primera mitad y G, D, C en la segunda, con un rasgueo lento y absolutamente parejo. Lo que hace el tema no es lo que toca la guitarra sino cuánto espacio deja: el armonio y los coros llenan el resto.",
-    "diy": "Acústica o eléctrica bien limpia con reverb suave, y nada más. El desafío es de tempo y constancia, no de sonido: si aceleras, se cae. Aviso importante sobre la versión: si el repertorio usa la versión de Guns N' Roses (Use Your Illusion II, 1991) el sonido es otro planeta. Ahí Slash grabó la líder con una Gibson Flying V del 59 y ese sonido nasal del solo sale del control de tono de la guitarra, no de un wah, según contó el mismo. También usó una doble mástil EDS-1275. Para esa versión necesitás humbucker más Marshall saturado; para la de Dylan, limpio y listo.",
+    "guitarist": "Slash en guitarra líder e Izzy Stradlin en rítmica. La versión es la de Use Your Illusion II (1991), grabada entre 1990 y 1991 con Mike Clink produciendo. No es una canción de Guns: es la de Bob Dylan, de 1973, para Pat Garrett and Billy the Kid.",
+    "guitar": "Gibson Les Paul. Más precisamente, la réplica de una '59 construida por Kris Derrig con pastillas Seymour Duncan Alnico II Pro, que el manager le compró en el 86 para grabar Appetite y que quedó como su instrumento principal de estudio desde entonces. La documentación es a nivel disco, no tema por tema: ninguna fuente detalla qué guitarra puntual se usó en este corte.",
+    "amp": "Marshall JCM800 2203 modificado, el mismo que usó en Use Your Illusion y en casi todos los discos posteriores. Slashparadise lo atribuye a una modificación de Mike Morin; guitar.com se la atribuye a Frank Levi. En lo que coinciden todas las fuentes es en el modelo.",
+    "effects": "Casi nada. La distorsión sale del ampli, no de un pedal. Lo que sí hay es delay y reverb de mezcla en los solos, para que las notas largas floten.",
+    "signature_move": "El sonido es humbucker en la pastilla del mástil contra un Marshall al borde: medio, gordo, sin scoop. Y la mano derecha nunca ataca fuerte en la rítmica; el volumen del tema lo hace la banda, no la guitarra. En los solos, todo pasa por bends de un tono largos y vibrato ancho y lento, más cerca de un cantante que de un guitarrista.",
+    "diy": "Cualquier guitarra con humbuckers en un ampli con ganancia media te deja cerca; una Epiphone Les Paul y un overdrive tipo Tube Screamer con la ganancia en la mitad alcanza. La clave es el vibrato, no el fierro: practicá el bend hasta que llegue afinado y después dejalo vibrar despacio. Ojo con la afinación: la grabación está medio tono abajo, así que si querés tocar arriba del disco necesitás afinar en Eb.",
     "confidence": "medio",
     "sources": [
-      "https://en.wikipedia.org/wiki/Knockin'_on_Heaven's_Door",
-      "https://bobdylan.fandom.com/wiki/Knockin'_on_Heaven's_Door",
-      "https://www.songfacts.com/facts/bob-dylan/knockin-on-heavens-door",
-      "https://www.bobdylan.com/songs/knockin-heavens-door/",
-      "https://www.guitarplayer.com/news/guns-n-roses-use-your-illusion-albums-turn-30-today",
-      "https://www.slashparadise.com/site/equipment-guitars-amps-effects-slash.php"
+      "https://www.slashparadise.com/equipment/guitars-slash.php",
+      "https://www.slashparadise.com/equipment/amps-slash.php",
+      "https://guitar.com/features/opinion-analysis/slash-guitar-gear-myths/",
+      "https://www.guitarplayer.com/news/guns-n-roses-use-your-illusion-albums-turn-30-today"
     ]
   },
   {
@@ -326,19 +324,17 @@
   },
   {
     "title": "Mustang Sally",
-    "guitarist": "Chips Moman en guitarra líder y Jimmy Johnson en rítmica. Se grabó en 1966 en FAME Studios, Muscle Shoals, con Jerry Wexler y Rick Hall produciendo, y el resto de la base es Tommy Cogbill en bajo, Roger Hawkins en batería y Spooner Oldham en teclados. Moman venía de Memphis; Johnson era el guitarrista de la casa de FAME y en 1969 se fue con Hawkins a fundar Muscle Shoals Sound.",
-    "guitar": "No documentado. Ni AllMusic, ni Rock Cellar, ni las entrevistas con Spooner Oldham y Sir Mack Rice sobre esta sesión mencionan qué guitarras se usaron. No hay confirmación de ningún modelo puntual para este tema.",
-    "amp": "No documentado. El equipo de la casa de FAME en el 66 no está detallado en ninguna fuente que encontré para esta grabación.",
-    "effects": "Ninguno. Es sonido de sala del 66: guitarra a ampli, todo limpio, la ambientación viene del cuarto y de la cinta, no de pedales.",
-    "signature_move": "El chank: acorde de séptima golpeado corto en el 2 y el 4, con la izquierda apagando apenas suena, para que la guitarra funcione como redoblante armónico. Todo con la púa, muy seco, sin sustain, y siempre un pelo atrás del pulso. Arriba de eso, Moman contesta con licks cortos de dos o tres notas en los huecos que deja la voz de Pickett. La regla del sonido Muscle Shoals: cada instrumento ocupa un lugar y ninguno lo invade.",
-    "diy": "Cualquier guitarra limpia sirve, mejor si tiene single coils. Ampli limpio, volumen medio, tono con presencia pero sin filo, agudos en 6, medios en 6, graves en 4, y una reverb de sala corta. Nada de drive, nada de delay. Lo difícil es la mano derecha: rasguido de semicorcheas continuo con la muñeca y apagado permanente con la izquierda, soltando solo en el golpe. Tocalo con un metrónomo en el 2 y el 4 hasta que te salga sin pensar.",
-    "confidence": "medio",
+    "guitarist": "Glen Hansard, que en la película es Outspan Foster y en la vida real es el cantante de The Frames. El elenco tocó y cantó de verdad en la banda de sonido de 1991: Discogs y Rate Your Music lo acreditan en guitarra, con Andrew Strong en voz.",
+    "guitar": "No documentado. No hay ninguna ficha de sesión publicada que detalle qué guitarra se usó en esta grabación. Lo que se escucha es una eléctrica limpia con pastilla de puente, muy atrás en la mezcla.",
+    "amp": "No documentado para esta grabación.",
+    "effects": "Ninguno audible. Guitarra limpia, sin saturación, con el brillo del ampli y nada más.",
+    "signature_move": "El chank: acorde de séptima golpeado corto en el 2 y el 4, con la izquierda apagando apenas suena, para que la guitarra funcione como redoblante armónico. Todo con la púa, muy seco, sin sustain. En esta versión la guitarra tiene todavía menos espacio que en la de Pickett, porque los bronces ocupan el lugar del contracanto.",
+    "diy": "Cualquier guitarra en limpio sirve; la posición del puente con el tono un poco cerrado. Lo que importa es la mano derecha: el golpe tiene que ser corto y siempre un pelo atrás del pulso. Si dejás sonar el acorde, el groove se empasta.",
+    "confidence": "bajo",
     "sources": [
-      "https://producelikeapro.com/blog/mustang-sally/",
-      "https://rockcellarmagazine.com/mustang-sally-at-45-interview-sir-mack-rice-and-spooner-oldham-tell-the-story/",
-      "https://www.allmusic.com/song/mustang-sally-mt0008238714",
-      "https://www.songfacts.com/facts/wilson-pickett/mustang-sally",
-      "https://en.wikipedia.org/wiki/Muscle_Shoals_Rhythm_Section"
+      "https://en.wikipedia.org/wiki/The_Commitments_(film)",
+      "https://rateyourmusic.com/artist/the_commitments",
+      "https://www.discogs.com/release/1782847-The-Commitments-The-Commitments-Original-Motion-Picture-Soundtrack"
     ]
   },
   {

@@ -389,15 +389,16 @@
   },
   {
     "title": "Knockin' on Heaven's Door",
-    "artist": "Bob Dylan",
+    "artist": "Guns N' Roses",
     "key_verified": "G",
-    "progression_degrees": "I–V–ii (G–D/F#–Am) | I–V–IV (G–D/F#–C). Dos frases de cuatro compases que se alternan.",
-    "analysis_md": "Cuatro acordes, y sin embargo es una lección entera de composición.\n\nLas dos frases arrancan igual — **I–V** — y se separan recién en el tercer acorde: una va a **ii (Am)** y la otra a **IV (C)**. Eso es todo el tema. Y funciona porque el oído ya aprendió el camino y entonces registra la desviación. La primera frase (al Am, menor) queda abierta, suspendida, sin resolver: es la *pregunta*. La segunda (al C, mayor) asienta y cierra: es la *respuesta*. Pregunta y respuesta, eternamente. Por eso el tema suena a letanía, a rezo.\n\nEl detalle que hace la diferencia es el **D/F#**. No es un adorno: pone F# en el bajo, así que la línea grave baja G–F#–E (con el Am). Escalonado, suave, sin saltos. Si tocás D con fundamental en la quinta cuerda, el tema se pone torpe y se nota.\n\nOjo con el **Am**: es el ii menor y es el único color \"nublado\" de la canción. Ahí vive toda la melancolía. Dylan a veces le agrega el G de la primera cuerda (Am7), lo que lo vuelve aún más difuso y menos definido.\n\nComo guitarrista: lo más difícil acá es no tocar de más. Es un tema de aire.",
+    "progression_degrees": "I–V–ii (G–D–Am7) | I–V–IV (G–D–C). Dos frases de cuatro compases que se alternan.",
+    "analysis_md": "Cuatro acordes, y sin embargo es una lección entera de composición.\n\nLas dos frases arrancan igual — **I–V** — y se separan recién en el tercer acorde: una va a **ii (Am)** y la otra a **IV (C)**. Eso es todo el tema. Y funciona porque el oído ya aprendió el camino y entonces registra la desviación. La primera frase (al Am, menor) queda abierta, suspendida, sin resolver: es la *pregunta*. La segunda (al C, mayor) asienta y cierra: es la *respuesta*. Pregunta y respuesta, eternamente. Por eso el tema suena a letanía, a rezo.\n\nOjo con el **Am**: es el ii menor y es el único color \"nublado\" de la canción. Ahí vive toda la melancolía. Las transcripciones de esta versión lo escriben seguido como **Am7**, que lo vuelve aún más difuso y menos definido.\n\nLo que cambia respecto del original de Dylan no es la armonía sino el peso. Donde Dylan deja aire, acá hay dos guitarras eléctricas, la banda entera y **dos solos de Slash** que se comen la mitad del tema. La progresión no se mueve durante los solos: son cuatro acordes girando, y todo el interés está en el fraseo arriba. Pentatónica de mi menor y de sol mayor, con bends largos y vibrato ancho.\n\nComo guitarrista: la parte difícil no es la armonía, es la dinámica. El tema crece desde casi nada hasta el final coral, y si arrancás fuerte no te queda a dónde ir.",
     "sources": [
-      "https://www.fender.com/articles/chords/learn-to-play-knockin-on-heavens-door",
-      "https://tabs.ultimate-guitar.com/tab/bob-dylan/knockin-on-heavens-door-chords-66587",
-      "https://songnotes.net/lessons/88/"
-    ]
+      "https://tabs.ultimate-guitar.com/tab/guns-n-roses/knockin-on-heavens-door-chords-653969",
+      "https://tabs.ultimate-guitar.com/tab/guns-n-roses/knockin-on-heavens-door-tabs-12702",
+      "https://www.songsterr.com/a/wsa/guns-n-roses-knockin-on-heavens-door-tab-s481"
+    ],
+    "key_note": "Tocamos en G; la grabación está afinada medio tono abajo y suena en F#. Para tocar encima, afiná a Eb."
   },
   {
     "title": "La Flaca",
@@ -425,14 +426,14 @@
   },
   {
     "title": "Mustang Sally",
-    "artist": "Wilson Pickett",
-    "key_verified": "C, blues en C — todo con séptimas dominantes",
-    "progression_degrees": "I7–IV7–I7–V7–(#IV7 de paso)–IV7–I7 (C7–F7–C7–G7–F#7–F7–C7).",
-    "analysis_md": "Blues, pero con una particularidad de forma y un acorde que casi nadie toca.\n\nLo primero, lo esencial del blues: **los tres acordes son dominantes (I7, IV7, V7)**. En una tonalidad mayor normal, solo el V puede llevar séptima menor. Acá el I y el IV también. Eso rompe la teoría clásica y por eso el blues suena como suena: cada acorde lleva adentro su propia tensión sin resolver, y ninguna se resuelve nunca. Es tensión permanente como estado de ánimo, no como camino.\n\nEl detalle fino es el **F#7 entre el G7 y el F7**. Es un **acorde de paso cromático** (#IV7): no cumple ninguna función armónica, existe solo para que el bajo baje G–F#–F por semitonos en vez de saltar. El efecto audible es de deslizamiento aceitado, resbaloso — es puro sabor Stax/Memphis. Es lo que separa la versión con onda de la versión de karaoke.\n\nY la forma AAB de 24 compases: dos secciones iguales y una tercera distinta, el doble de largo que el blues típico. Da más espacio para que el cantante juegue.\n\nComo guitarrista: acordes de novena (C9, F9) en vez de séptimas simples te acercan mucho más al sonido soul. Y rasgueo seco, corto, en el 2 y el 4.",
+    "artist": "The Commitments",
+    "key_verified": "C",
+    "progression_degrees": "I7–IV7–I7–V7–IV7–I7 (C7–F7–C7–G7–F7–C7), en forma AAB de 24 compases.",
+    "analysis_md": "Blues, pero con una particularidad de forma y una manera de escribirlo que confunde.\n\nLo primero, lo esencial del blues: **los tres acordes son dominantes (I7, IV7, V7)**. En una tonalidad mayor normal, solo el V puede llevar séptima menor. Acá el I y el IV también. Eso rompe la teoría clásica y por eso el blues suena como suena: cada acorde lleva adentro su propia tensión sin resolver, y ninguna se resuelve nunca. Es tensión permanente como estado de ánimo, no como camino.\n\nFijate cómo lo escriben las fuentes de esta versión: Cifra Club pone **C–Bb** alternando, y Ultimate Guitar pone **C7**. No se contradicen. El Bb es la séptima del C7 puesta como acorde aparte, que es exactamente el riff de vientos armonizado. Si tocás C7 y dejás que el bajo y los bronces hagan el movimiento, es lo mismo. Lo mismo pasa en el IV: **F–Eb** es F7.\n\nY la forma AAB de 24 compases: dos secciones iguales y una tercera distinta, el doble de largo que el blues típico. Da más espacio para que el cantante juegue, que en esta versión es Andrew Strong con dieciséis años y una voz que no parece de dieciséis años.\n\nComo guitarrista: acordes de novena (C9, F9) en vez de séptimas simples te acercan mucho más al sonido soul. Y rasgueo seco, corto, en el 2 y el 4. Acá la guitarra no es la protagonista: los bronces se llevan el tema y la viola sostiene el groove.",
     "sources": [
-      "https://www.songsterr.com/a/wsa/wilson-pickett-mustang-sally-chords-s42555",
-      "https://tabs.ultimate-guitar.com/tab/wilson-pickett/mustang-sally-chords-1402487",
-      "https://www.justinguitar.com/songs/the-commitments-wilson-picket-mustang-sally-chords-tabs-guitar-lesson-bs-523"
+      "https://tabs.ultimate-guitar.com/tab/the-commitments/mustang-sally-chords-2436659",
+      "https://www.cifraclub.com/commitments/mustang-sally/",
+      "https://www.songsterr.com/a/wsa/commitments-andrew-strong-mustang-sally-tab-s2407434"
     ],
     "tip": "No es un blues de 12 compases: son 24, con forma AAB."
   },
