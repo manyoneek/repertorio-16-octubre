@@ -601,7 +601,14 @@
     "note": "Chart independiente de acordes sobre letra. Útil para cruzar contra Cifra Club."
    }
   ],
-  "videos": [],
+  "videos": [
+   {
+    "channel": "Jaime Roos (canal oficial)",
+    "title": "Jaime Roos — No Pienses de Más (audio oficial)",
+    "url": "https://www.youtube.com/watch?v=PIYcJ-ozPig",
+    "quality_note": "No es una lección: busqué tutorial de guitarra en YouTube y no existe ninguno para este tema. Va el audio oficial como referencia — sacalo con la tab de acá arriba, que la armonía es sencilla."
+   }
+  ],
   "notes": "El tema más difícil de conseguir material: repertorio uruguayo con poca cobertura. No se encontró video de lección verificable."
  },
  {

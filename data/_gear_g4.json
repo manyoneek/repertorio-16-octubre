@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Route 66",
+    "guitarist": "Chuck Berry (guitarra y voz). Grabado para Chess en 1961 y editado en el disco New Juke Box Hits; es una version del tema de Bobby Troup que ya habia hecho famoso Nat King Cole.",
+    "guitar": "Gibson ES-350T. Es la hollow-body de escala corta con humbuckers PAF con la que Berry grabo la mayor parte de su catalogo en Chess. Aclaracion honesta: no existe una hoja de sesion publica que confirme que fue esa guitarra exactamente en Route 66; hacia 1961 tambien se lo fotografia con ES-335 y ES-345.",
+    "amp": "Sin dato confirmado para esa sesion. Berry es conocido por usar amplificadores Fender (Bassman, Twin Reverb, Dual Showman) sobre todo en vivo y en su etapa posterior. Lo que se escucha en el disco es un combo valvular chico o mediano subido hasta el borde del quiebre, con la reverb de la sala mas que del ampli.",
+    "effects": "Ninguno. Guitarra enchufada directo al amplificador. Toda la suciedad viene del volumen del ampli y del ataque con pua.",
+    "signature_move": "El intro y los rellenos de Berry son double stops: dos cuerdas juntas en intervalos de cuarta o sexta, tocadas con un bending chiquito y un vibrato de muneca. Todo pasa en las cuerdas 1, 2 y 3 alrededor de la posicion de la tonica, con swing de shuffle y las corcheas bien desparejas. Es un lenguaje de piano boogie trasladado a la guitarra.",
+    "diy": "Cualquier guitarra con humbucker o incluso una single coil en el mastil sirve: lo que define es el ataque, no la madera. Poné el ampli limpio pero con el volumen alto para que rompa cuando pegás fuerte, agudos arriba y medios presentes, cero pedales. Practicá los double stops con pua y dedo del medio a la vez, y bajá la nota mas aguda medio tono con un bend antes de soltarla: ahí aparece el chirrido tipico de Berry.",
+    "confidence": "medio",
+    "sources": [
+      "https://equipboard.com/pros/chuck-berry",
+      "https://blog.zzounds.com/2016/12/17/iconic-rigs-chuck-berry/",
+      "https://www.guitarlobby.com/chuck-berry-guitars-and-gear/",
+      "https://www.allmusic.com/album/new-juke-box-hits-mw0000201792",
+      "https://www.vintagerockmag.com/2025/09/get-your-kicks-on-route-66/",
+      "https://genius.com/Chuck-berry-route-66-lyrics"
+    ]
+  },
+  {
+    "title": "Spaghetti del Rock",
+    "guitarist": "Ricardo Mollo (Divididos). Grabado en 1999 en el Studio 2 de Abbey Road, Londres, para el disco Narigon del siglo (2000), con Afo Verde en la produccion junto al trio y Chris Brown como ingeniero.",
+    "guitar": "Dos guitarras Gibson y ninguna Stratocaster, que es lo llamativo tratandose de Mollo. La base la grabo con una Gibson ES-140, una hollow-body de escala corta con un P90 en el mastil, un modelo pensado originalmente para estudiantes. El solo lo hizo con una Gibson SG de dos P90 conectados en fase invertida, usando la posicion del medio.",
+    "amp": "Matchless Lightning, el amplificador propio de Mollo, que se llevo al estudio pese a tener todo el arsenal de Abbey Road disponible.",
+    "effects": "Un pedal Carl Martin TremoVibe en modo vibrato para la modulacion del solo. El arreglo de cuerdas de Nick Ingman con la London Session Orchestra no es un efecto de guitarra pero es la mitad del clima del tema.",
+    "signature_move": "Dos cosas. Primero el arpegio de la base: Mollo arma los acordes con inversiones en las cuerdas graves y deja las dos primeras al aire, asi la armonia suena abierta y brillante y melancolica al mismo tiempo, sobre una progresion descendente en Mi mayor. Segundo, el solo, que no es virtuoso ni rapido: es una segunda voz melodica que dialoga con el canto, con ese vibrato de la SG fuera de fase flotando encima.",
+    "diy": "Lo que hace el sonido no es la ES-140 sino el P90 en el mastil con el ampli casi limpio: si tenés una guitarra con pastilla de mastil, usala en tono medio y sacale ganancia. Para el arpegio, tocá las inversiones abajo y dejá sonar las dos primeras cuerdas al aire, que es el truco de todo el tema. Para el solo, un pedal de tremolo o chorus barato en velocidad media y profundidad baja te acerca al TremoVibe sin gastar un peso.",
+    "confidence": "alto",
+    "sources": [
+      "https://www.deguitarra.online/canciones/spaghetti-del-rock/",
+      "https://es.wikipedia.org/wiki/Spaghetti_del_rock",
+      "https://www.cifraclub.com/divididos/spaghetti-del-rock/?idioma=es"
+    ]
+  },
+  {
+    "title": "Sunshine of Your Love",
+    "guitarist": "Eric Clapton (Cream). Grabado en mayo de 1967 en Atlantic Studios, Nueva York, para Disraeli Gears, con Felix Pappalardi produciendo y Tom Dowd de ingeniero.",
+    "guitar": "Gibson SG Standard de 1964, la famosa The Fool pintada por el colectivo holandes del mismo nombre. Segun el desglose de Guitar World: pastilla del puente para estrofas y estribillos, pastilla del mastil para el solo, en ambos casos con volumen en 10 y tono en 1. En algunas partes de las sesiones de ese disco tambien uso una Les Paul Custom Black Beauty.",
+    "amp": "Marshall Super 100 (JTM45/100) de 1966 con valvulas KT66, entrada 2, todos los controles casi al maximo, sobre un bafle Marshall 1960B recto con parlantes Celestion G12M greenback de 20 watts.",
+    "effects": "Ninguno. El sonido sale del ampli saturado y del control de tono de la guitarra, nada mas.",
+    "signature_move": "El woman tone: pastilla del mastil, tono a cero y volumen a tope contra un ampli ya saturado. Queda un sonido oscuro, gordo, sin agudos y con sustain infinito, casi de voz humana. Sumale el riff en Re con blue note, que Clapton dobla en octavas con el bajo de Jack Bruce, y la sensacion de que la guitarra y el bajo son un solo instrumento.",
+    "diy": "El woman tone no necesita una SG del 64: cualquier guitarra con humbucker o P90 en el mastil sirve. Poné el tono de la guitarra en 0 o 1, el volumen al maximo, y adelante un pedal de overdrive con ganancia media-alta y el tono del pedal bajo. Si tu ampli es chico, usá el master bajo y la ganancia arriba, y grabá o tocá con el bafle apuntando a las rodillas: el exceso de agudos es lo unico que te aleja del sonido.",
+    "confidence": "alto",
+    "sources": [
+      "https://www.guitarworld.com/features/eric-clapton-cream-sunshine-of-your-love-tone",
+      "https://en.wikipedia.org/wiki/Sunshine_of_Your_Love",
+      "https://en.wikipedia.org/wiki/The_Fool_(guitar)",
+      "https://www.guitarworld.com/news/aclam-woman-tone-eric-clapton-pedal",
+      "https://reverb.com/news/learn-to-play-sunshine-of-your-love-by-cream"
+    ]
+  },
+  {
+    "title": "The Thrill Is Gone",
+    "guitarist": "B.B. King. La version famosa es la del disco Completely Well, grabada una noche de septiembre de 1969 en el Hit Factory original de la calle 7 en Nueva York, producida por Bill Szymczyk. En la banda de sesion habia ademas un segundo guitarrista, Hugh McCracken, haciendo el acompanamiento; el solo y todos los fraseos son de King.",
+    "guitar": "Gibson ES-355, la Lucille de King. Szymczyk la menciona explicitamente como Gibson 355 al describir el reparto de pistas de la cinta de 8 canales. Los modelos que usaba en esos anos eran ES-355TD-SV con circuito Varitone estereo y cordal Maestro Vibrola con el brazo sacado.",
+    "amp": "Fender Twin Reverb, microfoneado con un Shure SM57. Dato de primera mano del propio productor.",
+    "effects": "Ninguno. King nunca uso pedales: guitarra, ampli limpio con un poco de reverb y listo. El tema se grabo casi en vivo, sin overdubs; las cuerdas de Bert de Coteaux se agregaron una semana despues en otra sala.",
+    "signature_move": "El vibrato de mariposa: King no hace vibrato doblando la cuerda a lo largo sino sacudiendo la muneca entera con el dedo pisando firme, y eso hace que cada nota larga tiemble como una voz. Sumale que nunca toca acordes mientras canta (responde a su propia voz, no la tapa) y que se queda dentro de la escala pentatonica menor de Si con la sexta mayor asomando, que es lo que le da ese color agridulce.",
+    "diy": "No busques distorsion: poné el ampli limpio, medios arriba, un toque de reverb y subí el volumen de la guitarra. Si tenés una semi-hollow o cualquier guitarra con humbucker en el mastil, usá esa posicion con el tono bajado a la mitad. Lo que realmente te acerca a King es la tecnica: practicá una sola nota larga en el traste 12 moviendo la muneca de manera pareja, y dejá silencios largos entre frase y frase.",
+    "confidence": "alto",
+    "sources": [
+      "https://www.mixonline.com/recording/classic-tracks-bb-kings-thrill-gone-365491",
+      "https://www.guitarworld.com/features/bb-king-the-thrill-is-gone-guitar-tone",
+      "https://www.vintageguitarandbass.com/gibson/ES355_BBKing.php",
+      "https://en.wikipedia.org/wiki/B._B._King"
+    ]
+  },
+  {
+    "title": "Vultures",
+    "guitarist": "John Mayer. Aparecio primero en vivo con el John Mayer Trio (disco Try!, 2005) y despues en estudio en Continuum (2006).",
+    "guitar": "Fender Gold Leaf Stratocaster, una Strat cubierta en pan de oro hecha a medida por el Custom Shop. Mayer dijo en entrevista que es la unica guitarra con la que toca ese tema, que compuso el tema con ella y que su posicion 2 es la mas quack que escucho nunca. Sus palabras: Vultures does not work on another guitar. La uso tanto en la sesion de estudio como en la mayoria de las versiones en vivo.",
+    "amp": "En esa epoca su cabeza de puente era el Two-Rock Custom Reverb Signature, con Dumble Steel String Singer y Fender Vibro-King rotando en el rig del trio. No hay una hoja de sesion publica que diga cual se uso en la toma de estudio puntual de Vultures.",
+    "effects": "Pedalera de la era Continuum: Klon Centaur, Boss BD-2 con mod Keeley, Ibanez Tube Screamer, Way Huge Aqua Puss (su delay analogico de cabecera) y un volume pedal Ernie Ball para los swells. En vivo sumaba un efecto rotary tipo Leslie en la intro. Ojo: no hay documentacion que asigne un pedal especifico a la toma de estudio; el sonido base es casi limpio con muy poca ganancia.",
+    "signature_move": "La posicion 2 de la Strat (puente mas medio) con el ataque de dedos, no de pua. Ese quack nasal y hueco es la mitad del tema. La otra mitad es el groove: Mayer toca la figura funk apagando con la mano derecha y dejando notas muertas entre golpe y golpe, y las dobles cuerdas caen justo detras del tiempo.",
+    "diy": "Si tenés una Strat o cualquier guitarra de tres pastillas, usá la posicion 2 y tocá con los dedos: eso solo ya te pone en el 70 por ciento del sonido. El ampli va limpio con headroom, medios levemente hundidos, y como mucho un overdrive transparente con la ganancia casi cerrada solo para dar cuerpo. Agregá un delay analogico corto y muy bajo en la mezcla, apenas para que no suene seco.",
+    "confidence": "alto",
+    "sources": [
+      "https://www.groundguitar.com/john-mayer-guitars-and-gear/",
+      "https://johnmayer.info/subjects/gear",
+      "https://www.musicradar.com/news/john-mayer-interview-251957",
+      "https://equipboard.com/pros/john-mayer",
+      "https://www.guitarchalk.com/vultures-amp-settings/"
+    ]
+  },
+  {
+    "title": "What's Up",
+    "guitarist": "Ojo con este, porque la respuesta intuitiva es la equivocada. En el disco Bigger, Better, Faster, More! (1992, producido por David Tickle) la guitarra electrica de la mayoria de los temas, incluido What's Up, la toca Louis Metoyer, un musico de sesion acreditado en las pistas 1 a 9 y 11. Linda Perry canta y toca la guitarra acustica que sostiene el tema. Shaunna Hall, la guitarrista fundadora, fue echada durante la grabacion, y Roger Rocha (el que se ve en el video y en las fotos de la banda) entro despues para reproducir en vivo las partes que Metoyer ya habia grabado. Esto lo cuenta la propia bajista Christa Hillhouse en su relato de la epoca.",
+    "guitar": "Sin dato. No hay ninguna fuente publica que documente que guitarras se usaron en esa sesion. Se puede describir lo que se escucha: una acustica de cuerdas de acero con capo o afinacion estandar llevando el arpegio y el rasgueo, y una electrica con humbuckers y saturacion media entrando en los estribillos.",
+    "amp": "Sin dato confirmado.",
+    "effects": "Sin dato confirmado. En el disco se escucha compresion y reverb de estudio; nada apunta a un pedal identificable.",
+    "signature_move": "El tema es de guitarra acustica y voz, no de riff electrico. Toda la energia esta en el rasgueo constante de cuatro acordes (Sol, La menor, Do, Sol) que no para nunca, y en como la electrica entra recien en el estribillo para empujar. El gancho de guitarra no existe: el gancho es el grito de Linda Perry.",
+    "diy": "Este es de los mas faciles de encarar con equipo modesto porque el nucleo es acustico. Aprendé el rasgueo continuo con acentos en el 2 y el 4 y no lo sueltes en todo el tema, esa es la dificultad real. Para la parte electrica, poné un overdrive medio con acordes de quinta y entrá solo en el estribillo, dejando las estrofas para la acustica.",
+    "confidence": "bajo",
+    "sources": [
+      "https://www.discogs.com/release/1315311-4-Non-Blondes-Bigger-Better-Faster-More",
+      "https://christahillhouse.net/4nb/?page_id=27",
+      "https://en.wikipedia.org/wiki/4_Non_Blondes",
+      "https://en.wikipedia.org/wiki/Bigger,_Better,_Faster,_More!",
+      "https://www.salon.com/2025/05/26/whats-up-song-4-non-blondes-whats-going-on/"
+    ]
+  },
+  {
+    "title": "While My Guitar Gently Weeps",
+    "guitarist": "Eric Clapton, como invitado. El tema es de George Harrison pero el solo y los fraseos de guitarra principal los grabo Clapton la noche del 6 de septiembre de 1968 en el Studio Two de EMI (Abbey Road), a pedido de Harrison. Clapton dudaba porque, en sus palabras, nadie toca en los discos de los Beatles.",
+    "guitar": "Lucy: la Gibson Les Paul de 1957 refinalizada en rojo cereza que Clapton le habia regalado a Harrison pocas semanas antes de la sesion. O sea, Clapton grabo con la guitarra que el mismo le habia dado a George.",
+    "amp": "Reportado como un Fender Deluxe del estudio. Aclaracion honesta: esto aparece en Guitar World y en varias reconstrucciones de la sesion, pero no hay una hoja de sesion de EMI publica que lo confirme. Lo que si esta documentado por el ingeniero Chris Thomas es todo lo que paso despues del ampli.",
+    "effects": "El efecto que define el tema no es un pedal sino el ADT (Automatic Double Tracking) de EMI. Clapton escucho la toma y dijo que no sonaba lo bastante Beatle, asi que Thomas paso la guitarra por el ADT con varispeed y movio el oscilador a mano durante la mezcla. Ese bamboleo de afinacion, mitad chorus mitad flanger mitad cinta desafinada, es la firma del sonido.",
+    "signature_move": "Dos capas. La de Clapton: bends profundos y lentos con vibrato descendente, tocados como si la guitarra llorara, sin ninguna carrera de notas rapidas. La del estudio: ese wobble del ADT que hace que la guitarra nunca este del todo afinada consigo misma y suene liquida.",
+    "diy": "Guitarra con humbucker en el puente, ampli valvular chico bien subido hasta que rompa suave, sin fuzz. Lo importante es la mano: bends de un tono completo sostenidos con vibrato lento y ancho, y silencios entre frases. Para el wobble, un chorus con velocidad baja y profundidad media, o un flanger muy suave; si tenés un pedal de vibrato tipo Boss VB-2 o similar, mejor todavia, y jugá con mover la velocidad a mano mientras grabás.",
+    "confidence": "alto",
+    "sources": [
+      "https://www.beatlesbible.com/1968/09/06/recording-while-my-guitar-gently-weeps-5/",
+      "https://www.beatlesbible.com/songs/while-my-guitar-gently-weeps/",
+      "https://www.openculture.com/2018/06/hear-eric-claptons-isolated-guitar-track-beatles-guitar-gently-weeps-1968.html",
+      "https://www.guitarplayer.com/guitarists/the-bizarre-side-effect-of-recording-eric-claptons-infamous-while-my-guitar-gently-weeps-solo",
+      "https://www.guitarworld.com/artists/hear-eric-claptons-isolated-guitar-track-beatles-while-my-guitar-gently-weeps"
+    ]
+  },
+  {
+    "title": "Why Did You Do It",
+    "guitarist": "Kirby Gregory (nombre real Graham Patrick Gregory), guitarrista lider de Stretch y autor del tema. Grabado en 1975 para el disco Elastique en el sello Anchor, con Elmer Gantry (Dave Terry) en voz, Paul Martinez en bajo, Jim Russell en bateria y una seccion de vientos. Gregory venia de Curved Air y co-produjo el tema junto a Gantry.",
+    "guitar": "Sin dato. No encontre ninguna fuente publica (entrevista, ficha de sesion, base de datos de equipo) que documente que guitarra uso Gregory en esa grabacion. Lo que se puede afirmar por lo que se escucha: una electrica de sonido brillante y comprimido, con poca saturacion, tocada casi como instrumento de percusion.",
+    "amp": "Sin dato confirmado.",
+    "effects": "Sin dato confirmado. El riff suena con un filtrado tipo wah semi-fijo o auto-wah, muy comun en el funk-rock britanico del 75, pero no encontre ninguna fuente que lo confirme, asi que lo dejo como observacion auditiva y no como dato.",
+    "signature_move": "El riff es puro groove de mano derecha: acordes cortados de novena y septima con muchisimas notas muertas entre golpe y golpe, siempre en semicorcheas, siempre encima del bajo. La guitarra funciona como un instrumento de ritmo, no de melodia. Es el tema que despues sampleo el hip hop justamente por eso.",
+    "diy": "Este se gana con la mano derecha, no con el equipo. Poné el ampli limpio con los agudos arriba y tocá con la mano derecha moviendose en semicorcheas todo el tiempo, apoyando los dedos de la mano izquierda sin pisar para que salgan las notas muertas. Un compresor barato te ayuda a emparejar los golpes y, si querés el filtrado, un wah dejado quieto en la mitad del recorrido hace el 90 por ciento del trabajo.",
+    "confidence": "bajo",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stretch_(band)",
+      "https://en.wikipedia.org/wiki/Kirby_Gregory",
+      "https://genius.com/Stretch-uk-band-why-did-you-do-it-lyrics",
+      "https://repertoirerecords.com/artists/stretch/why-did-you-do-it-the-best-of/",
+      "https://www.wefunkradio.com/song/play/683_bg/stretch/why+did+you+do+it"
+    ]
+  },
+  {
+    "title": "Yellow",
+    "guitarist": "Jonny Buckland (Coldplay). Chris Martin toca la acustica y canta. El tema se escribio en Rockfield Studios (Gales) y se empezo a grabar en el estudio chico de Parr Street en Liverpool, con Ken Nelson co-produciendo; fue de los pocos del disco que terminaron pasando por Pro Tools porque no lograban el tempo justo en cinta. Se grabo la base en vivo y despues Buckland sobregrabo sus guitarras.",
+    "guitar": "No esta documentada en el relato del productor. La que se le asocia siempre a este tema, y la que usa en vivo desde entonces, es una Fender Telecaster Thinline del 72. Tomalo como dato de segunda mano, no como confirmacion de la sesion.",
+    "amp": "Dos Fender Twin Reverb a la vez, y esto si es dato de primera mano de Ken Nelson: uno recibia todos los delays de Buckland y el otro iba completamente seco, y se microfoneaban los dos en cada toma para poder balancearlos en la mezcla. La reverb no era del ampli, se agrego digital despues.",
+    "effects": "Delays en cadena: un WEM Copicat a cinta, tan viejo que el loop se trababa y generaba coros y delays fuera de tiempo, mas una unidad Lexicon para delays mas limpios. Para la suciedad, un ProCo Rat usado muy sutilmente sobre un sonido de ampli basicamente limpio. Ademas tremolo y wah, y nada mas. Reverb digital agregada en mezcla porque a Buckland le gusta que la guitarra quede al fondo del cuadro.",
+    "signature_move": "El riff no es un riff: son arpegios de pocas notas con muchisimo espacio, empujados por delay, sobre acordes que la acustica ya esta sosteniendo. El truco de produccion es la mezcla de la senal seca y la mojada en dos amplis distintos, que hace que la guitarra suene enorme y a la vez definida. Y la irregularidad del Copicat es lo que le da ese temblor que un delay digital perfecto no tiene.",
+    "diy": "Ampli limpio con headroom, un delay a un cuarto de tiempo con feedback bajo y mezcla al 30 por ciento, y un poquito de reverb. Si tenés loopers o un pedal con dos salidas, mandá una linea seca y una con delay a dos canales distintos; si no, bajá el mix del delay para que la nota original siga clara. Para la grit de los estribillos, un Rat o cualquier distorsion barata con la ganancia casi cerrada y el filtro abierto, solo para engordar.",
+    "confidence": "alto",
+    "sources": [
+      "https://www.soundonsound.com/people/ken-nelson-recording-coldplays-parachutes",
+      "https://coldplaying.com/newsarchive/articles/countdown-to-10th-anniversary-of-parachutes-ken-nelson-on-recording-coldplays-debut-album/",
+      "https://equipboard.com/pros/jonny-buckland-coldplay",
+      "https://www.guitarchalk.com/amp-settings-yellow-coldplay/"
+    ]
+  }
+]

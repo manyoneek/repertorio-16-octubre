@@ -1,38 +1,182 @@
 [
- {"title": "Balada del diablo y la muerte", "artist": "La Renga", "key": "Em"},
- {"title": "Chau", "artist": "No Te Va Gustar", "key": "Em"},
- {"title": "Cocaine", "artist": "Eric Clapton", "key": "E"},
- {"title": "Colombina", "artist": "Jaime Roos", "key": "A"},
- {"title": "Creep", "artist": "Radiohead", "key": "G"},
- {"title": "Crimen", "artist": "Gustavo Cerati", "key": ""},
- {"title": "Every Breath You Take", "artist": "The Police", "key": "A"},
- {"title": "Flaca", "artist": "Andrés Calamaro", "key": "G"},
- {"title": "Fly Away", "artist": "Lenny Kravitz", "key": "A"},
- {"title": "Get Lucky", "artist": "Daft Punk", "key": ""},
- {"title": "Give Me One Reason", "artist": "Tracy Chapman", "key": ""},
- {"title": "Going Down", "artist": "Freddie King", "key": ""},
- {"title": "Have You Ever Seen The Rain", "artist": "Creedence Clearwater Revival", "key": ""},
- {"title": "I Shot the Sheriff", "artist": "Bob Marley", "key": ""},
- {"title": "Isn't She Lovely", "artist": "Stevie Wonder", "key": "E"},
- {"title": "It's My Life", "artist": "Bon Jovi", "key": "Cm"},
- {"title": "Knockin' on Heaven's Door", "artist": "Bob Dylan", "key": "G"},
- {"title": "La Flaca", "artist": "Jarabe de Palo", "key": "Am"},
- {"title": "Miss You", "artist": "The Rolling Stones", "key": "Am"},
- {"title": "Mustang Sally", "artist": "Wilson Pickett", "key": "C"},
- {"title": "No Pienses de Más", "artist": "Jaime Roos", "key": ""},
- {"title": "Oh! Darling", "artist": "The Beatles", "key": "A"},
- {"title": "Paranoid", "artist": "Black Sabbath", "key": "Em"},
- {"title": "Pet Sematary", "artist": "Ramones", "key": "Dm"},
- {"title": "Rehab", "artist": "Amy Winehouse", "key": "D"},
- {"title": "Rezo por vos", "artist": "Charly García", "key": ""},
- {"title": "Rockin' in the Free World", "artist": "Neil Young", "key": "Em"},
- {"title": "Route 66", "artist": "Chuck Berry", "key": "G"},
- {"title": "Spaghetti del Rock", "artist": "Divididos", "key": "E"},
- {"title": "Sunshine of Your Love", "artist": "Cream", "key": "D"},
- {"title": "The Thrill Is Gone", "artist": "B.B. King", "key": "Bm"},
- {"title": "Vultures", "artist": "John Mayer", "key": "F#m"},
- {"title": "What's Up", "artist": "4 Non Blondes", "key": "G"},
- {"title": "While My Guitar Gently Weeps", "artist": "The Beatles", "key": "Am"},
- {"title": "Why Did You Do It", "artist": "Stretch", "key": "Am"},
- {"title": "Yellow", "artist": "Coldplay", "key": "B"}
+  {
+    "title": "Balada del diablo y la muerte",
+    "artist": "La Renga",
+    "key": "Em"
+  },
+  {
+    "title": "Chau",
+    "artist": "No Te Va Gustar",
+    "key": "Em"
+  },
+  {
+    "title": "Cocaine",
+    "artist": "Eric Clapton",
+    "key": "E"
+  },
+  {
+    "title": "Colombina",
+    "artist": "Jaime Roos",
+    "key": "A"
+  },
+  {
+    "title": "Creep",
+    "artist": "Radiohead",
+    "key": "G"
+  },
+  {
+    "title": "Crimen",
+    "artist": "Gustavo Cerati",
+    "key": "E"
+  },
+  {
+    "title": "Every Breath You Take",
+    "artist": "The Police",
+    "key": "A"
+  },
+  {
+    "title": "Flaca",
+    "artist": "Andrés Calamaro",
+    "key": "G"
+  },
+  {
+    "title": "Fly Away",
+    "artist": "Lenny Kravitz",
+    "key": "A"
+  },
+  {
+    "title": "Get Lucky",
+    "artist": "Daft Punk",
+    "key": "Bm"
+  },
+  {
+    "title": "Give Me One Reason",
+    "artist": "Tracy Chapman",
+    "key": "F#"
+  },
+  {
+    "title": "Going Down",
+    "artist": "Freddie King",
+    "key": "D"
+  },
+  {
+    "title": "Have You Ever Seen The Rain",
+    "artist": "Creedence Clearwater Revival",
+    "key": "C"
+  },
+  {
+    "title": "I Shot the Sheriff",
+    "artist": "Bob Marley",
+    "key": "Gm"
+  },
+  {
+    "title": "Isn't She Lovely",
+    "artist": "Stevie Wonder",
+    "key": "E"
+  },
+  {
+    "title": "It's My Life",
+    "artist": "Bon Jovi",
+    "key": "Cm"
+  },
+  {
+    "title": "Knockin' on Heaven's Door",
+    "artist": "Bob Dylan",
+    "key": "G"
+  },
+  {
+    "title": "La Flaca",
+    "artist": "Jarabe de Palo",
+    "key": "Am"
+  },
+  {
+    "title": "Miss You",
+    "artist": "The Rolling Stones",
+    "key": "Am"
+  },
+  {
+    "title": "Mustang Sally",
+    "artist": "Wilson Pickett",
+    "key": "C"
+  },
+  {
+    "title": "No Pienses de Más",
+    "artist": "Jaime Roos",
+    "key": "A"
+  },
+  {
+    "title": "Oh! Darling",
+    "artist": "The Beatles",
+    "key": "A"
+  },
+  {
+    "title": "Paranoid",
+    "artist": "Black Sabbath",
+    "key": "Em"
+  },
+  {
+    "title": "Pet Sematary",
+    "artist": "Ramones",
+    "key": "Dm"
+  },
+  {
+    "title": "Rehab",
+    "artist": "Amy Winehouse",
+    "key": "D"
+  },
+  {
+    "title": "Rezo por vos",
+    "artist": "Charly García",
+    "key": "D"
+  },
+  {
+    "title": "Rockin' in the Free World",
+    "artist": "Neil Young",
+    "key": "Em"
+  },
+  {
+    "title": "Route 66",
+    "artist": "Chuck Berry",
+    "key": "G"
+  },
+  {
+    "title": "Spaghetti del Rock",
+    "artist": "Divididos",
+    "key": "E"
+  },
+  {
+    "title": "Sunshine of Your Love",
+    "artist": "Cream",
+    "key": "D"
+  },
+  {
+    "title": "The Thrill Is Gone",
+    "artist": "B.B. King",
+    "key": "Bm"
+  },
+  {
+    "title": "Vultures",
+    "artist": "John Mayer",
+    "key": "F#m"
+  },
+  {
+    "title": "What's Up",
+    "artist": "4 Non Blondes",
+    "key": "G"
+  },
+  {
+    "title": "While My Guitar Gently Weeps",
+    "artist": "The Beatles",
+    "key": "Am"
+  },
+  {
+    "title": "Why Did You Do It",
+    "artist": "Stretch",
+    "key": "Am"
+  },
+  {
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "key": "B"
+  }
 ]

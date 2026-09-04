@@ -28,6 +28,12 @@ ol.songs a::before{content:counter(s);color:var(--dim);font-variant-numeric:tabu
 .deg{background:#12151b;border-left:3px solid var(--acc);padding:.7rem 1rem;border-radius:0 8px 8px 0;font-family:ui-monospace,Menlo,monospace;font-size:.95rem;margin:.8rem 0;overflow-x:auto}
 .ear{background:#131a15;border-left:3px solid #4caf7d;padding:.8rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0}
 .ear b{color:#7fd6a5}
+.keynote{color:var(--dim);font-size:.88rem;margin:-.5rem 0 1.5rem;padding-left:.75rem;border-left:2px solid var(--line)}
+.spot{display:inline-flex;align-items:center;gap:.45rem;background:#1db954;color:#08130c;font-weight:600;font-size:.88rem;border-radius:999px;padding:.4rem .95rem;margin:.2rem 0 1rem}
+.spot:hover{text-decoration:none;background:#1ed760}
+.gear dt{color:var(--acc);font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;margin-top:1rem}
+.gear dt:first-child{margin-top:0}
+.gear dd{margin:.25rem 0 0}
 .srcs{font-size:.82rem;color:var(--dim);margin-top:1rem;word-break:break-all}
 .srcs a{color:var(--dim)}
 footer{color:var(--dim);font-size:.85rem;border-top:1px solid var(--line);margin-top:3rem;padding-top:1.5rem}

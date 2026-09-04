@@ -2,7 +2,8 @@
 """Genera el sitio estático del repertorio.
 
 Lee data/songs.json (lista base), data/resources.json (tabs + videos) y
-data/theory.json (análisis armónico), y escribe el sitio en docs/ listo
+data/theory.json (análisis armónico), data/gear.json (setup original) y
+data/spotify.json (links), y escribe el sitio en docs/ listo
 para GitHub Pages.
 
     python3 build.py
@@ -53,6 +54,15 @@ def md(text):
     return "\n".join(blocks)
 
 
+def same_key(chart, verified):
+    """True si la tonalidad verificada es la misma que la del chart (p. ej. 'Em' vs 'Mi menor (Em)')."""
+    if not chart or not verified:
+        return False
+    # \b no sirve: las cifras terminan en '#', que no es carácter de palabra
+    token = rf"(?<![A-Za-z0-9#]){re.escape(chart)}(?![A-Za-z0-9#])"
+    return re.search(token, verified) is not None
+
+
 def yt_id(url):
     m = re.search(r"(?:v=|youtu\.be/|embed/)([A-Za-z0-9_-]{11})", url or "")
     return m.group(1) if m else None
@@ -88,6 +98,12 @@ ol.songs a::before{content:counter(s);color:var(--dim);font-variant-numeric:tabu
 .deg{background:#12151b;border-left:3px solid var(--acc);padding:.7rem 1rem;border-radius:0 8px 8px 0;font-family:ui-monospace,Menlo,monospace;font-size:.95rem;margin:.8rem 0;overflow-x:auto}
 .ear{background:#131a15;border-left:3px solid #4caf7d;padding:.8rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0}
 .ear b{color:#7fd6a5}
+.keynote{color:var(--dim);font-size:.88rem;margin:-.5rem 0 1.5rem;padding-left:.75rem;border-left:2px solid var(--line)}
+.spot{display:inline-flex;align-items:center;gap:.45rem;background:#1db954;color:#08130c;font-weight:600;font-size:.88rem;border-radius:999px;padding:.4rem .95rem;margin:.2rem 0 1rem}
+.spot:hover{text-decoration:none;background:#1ed760}
+.gear dt{color:var(--acc);font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;margin-top:1rem}
+.gear dt:first-child{margin-top:0}
+.gear dd{margin:.25rem 0 0}
 .srcs{font-size:.82rem;color:var(--dim);margin-top:1rem;word-break:break-all}
 .srcs a{color:var(--dim)}
 footer{color:var(--dim);font-size:.85rem;border-top:1px solid var(--line);margin-top:3rem;padding-top:1.5rem}
@@ -109,6 +125,9 @@ def main():
     songs = load("songs.json", [])
     res = {s["title"]: s for s in load("resources.json", [])}
     th = {s["title"]: s for s in load("theory.json", [])}
+    gear = {s["title"]: s for s in load("gear.json", [])}
+    spot = load("spotify.json", {})
+    spot_tracks = {t["title"]: t for t in spot.get("tracks", [])}
 
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
@@ -129,11 +148,15 @@ def main():
     n_alerts = len(load("alerts.json", []))
     alert_pill = (f'<a class="pill" href="teoria.html#avisos">⚠️ <b>{n_alerts}</b> temas a chequear</a>'
                   if n_alerts else "")
+    playlist_pill = (f'<a class="pill" href="{html.escape(spot["playlist_url"])}" target="_blank" '
+                     f'rel="noopener">🎧 <b>Escuchar el repertorio</b> en Spotify</a>'
+                     if spot.get("playlist_url") else "")
     idx = f"""<header><div class="wrap"><h1>Repertorio · 16 de octubre</h1>
 <p class="sub">{len(songs)} temas · tablaturas, videos y análisis armónico · guitarra eléctrica</p></div></header>
 <div class="wrap">
 <div class="meta"><span class="pill"><b>{len(songs)}</b> temas</span>
 <span class="pill">Tonalidades del chart de la banda</span>
+{playlist_pill}
 {alert_pill}
 <a class="pill" href="teoria.html"><b>Análisis de teoría →</b></a></div>
 <h2>Temas</h2><ol class="songs">{''.join(items)}</ol>
@@ -151,15 +174,22 @@ Cada ficha aclara la diferencia cuando existe.</footer></div>"""
         b.append(f'<h1>{html.escape(s["title"])}</h1>')
         b.append(f'<p class="sub">{html.escape(s["artist"])}</p>')
 
+        sp = spot_tracks.get(s["title"])
+        if sp and sp.get("url"):
+            b.append(f'<a class="spot" href="{html.escape(sp["url"])}" target="_blank" '
+                     f'rel="noopener">▶ Escuchar en Spotify</a>')
+
         pills = []
-        if s.get("key"):
-            pills.append(f'<span class="pill">Tono en vivo: <b>{html.escape(s["key"])}</b></span>')
-        if t.get("key_verified"):
-            pills.append(f'<span class="pill">Tonalidad verificada: <b>{html.escape(t["key_verified"])}</b></span>')
+        chart, studio = s.get("key"), t.get("key_verified")
+        if chart and studio and not same_key(chart, studio):
+            pills.append(f'<span class="pill">Tono del chart: <b>{html.escape(chart)}</b></span>')
+            pills.append(f'<span class="pill">En estudio: <b>{html.escape(studio)}</b></span>')
+        elif studio or chart:
+            pills.append(f'<span class="pill">Tonalidad: <b>{html.escape(studio or chart)}</b></span>')
         if pills:
             b.append(f'<div class="meta">{"".join(pills)}</div>')
-        if t.get("live_key_note"):
-            b.append(f'<div class="warn">{html.escape(t["live_key_note"])}</div>')
+        if t.get("key_note"):
+            b.append(f'<div class="keynote">{html.escape(t["key_note"])}</div>')
 
         b.append("<h2>Tablaturas</h2>")
         tabs = r.get("tabs") or []
@@ -191,15 +221,23 @@ Cada ficha aclara la diferencia cuando existe.</footer></div>"""
         else:
             b.append('<div class="warn">Sin video verificado todavía.</div>')
 
+        g = gear.get(s["title"])
+        if g:
+            b.append("<h2>Setup del guitarrista original</h2>")
+            rows = [("Guitarrista", g.get("guitarist")), ("Guitarra", g.get("guitar")),
+                    ("Amplificador", g.get("amp")), ("Efectos", g.get("effects")),
+                    ("La clave del sonido", g.get("signature_move")),
+                    ("Cómo acercarte con lo que tenés", g.get("diy"))]
+            dl = "".join(f"<dt>{html.escape(k)}</dt><dd>{md(v)}</dd>" for k, v in rows if v)
+            b.append(f'<div class="card"><dl class="gear">{dl}</dl></div>')
+
         if t.get("analysis_md") or t.get("progression_degrees"):
             b.append("<h2>Análisis armónico</h2>")
-            if t.get("caveat"):
-                b.append(f'<div class="warn">⚠️ {html.escape(t["caveat"])}</div>')
             if t.get("progression_degrees"):
                 b.append(f'<div class="deg">{html.escape(t["progression_degrees"])}</div>')
             b.append(md(t.get("analysis_md", "")))
-            if t.get("ear_exercise"):
-                b.append(f'<div class="ear"><b>Ejercicio de oído:</b> {html.escape(t["ear_exercise"])}</div>')
+            if t.get("tip"):
+                b.append(f'<div class="ear"><b>Para tocarlo:</b> {html.escape(t["tip"])}</div>')
             srcs = t.get("sources") or []
             if srcs:
                 links = " · ".join(f'<a href="{html.escape(u)}" target="_blank" rel="noopener">{html.escape(u[:60])}</a>' for u in srcs)

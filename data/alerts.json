@@ -1,14 +1,10 @@
 [
- {"title": "Why Did You Do It", "issue": "El chart dice Am, pero las tres fuentes de acordes coinciden en Bm y ninguna apoya Am. Es la discrepancia más seria de la lista: o está transpuesto un tono abajo a propósito, o hay un error de copia."},
- {"title": "Chau", "issue": "El chart dice Em, pero la grabación de estudio está verificada en Si menor. El dúo con Julieta Venegas sí está en Em, así que probablemente el chart salió de esa versión. Definí cuál tocan."},
- {"title": "Rehab", "issue": "El chart dice D y el disco está en Do: un tono arriba. En D cambian bastante las posiciones (C7-F7-G7 pasan a D7-G7-A7). El tutorial de Jon MacLennan enseña en Do."},
- {"title": "Route 66", "issue": "El chart dice G y Chuck Berry lo grabó en A. G es justo el tono del original de Nat King Cole, así que el chart probablemente viene de ahí. Es blues de 12, transpone sin drama."},
- {"title": "Mustang Sally", "issue": "El tono coincide (Do), pero la forma NO es blues de 12 compases: son 24 con esquema AAB. Si la banda cuenta 12 automáticos, se desarma. Contá la forma en el ensayo."},
- {"title": "I Shot the Sheriff", "issue": "La versión de Clapton no está en la misma tonalidad ni con los mismos acordes que la de Marley. Si alguien la sacó del disco de Clapton, van a chocar."},
- {"title": "Every Breath You Take", "issue": "Se toca en La, pero el disco suena en La bemol: está grabado alto. Para tocar junto al disco hay que bajar medio tono."},
- {"title": "Sunshine of Your Love", "issue": "El cifrado en D está bien, pero la grabación suena medio tono abajo. Para tocar encima del disco, afiná a Mib. Para tocar con la banda, D estándar está perfecto."},
- {"title": "What's Up", "issue": "El chart dice G, pero eso son las FORMAS con cejilla en 2: suena en La. Confirmá a cuál de los dos se refiere el chart, porque cambia si están o no en el tono del disco."},
- {"title": "Vultures", "issue": "El chart dice F#m y coincide con todas las transcripciones de oído, pero la partitura oficial de Hal Leonard lo etiqueta Do# menor. Probablemente sea etiquetado por armadura; confirmalo de oído."},
- {"title": "No Pienses de Más", "issue": "El tema menos verificado del set: sólo hay sitios de acordes de usuarios, sin fuente analítica independiente. El conjunto apunta a La mayor. Confirmá con el disco."},
- {"title": "Paranoid", "issue": "Va en afinación estándar, a diferencia del Sabbath posterior. Si venís de tocar temas bajados, acá hay que volver a estándar."}
+  {
+    "title": "Why Did You Do It",
+    "issue": "El chart dice Am y las tres fuentes dan Bm. Definilo con la banda."
+  },
+  {
+    "title": "Chau",
+    "issue": "El chart dice Em y el estudio está en Bm. Definí qué versión tocan."
+  }
 ]
