@@ -54,18 +54,20 @@ def md(text):
     return "\n".join(blocks)
 
 
-def same_key(chart, verified):
-    """True si la tonalidad verificada es la misma que la del chart (p. ej. 'Em' vs 'Mi menor (Em)')."""
-    if not chart or not verified:
-        return False
-    # \b no sirve: las cifras terminan en '#', que no es carácter de palabra
-    token = rf"(?<![A-Za-z0-9#]){re.escape(chart)}(?![A-Za-z0-9#])"
-    return re.search(token, verified) is not None
-
-
 def yt_id(url):
     m = re.search(r"(?:v=|youtu\.be/|embed/)([A-Za-z0-9_-]{11})", url or "")
     return m.group(1) if m else None
+
+
+def sources_html(urls):
+    """Lista de fuentes por dominio: más corta de leer que la URL entera."""
+    if not urls:
+        return ""
+    links = []
+    for u in urls:
+        host = re.sub(r"^www\.", "", (re.split(r"/+", u, maxsplit=2) + ["", ""])[1])
+        links.append(f'<a href="{html.escape(u)}" target="_blank" rel="noopener">{html.escape(host)}</a>')
+    return f'<div class="srcs">Fuentes: {" · ".join(links)}</div>'
 
 
 CSS = """*{box-sizing:border-box;margin:0;padding:0}
@@ -145,23 +147,14 @@ def main():
             f'<li><a href="temas/{slug}.html"><span><span class="t">{html.escape(s["title"])}</span>'
             f'<br><span class="a">{html.escape(s["artist"])}</span></span>{k}</a></li>'
         )
-    n_alerts = len(load("alerts.json", []))
-    alert_pill = (f'<a class="pill" href="teoria.html#avisos">⚠️ <b>{n_alerts}</b> temas a chequear</a>'
-                  if n_alerts else "")
-    playlist_pill = (f'<a class="pill" href="{html.escape(spot["playlist_url"])}" target="_blank" '
-                     f'rel="noopener">🎧 <b>Escuchar el repertorio</b> en Spotify</a>'
+    playlist_pill = (f'<div class="meta"><a class="pill" href="{html.escape(spot["playlist_url"])}" '
+                     f'target="_blank" rel="noopener">🎧 <b>Escuchar el repertorio</b> en Spotify</a></div>'
                      if spot.get("playlist_url") else "")
     idx = f"""<header><div class="wrap"><h1>Repertorio · 16 de octubre</h1>
-<p class="sub">{len(songs)} temas · tablaturas, videos y análisis armónico · guitarra eléctrica</p></div></header>
+<p class="sub">Tablaturas, videos y análisis armónico para guitarra eléctrica.</p></div></header>
 <div class="wrap">
-<div class="meta"><span class="pill"><b>{len(songs)}</b> temas</span>
-<span class="pill">Tonalidades del chart de la banda</span>
 {playlist_pill}
-{alert_pill}
-<a class="pill" href="teoria.html"><b>Análisis de teoría →</b></a></div>
-<h2>Temas</h2><ol class="songs">{''.join(items)}</ol>
-<footer>Las tonalidades son las del chart de la banda y pueden diferir del disco.
-Cada ficha aclara la diferencia cuando existe.</footer></div>"""
+<ol class="songs">{''.join(items)}</ol></div>"""
     with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as f:
         f.write(page("Repertorio · 16 de octubre", idx))
 
@@ -179,15 +172,11 @@ Cada ficha aclara la diferencia cuando existe.</footer></div>"""
             b.append(f'<a class="spot" href="{html.escape(sp["url"])}" target="_blank" '
                      f'rel="noopener">▶ Escuchar en Spotify</a>')
 
-        pills = []
-        chart, studio = s.get("key"), t.get("key_verified")
-        if chart and studio and not same_key(chart, studio):
-            pills.append(f'<span class="pill">Tono del chart: <b>{html.escape(chart)}</b></span>')
-            pills.append(f'<span class="pill">En estudio: <b>{html.escape(studio)}</b></span>')
-        elif studio or chart:
-            pills.append(f'<span class="pill">Tonalidad: <b>{html.escape(studio or chart)}</b></span>')
-        if pills:
-            b.append(f'<div class="meta">{"".join(pills)}</div>')
+        # Un solo pill con el tono que se toca; la diferencia con el disco va en la nota corta.
+        key = s.get("key") or t.get("key_verified")
+        if key:
+            b.append(f'<div class="meta"><span class="pill">Tonalidad: '
+                     f'<b>{html.escape(key)}</b></span></div>')
         if t.get("key_note"):
             b.append(f'<div class="keynote">{html.escape(t["key_note"])}</div>')
 
@@ -229,14 +218,11 @@ Cada ficha aclara la diferencia cuando existe.</footer></div>"""
                     ("La clave del sonido", g.get("signature_move")),
                     ("Cómo acercarte con lo que tenés", g.get("diy"))]
             dl = "".join(f"<dt>{html.escape(k)}</dt><dd>{md(v)}</dd>" for k, v in rows if v)
-            extra = ""
-            if g.get("confidence"):
-                extra += (f'<div class="note">Qué tan documentado está: '
-                          f'<b>{html.escape(g["confidence"])}</b>.</div>')
-            if g.get("sources"):
-                links = " · ".join(f'<a href="{html.escape(u)}" target="_blank" rel="noopener">'
-                                   f'{html.escape(u[:60])}</a>' for u in g["sources"])
-                extra += f'<div class="srcs">Fuentes: {links}</div>'
+            # Sólo avisamos cuando el dato es flojo; decir "documentación alta" no aporta.
+            warn = {"medio": "Parte de este setup está poco documentado.",
+                    "bajo": "Setup poco documentado: tomalo como aproximación."}.get(g.get("confidence"))
+            extra = f'<div class="note">{warn}</div>' if warn else ""
+            extra += sources_html(g.get("sources"))
             b.append(f'<div class="card"><dl class="gear">{dl}</dl>{extra}</div>')
 
         if t.get("analysis_md") or t.get("progression_degrees"):
@@ -246,49 +232,11 @@ Cada ficha aclara la diferencia cuando existe.</footer></div>"""
             b.append(md(t.get("analysis_md", "")))
             if t.get("tip"):
                 b.append(f'<div class="ear"><b>Para tocarlo:</b> {html.escape(t["tip"])}</div>')
-            srcs = t.get("sources") or []
-            if srcs:
-                links = " · ".join(f'<a href="{html.escape(u)}" target="_blank" rel="noopener">{html.escape(u[:60])}</a>' for u in srcs)
-                b.append(f'<div class="srcs">Fuentes: {links}</div>')
+            b.append(sources_html(t.get("sources")))
 
         b.append("</div>")
         with open(os.path.join(OUT, "temas", f"{slug}.html"), "w", encoding="utf-8") as f:
             f.write(page(f'{s["title"]} · Repertorio', "\n".join(b), depth=1))
-
-    # --- página de teoría ---
-    tb = ['<div class="wrap"><a class="back" href="index.html">← Volver al repertorio</a>',
-          "<h1>Análisis de teoría musical</h1>",
-          '<p class="sub">Todo verificado contra varias fuentes. Donde no se pudo, está marcado.</p>']
-
-    alerts = load("alerts.json", [])
-    if alerts:
-        tb.append('<h2 id="avisos">Antes del ensayo</h2>')
-        tb.append('<p>Temas donde el chart de la banda y las fuentes publicadas no coinciden. '
-                  "Conviene resolverlos con la banda, no en el escenario.</p>")
-        for a in alerts:
-            slug = slugify(a["title"])
-            tb.append(
-                f'<div class="warn"><b>{html.escape(a["title"])}</b> — {html.escape(a["issue"])} '
-                f'<a href="temas/{slug}.html">ver ficha →</a></div>'
-            )
-    fams = {}
-    for s in songs:
-        t = th.get(s["title"])
-        if not t:
-            continue
-        fams.setdefault(t.get("key_verified") or "Sin verificar", []).append((s, t))
-    for k in sorted(fams):
-        tb.append(f"<h2>{html.escape(k)}</h2>")
-        for s, t in fams[k]:
-            slug = slugify(s["title"])
-            deg = f'<div class="deg">{html.escape(t["progression_degrees"])}</div>' if t.get("progression_degrees") else ""
-            tb.append(
-                f'<div class="card"><div class="src">{html.escape(s["artist"])}</div>'
-                f'<a href="temas/{slug}.html"><b>{html.escape(s["title"])}</b></a>{deg}</div>'
-            )
-    tb.append("</div>")
-    with open(os.path.join(OUT, "teoria.html"), "w", encoding="utf-8") as f:
-        f.write(page("Análisis de teoría musical", "\n".join(tb)))
 
     print(f"OK: {len(songs)} temas | tabs/videos: {len(res)} | teoría: {len(th)}")
     print(f"salida: {OUT}")
