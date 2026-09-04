@@ -126,11 +126,15 @@ def main():
             f'<li><a href="temas/{slug}.html"><span><span class="t">{html.escape(s["title"])}</span>'
             f'<br><span class="a">{html.escape(s["artist"])}</span></span>{k}</a></li>'
         )
+    n_alerts = len(load("alerts.json", []))
+    alert_pill = (f'<a class="pill" href="teoria.html#avisos">⚠️ <b>{n_alerts}</b> temas a chequear</a>'
+                  if n_alerts else "")
     idx = f"""<header><div class="wrap"><h1>Repertorio · 16 de octubre</h1>
 <p class="sub">{len(songs)} temas · tablaturas, videos y análisis armónico · guitarra eléctrica</p></div></header>
 <div class="wrap">
 <div class="meta"><span class="pill"><b>{len(songs)}</b> temas</span>
 <span class="pill">Tonalidades del chart de la banda</span>
+{alert_pill}
 <a class="pill" href="teoria.html"><b>Análisis de teoría →</b></a></div>
 <h2>Temas</h2><ol class="songs">{''.join(items)}</ol>
 <footer>Las tonalidades son las del chart de la banda y pueden diferir del disco.
@@ -209,6 +213,18 @@ Cada ficha aclara la diferencia cuando existe.</footer></div>"""
     tb = ['<div class="wrap"><a class="back" href="index.html">← Volver al repertorio</a>',
           "<h1>Análisis de teoría musical</h1>",
           '<p class="sub">Todo verificado contra varias fuentes. Donde no se pudo, está marcado.</p>']
+
+    alerts = load("alerts.json", [])
+    if alerts:
+        tb.append('<h2 id="avisos">Antes del ensayo</h2>')
+        tb.append('<p>Temas donde el chart de la banda y las fuentes publicadas no coinciden. '
+                  "Conviene resolverlos con la banda, no en el escenario.</p>")
+        for a in alerts:
+            slug = slugify(a["title"])
+            tb.append(
+                f'<div class="warn"><b>{html.escape(a["title"])}</b> — {html.escape(a["issue"])} '
+                f'<a href="temas/{slug}.html">ver ficha →</a></div>'
+            )
     fams = {}
     for s in songs:
         t = th.get(s["title"])
