@@ -1,492 +1,492 @@
 [
- {
-  "title": "Balada del diablo y la muerte",
-  "artist": "La Renga",
-  "key_verified": "Mi menor (Em)",
-  "progression_degrees": "i–III–VII–IV (Em–G–D–A) en loop; sección final VII–bIII... en realidad IV–VI–III–VII (A–C–G–D), y aparece un V7 (B7) antes de volver a i",
-  "analysis_md": "El tema entero se para sobre un loop de cuatro acordes: **i–III–VII–IV** (Em–G–D–A). Fijate que ese último acorde, el **La mayor**, es el que define todo. En Mi menor natural el cuarto grado tendría que ser **Am**, menor. Que sea **mayor** significa que aparece un Do# donde esperabas Do natural: eso es **modo dórico**, y el efecto audible es que el tema no termina de sonar triste. Tiene una cosa abierta, casi luminosa, que es exactamente por qué suena a ruta y no a velorio. Comparalo mentalmente con Em–G–D–Am y vas a escuchar cómo esa versión se apaga.\n\nLos grados III y VII (Sol y Re) son el préstamo típico del menor natural: bajan la tensión y hacen que el loop pueda girar sin resolver nunca. Por eso el tema puede sostener un solo largo arriba sin cansarse.\n\nEn la sección del final aparece un **B7**: ese es el **V7 de verdad**, con Re# adentro, o sea la sensible que el loop te venía negando toda la canción. Cuando entra, el regreso a Em pega distinto — recién ahí hay una resolución real. Es el único momento en que la armonía cierra la puerta.\n\nLa armónica, además, se mueve de La mayor a Re mayor entre secciones, reforzando ese balanceo entre los dos polos del loop.",
-  "sources": [
-   "https://acordes.lacuerda.net/renga/balada_del_diablo_y_de_la_muerte",
-   "https://www.cifraclub.com/la-renga/balada-del-diablo-y-de-la-muerte/tzthhk.html",
-   "https://chordify.net/chords/la-renga-songs/balada-del-diablo-y-la-muerte-2-chords",
-   "https://www.tusacordes.com/tab/la_renga-balada_del_diablo_y_la_muerte-acordes-16131",
-   "https://chords.lacuerda.net/renga/balada_del_diablo_y_la_muerte-9.shtml"
-  ]
- },
- {
-  "title": "Chau",
-  "artist": "No Te Va Gustar",
-  "key_verified": "Si menor (Bm) en la grabación de estudio",
-  "progression_degrees": "i–iv7–VII–III–V (Bm–Em7–A–D–F#), y la cadencia clave del estribillo: VI#–V (G#–F#)",
-  "analysis_md": "El loop base es **i–iv7–VII–III–V**. Lo importante es el final: ese **F# mayor** es el **V mayor** de Si menor, con La# adentro. En menor natural tendrías F#m; que sea mayor mete la sensible y genera un empuje fuerte de vuelta a la tónica. Es lo que hace que cada frase suene como que \"pide\" seguir — el tema nunca se queda quieto.\n\nPero el acorde que realmente vale la pena es el **G# mayor** del pre-estribillo y estribillo (`G#–F#`). En Si menor, el sexto grado natural es **Sol natural**. Acá aparece **Sol#**: sexta mayor, prestada del **dórico** o directamente de Si mayor. El efecto es muy físico — es una subida inesperada de brillo justo antes de caer al F#. Suena a que la canción se levanta un segundo antes de resignarse. En un tema que letrísticamente es una despedida, ese acorde es el que aporta la ambigüedad: no es puro lamento.\n\nEl movimiento `G#–F#` es además descenso por tono entero, no por quinta: suena moderno, medio circular, en vez de clásico y cerrado.",
-  "sources": [
-   "https://www.cifraclub.com/no-te-va-gustar/chau/thgphp.html",
-   "https://chords.lacuerda.net/no_te_va_gustar/chau-7.shtml",
-   "https://acordesweb.com/cancion/no-te-va-gustar/chau",
-   "https://tabs.ultimate-guitar.com/tab/no-te-va-gustar/chau-chords-1187619",
-   "https://chordify.net/chords/no-te-va-gustar-songs/chau-chords"
-  ],
-  "key_note": "En estudio es Bm; el chart va en Em, que es el tono de la versión con Julieta Venegas.",
-  "tip": "Si tocan en Em, los grados no cambian: sólo los nombres."
- },
- {
-  "title": "Cocaine",
-  "artist": "Eric Clapton",
-  "key_verified": "Centro tonal Mi con séptima menor — Mi mixolidio según Hooktheory, pero el modo está genuinamente en disputa entre las fuentes",
-  "progression_degrees": "Riff y estrofa: I–bVII (E–D) en vamp. Estribillo: I–bVII–bVI–V (E–D–C–B)",
-  "analysis_md": "El riff es un vamp de dos acordes: **I–bVII** (E–D). Ese **Re natural** es la séptima menor, y es todo. Si fuera Mi mayor tendrías Re#. La séptima bemol le saca el carácter \"resuelto\" de una tonalidad mayor y lo deja girando: por eso el riff puede repetirse indefinidamente sin sonar a que falta algo.\n\nAcá hay un detalle que a un guitarrista le importa más que la etiqueta: el acorde de Mi está tocado como **power chord, sin tercera**. Al no haber ni Sol# ni Sol natural, la armonía **no define si es mayor o menor**. Por eso las fuentes se pelean: Hooktheory dice mixolidio, Desi Serna documenta que el propio Clapton improvisa en **Mi dórico** mientras Albert Lee toca sobre el mismo vamp en **Mi mixolidio**, y los dos suenan bien. No es que una fuente esté equivocada — el tema está escrito para admitir las dos lecturas. En vivo, eso significa que podés elegir: si querés que suene más oscuro, tercera menor; más country-blues, tercera mayor.\n\nEl estribillo (`E–D–C–B`) es lo único que se mueve: **I–bVII–bVI–V**. El **Do** es un bVI prestado del menor, y el **Si** funciona como V. Ese descenso cromático es la única vez que la canción va a algún lado.",
-  "sources": [
-   "https://www.guitarmusictheory.com/how-to-play-over-cocaine-by-eric-clapton-with-modal-scales/",
-   "https://www.hooktheory.com/theorytab/view/eric-clapton/cocaine",
-   "https://www.guitartabsexplorer.com/eric-clapton/cocaine-chords",
-   "https://www.andyguitar.co.uk/online-lessons/lessons/electric-guitar-song-12-cocaine-by-eric-clapton-jj-cale/",
-   "https://tabs.ultimate-guitar.com/tab/eric-clapton/cocaine-chords-63555"
-  ],
-  "key_note": "En E, pero mixolidio: el Re natural lo saca de Mi mayor."
- },
- {
-  "title": "Colombina",
-  "artist": "Jaime Roos",
-  "key_verified": "La mayor (A)",
-  "progression_degrees": "Estrofa: I–V/3ª–IV/3ª (A–E/G#–D/F#) sobre pedal de La. Estribillo: vi–V7/V (F#m–B7), después ii7–V7–I (Bm7–E7–A)",
-  "analysis_md": "Lo primero que hay que entender es que gran parte del tema pasa **sobre un pedal de La**: el bajo se queda quieto y los acordes se mueven arriba. Por eso las transcripciones difieren tanto — Cifra Club lo escribe con bajos que caminan (`A–E/G#–D/F#`) y lacuerda lo escribe todo sobre La (`A–E/A–D9/A`). No se contradicen: es la misma música mirada desde el bajo o desde la guitarra. Esa quietud del bajo es lo que le da el balanceo de candombe, porque deja que el peso rítmico lo lleve el tamboril y no la armonía.\n\nEl acorde que da el color es el **B7**: un **V7/V**, dominante secundaria. En La mayor el acorde sobre Si tendría que ser **Bm**; que sea B7 mete un **Re#** que no pertenece a la tonalidad. El efecto es de apertura momentánea, como si el tema por un segundo apuntara a Mi mayor en vez de a La. Después cae en E7 y de ahí a casa: **V/V → V → I**, la cadencia más sólida que existe. Por eso el estribillo suena tan redondo y tan cantable.\n\nLos acordes de Re sin tercera sobre pedal de La (`D9/A`) no son cambios reales: son colores suspendidos, aire.",
-  "sources": [
-   "https://www.cifraclub.com.br/jaime-roos/colombina/",
-   "https://acordes.lacuerda.net/jaime_roos/colombina-2.shtml",
-   "https://tabs.ultimate-guitar.com/tab/jaime-roos/colombina-chords-1587489",
-   "https://www.chords-and-tabs.net/song/name/jaime-roos-colombina-2",
-   "https://chordify.net/chords/jaime-roos-songs/colombina-3-chords"
-  ]
- },
- {
-  "title": "Creep",
-  "artist": "Radiohead",
-  "key_verified": "Sol mayor (G)",
-  "progression_degrees": "I–V7/vi–IV–iv (G–B–C–Cm), el mismo loop en toda la canción",
-  "analysis_md": "Cuatro acordes, sin cambio entre estrofa y estribillo: **I–V7/vi–IV–iv**. Toda la canción vive de dos acordes que no pertenecen a Sol mayor.\n\nEl **Si mayor** es el primero. En Sol mayor, el acorde sobre Si es **Bm**. Al volverlo mayor aparece un **Re#** — nota totalmente ajena — y funciona como **dominante secundaria de Mim (V7/vi)**. Lo interesante es que después **no va a Mim**: va a Do. O sea, te promete el relativo menor y te deja colgado. Ese es buena parte del malestar del tema. Wikipedia lo cita como V7/vi; otras fuentes lo llaman mediante mayor o intercambio modal — son etiquetas distintas para el mismo Re#.\n\nEl **Do menor** del final es el golpe real: un **iv prestado** de Sol menor. Venís del Do mayor y se te oscurece la tercera bajo los dedos (Mi natural → Mib). Es el mismo acorde, un dedo movido, y es exactamente donde la canción se derrumba. Esa **cadencia plagal menor** es puro suspiro, resignación.\n\nEl detalle que hace que funcione y no suene a ejercicio: hay **notas comunes** entre acordes vecinos. El Si se sostiene entre G y B; el Do y el Sol se sostienen entre C y Cm. La armonía se mueve muchísimo pero la voz superior casi no — por eso es raro y suave a la vez.",
-  "sources": [
-   "https://en.wikipedia.org/wiki/Creep_(Radiohead_song)",
-   "https://realworldmusictheory.com/modal-interchange-in-radioheads-creep/",
-   "https://www.hooktheory.com/theorytab/view/radiohead/creep",
-   "https://blog.discmakers.com/2022/04/major-mediant-chord-adds-surprise/"
-  ]
- },
- {
-  "title": "Crimen",
-  "artist": "Gustavo Cerati",
-  "key_verified": "Mi mayor (E)",
-  "progression_degrees": "Intro: I–IV–V (E–A–B), después vi–iv–vi (C#m–Am–C#m). Estrofa: I–bVI–bVII (E–C–D), luego iii7–IV / ii7–V–I",
-  "analysis_md": "Está en **Mi mayor**, pero suena mucho más oscuro de lo que esa frase sugiere, y hay tres acordes prestados que explican por qué.\n\nEl **Do mayor (bVI)** y el **Re mayor (bVII)** de la estrofa son ambos ajenos a Mi mayor. Vienen del **menor** y del **mixolidio** respectivamente. El efecto es de piso que se corre: venís de un Mi mayor luminoso y de golpe la armonía baja en bloque, sin preparación. No es una modulación — no cambia de tonalidad — es **intercambio modal**: mismo centro, colores prestados de la versión menor.\n\nEl más interesante es el **La menor (iv)**. En Mi mayor el cuarto grado es **La mayor**. Cuando aparece Am en la figura `C#m–Am–C#m`, esa tercera bemol (Do natural) es la que te aprieta el pecho. Es el mismo recurso que el Cm de \"Creep\": **subdominante menor**, el acorde del suspiro. Que aparezca al lado de C#m, que comparte notas, hace que el cambio suene deslizado y no abrupto.\n\nCerati además usa **sextas** (C6, B6) en vez de tríadas secas: le saca peso a los acordes y los deja flotando, que es marca de la casa. Un acorde con sexta no cierra tan fuerte como uno con séptima.",
-  "sources": [
-   "https://acordes.lacuerda.net/gustavo_cerati/crimen-2.shtml",
-   "https://acordes.lacuerda.net/gustavo_cerati/crimen-7.shtml",
-   "https://www.cifraclub.com/gustavo-cerati/crimen/thzkww.html",
-   "https://en.wikipedia.org/wiki/Crimen_(song)"
-  ]
- },
- {
-  "title": "Every Breath You Take",
-  "artist": "The Police",
-  "key_verified": "Escrito y tocado en La mayor; suena en Lab mayor en el disco",
-  "progression_degrees": "Estrofa: I–vi–IV–V con add9 en todo (Aadd9–F#m9–Dadd9–Eadd9). Puente: bVI–bVII (F–G)",
-  "analysis_md": "La estrofa es **I–vi–IV–V**: literalmente la progresión más usada de la historia. Lo que la salva de ser genérica no es la armonía, son las **voicings**. Summers toca todo con **add9**, o sea agregando la segunda/novena a cada acorde. Esa nota extra choca suavemente contra la tercera y produce ese brillo suspendido, medio campanudo, que hace que el arpegio no suene a acordes sino a una textura. Si tocás esa misma progresión con tríadas comunes, se te cae al piso: es la prueba más clara del catálogo de que la digitación *es* el arreglo. Summers se inspiró en Bartók y lo grabó de una sola toma.\n\nEl puente (\"Since you've gone...\") es donde pasa lo bueno: **F–G**, o sea **bVI–bVII**. Los dos son ajenos a La mayor, prestados del **La menor/eólico**. El efecto es de subida por tonos enteros, sin dominante, sin preparación: la música se despega y flota. SpyTunes lo describe como si por un momento pensaras en Do mayor (donde F–G serían IV–V), pero nunca cadencia a Do: se resbala de vuelta a La. Por eso queda como un paréntesis suspendido y no como un cambio de tonalidad.\n\nAntes del puente aparece un **B(add9)**, un II mayor donde correspondería Bm: otra dominante secundaria que abre hacia Mi.",
-  "sources": [
-   "https://www.cifraclub.com/the-police/every-breath-you-take/",
-   "https://www.jonmaclennan.com/blog/every-breath-you-take-chords",
-   "https://spytunes.com/every-breath-you-take-chords/",
-   "https://en.wikipedia.org/wiki/Every_Breath_You_Take",
-   "https://www.keysignary.com/song/the-police-every-breath-you-take/"
-  ],
-  "key_note": "Se toca en A; el disco está afinado alto y suena en Lab. Para tocar encima, bajá medio tono."
- },
- {
-  "title": "Flaca",
-  "artist": "Andrés Calamaro",
-  "key_verified": "Sol mayor (G)",
-  "progression_degrees": "I–V7/vi–vi–IV–I–V (G–B7–Em–C–G–D), con D7 como variante del V",
-  "analysis_md": "Un solo ciclo para todo el tema: **I–V7/vi–vi–IV–I–V**. No hay estribillo armónicamente distinto — cambia la melodía y la letra, la armonía gira igual. Eso es una decisión, no una limitación: hace que el tema se sienta como una sola confesión continua.\n\nEl acorde que hace el trabajo es el **B7**. En Sol mayor el acorde sobre Si es **Bm**; al volverlo B7 aparece un **Re#** ajeno a la tonalidad y se convierte en **dominante secundaria de Mim (V7/vi)**. Acá sí resuelve a Em, y esa resolución es la que le da el tinte agridulce: el tema se va al relativo menor de manera preparada, casi inevitable. Es un movimiento clásico de canción popular rioplatense y de bolero.\n\nAcá va un dato que te sirve para el concierto: **es el mismo acorde y la misma función que el Si mayor de \"Creep\"**, y las dos están en Sol mayor. La diferencia es lo que pasa después. En \"Flaca\" el B7 **resuelve** a Em, y suena melancólico pero natural. En \"Creep\" el B **no resuelve** — va a Do — y suena inquietante. Mismo acorde, efecto opuesto, según a dónde lo mandes. Si tenés los dos temas en el mismo set, ese contraste es oro para escuchar.\n\nEl resto (Em, C, D) es puro diatónico: el B7 es la única nota de color.",
-  "sources": [
-   "https://chords.lacuerda.net/andres_calamaro/flaca-2.shtml",
-   "https://www.cifraclub.com/andres-calamaro/flaca/",
-   "https://www.songsterr.com/a/wsa/andres-calamaro-flaca-chords-s25320",
-   "https://www.e-chords.com/chords/andres-calamaro/flaca"
-  ]
- },
- {
-  "title": "Fly Away",
-  "artist": "Lenny Kravitz",
-  "key_verified": "Centro tonal La con séptima menor — La mixolidio según Hooktheory; las fuentes discrepan sobre cuál acorde es la tónica",
-  "progression_degrees": "Riff principal: I–bIII–bVII–IV (A–C–G–D), con un B mayor (II) en algunas transcripciones",
-  "analysis_md": "El riff es **I–bIII–bVII–IV** (A–C–G–D). El propio Kravitz contó que lo armó moviéndose entre La, Do, Sol y Re.\n\nDos de esos cuatro acordes son ajenos a La mayor. El **Do mayor (bIII)** y el **Sol mayor (bVII)** vienen del mundo menor/blues. El bIII es el que más se nota: mete un **Do natural** contra un contexto que la guitarra trata como mayor, y ese choque entre tercera mayor y tercera menor es literalmente el sonido del rock y del blues. No es un error de la armonía, es el recurso central del género — la misma ambigüedad que en \"Cocaine\", pero acá explícita en los acordes en vez de escondida en un power chord.\n\nPor eso las fuentes no se ponen de acuerdo en la tonalidad: Hooktheory dice **La mixolidio**, Cifra Club lo cataloga en **Re** y Chordify en **Sol**. Los tres describen las mismas notas; discuten cuál manda. Y esa discusión existe porque el riff **es un loop sin cadencia**: nunca hay un V–I que declare un ganador. En la práctica el oído toma el La como casa porque es donde arranca y donde vuelve el riff, y porque la voz se apoya ahí.\n\nPara tocarlo: pensá en La como centro y no te preocupes por la etiqueta modal.",
-  "sources": [
-   "https://www.songsterr.com/a/wsa/lenny-kravitz-fly-away-chords-s10805",
-   "https://www.cifraclub.com/lenny-kravitz/fly-away/",
-   "https://www.hooktheory.com/theorytab/view/lenny-kravitz/fly-away",
-   "https://chordify.net/chords/lenny-kravitz-songs/fly-away-2-chords"
-  ],
-  "key_note": "En A mixolidio: el Do natural del riff no es de La mayor."
- },
- {
-  "title": "Get Lucky",
-  "artist": "Daft Punk ft. Pharrell Williams y Nile Rodgers",
-  "key_verified": "Loop verificado Bm7–D–F#m7–E; el centro tonal está en disputa teórica documentada (Si dórico / Fa# menor / Re mixolidio)",
-  "progression_degrees": "Leyendo Sim como tónica: i7–III–v7–IV (Bm7–D–F#m7–E). Leyendo Fa#m como tónica sería iv7–VI–i7–VII",
-  "analysis_md": "Cuatro acordes en loop infinito: **Bm7–D–F#m7–E**. Los dos menores son **menores con séptima** — ese detalle importa, porque una séptima le saca el peso al acorde y lo deja rodando en vez de aterrizando. Es lo que hace que el tema sea imposible de detener.\n\nEl acorde clave es el **Mi mayor**. Si Sim es la casa, el cuarto grado tendría que ser **Mim**. Que sea **mayor** significa Sol# en vez de Sol natural: eso es **modo dórico**, la misma sexta mayor que hace brillar a \"Balada del diablo y la muerte\". En un contexto menor, esa nota es exactamente la que impide que suene triste. Un tema en menor natural no puede sonar festivo; uno en dórico sí. Ahí está el secreto del tema.\n\nAhora, la parte honesta: **las fuentes no se ponen de acuerdo sobre cuál acorde es la tónica**, y no es descuido. Wikipedia se contradice en una sola oración (\"en la tonalidad de Fa# menor, en el modo si dórico\"). SpyTunes defiende Sim. Slate argumenta que es deliberadamente ambiguo y lo llama \"una calesita musical\". Philip Tagg usa este tema justamente como caso de estudio para argumentar que la teoría clásica no sirve para el pop de loops. El motivo es estructural: **un loop que no cadencia nunca no declara tónica**. Cada vuelta te deja reinterpretar dónde estás parado.\n\nPara vos, guitarrista: el groove de Nile Rodgers vive en el rasgueo de dieciseisavos apagados, no en los acordes.",
-  "sources": [
-   "https://en.wikipedia.org/wiki/Get_Lucky_(Daft_Punk_song)",
-   "https://spytunes.com/get-lucky-chords/",
-   "https://slate.com/culture/2014/03/daft-punks-get-lucky-explained-using-music-theory.html",
-   "https://ethanhein.com/wp/2017/philip-taggs-everyday-tonality/"
-  ],
-  "key_note": "Tratá Sim como casa. El loop es Bm7–D–F#m7–E."
- },
- {
-  "title": "Give Me One Reason",
-  "artist": "Tracy Chapman",
-  "key_verified": "Fa# mayor (F#), con acordes de séptima dominante",
-  "progression_degrees": "I7–IV–V (F#7–B–C#7) sobre un blues de 12 compases MODIFICADO",
-  "analysis_md": "Es un **blues de 12 compases, pero modificado**, y la modificación es justamente lo que lo hace sonar a Tracy Chapman y no a un blues de manual. La estructura verificada es:\n\n```\n| I | IV V | I | I |\n| IV | IV V | I | I |\n| V IV | I | I |\n```\n\nEn un blues estándar, los compases **2 y 6** se quedan en el I. Acá Chapman mete **IV y V** en los dos. ¿El efecto audible? El blues normal te deja reposar en la tónica antes de moverse; este no te deja parar nunca. La armonía se adelanta a la voz y el tema camina hacia adelante todo el tiempo. Por eso suena inquieto, casi impaciente — que es exactamente lo que dice la letra. Ojo que **no es un \"quick change\"** común, porque el quick change va I→IV; acá va I→IV→V, que es más movido todavía.\n\nEl otro detalle grande no es armónico sino rítmico: se toca en **corcheas rectas, sin swing**. Un blues casi siempre está \"shuffleado\"; al enderezar las corcheas, el tema se corre hacia el folk y pierde el balanceo de bar. Es la decisión que lo vuelve suyo. Chapman además lo toca con **pulgar con uñeta**, lo que le da ese ataque redondo del bajo.\n\nLos acordes son séptimas dominantes: el I7 lleva séptima menor, que ya de por sí es \"no diatónico\" y es lo que hace que un blues suene a blues.",
-  "sources": [
-   "https://laurenbateman.com/give-me-one-reason-chords/",
-   "https://www.jonmaclennan.com/blog/give-me-one-reason-chords",
-   "https://drewbentley.com/give-me-one-reason-chord-chart-by-tracy-chapman/",
-   "https://www.songsterr.com/a/wsa/tracy-chapman-give-me-one-reason-chords-s4019"
-  ],
-  "key_note": "En F#. Lo práctico: cejilla en 2 con formas de E (E–A–B7)."
- },
- {
-  "title": "Going Down",
-  "artist": "Freddie King (compuesto por Don Nix)",
-  "key_verified": "Re (D) — centro tonal Re con material de blues; las transcripciones humanas coinciden en Re",
-  "progression_degrees": "Blues de 12 compases estándar: I (comp. 1-4) – IV (5-6) – I (7-8) – V (9-10) – I (11-12). Giro descendente I–bVII–IV–bIII (D–C–G–F) en los compases 2, 6 y 10",
-  "analysis_md": "Blues de 12 compases con la forma **estándar**, sin quick change: el compás 2 se queda en el I. Los grados son los de siempre — **I–IV–V** — y ahí no hay misterio.\n\nLo que hace propio al tema es la **figura descendente D–C–G–F** que aparece siempre justo antes de volver al I, o sea en los compases **2, 6 y 10**. En grados: **I–bVII–IV–bIII**. Los dos acordes prestados son el **Do (bVII)** y el **Fa (bIII)**, ambos del mundo menor/blues sobre una armonía que por lo demás es mayor-dominante. Esa caída en bloque funciona como un empujón: en vez de esperar quieto el cambio de acorde, la banda se tira en picada hacia él. Es lo que le da el carácter de locomotora.\n\nEl riff base es un **deslizamiento de power chord de Do5 a Re5** con palm mute. Otra vez: power chords, sin tercera, así que la armonía **no declara mayor ni menor**. Por eso las fuentes se dividen (unas dicen Re mayor, otras Re menor) y por eso los solos van cómodos en **pentatónica menor de Re** aunque el acompañamiento tenga sabor dominante. Ese roce entre tercera menor solista y tercera mayor implícita es el sonido del blues eléctrico, no un problema a corregir.\n\nEl tempo real es de shuffle: se cuenta cómodo alrededor de 84.",
-  "sources": [
-   "https://guitartabs.cc/tabs/f/freddie_king/going_down_crd_ver_2.html",
-   "https://www.songsterr.com/a/wsa/freddie-king-going-down-chords-s187238",
-   "https://www.jonmaclennan.com/blog/how-to-play-going-down-on-guitar-freddie-king-guitar-lesson-tutorial",
-   "https://guitarclub.io/blog/going-down-freddie-king-guitar-lesson"
-  ],
-  "key_note": "En D, con afinación Drop D: de ahí sale el peso del riff."
- },
- {
-  "title": "Rehab",
-  "artist": "Amy Winehouse",
-  "key_verified": "Do (C), con mezcla modal permanente entre C mayor y C menor",
-  "progression_degrees": "Estribillo: I7 - V7 - IV7 (C7 - G7 - F7). Estrofa: iii - vi - iv - bVI7 (Em7 - Am7 - Fm7 - Ab7)",
-  "analysis_md": "El truco de este tema es que **el acorde de tonica ya viene con septima menor**: C7, no Cmaj7. Eso solo te tira de cabeza al blues y al soul, porque el I7 no es un acorde \"de reposo\" clasico sino uno que suena permanentemente inclinado hacia adelante.\n\nLa estrofa es donde esta la joya. Fijate en dos movimientos:\n\n- **El iv menor (Fm7)**: en el estribillo el IV es F7 (mayor), y en la estrofa aparece Fm7. Ese cambio de F a Fm es el famoso *IV - iv*. El efecto audible es concreto: baja un semitono una nota interna (La → Lab) y la musica se te viene abajo emocionalmente, como si se nublara. Es puro Motown/Brill Building.\n- **El bVI7 (Ab7)**: acorde prestado de Do menor. Cae como una puerta que se abre a un cuarto mas oscuro. No resuelve como dominante clasico, te deposita de vuelta en la tonica por atras (\"backdoor\").\n\nComo guitarrista tu laburo aca **no es lucirte**: es Steve Cropper puro. Acordes cortados, secos, en el contratiempo, sin sustain, poca ganancia y algo de reverb de resorte. El riff protagonista lo lleva el saxo baritono; si llenas los medios-graves con acordes largos te lo comes. Tocá menos y mas corto.",
-  "sources": [
-   "https://www.songsterr.com/a/wsa/amy-winehouse-rehab-acoustic-chords-s165767",
-   "https://www.cifraclub.com/amy-winehouse/rehab/",
-   "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0058863",
-   "https://en.wikipedia.org/wiki/Rehab_(Amy_Winehouse_song)"
-  ],
-  "key_note": "En estudio es C; en el concierto va en D, un tono arriba."
- },
- {
-  "title": "Rezo por vos",
-  "artist": "Charly García / Luis Alberto Spinetta",
-  "key_verified": "Re mayor (D), con coloreo mixolidio",
-  "progression_degrees": "Estrofa: I - IV - I - ii - IV - v - iii - v - iii (D - G - D - Em - G - Am - Bm - Am - Bm). Estribillo: I - IVsus4 (D - Gsus4). Puente: V - bVII - V - I ... I/3 - IV - v - bVII - iii (A - G - A - D ... D/F# - G - Am - C - Bm)",
-  "analysis_md": "Ojo con la autoria: **el tema es de Charly García y Luis Alberto Spinetta**, no de Fito Páez. Sale de las sesiones frustradas del proyecto conjunto del 85.\n\nLo que hace que este tema flote y nunca aterrice del todo es **un solo sonido: el Do natural**. Mirá donde aparece:\n\n- En el **Am (v menor)**: en Re mayor el quinto grado deberia ser La MAYOR. Al hacerlo menor le sacas el Do sostenido, o sea **le sacas la sensible**. Sin sensible no hay tension que empuje a la tonica, y por eso el tema no cadencia nunca de manera triunfal: reza, no afirma.\n- En el **C (bVII)** del puente: mismo Do natural, confirmando mixolidio.\n- En el **Gsus4** del estribillo: la cuarta suspendida sobre Sol ES un Do. El acorde queda colgado, sin resolver.\n\nO sea: tres recursos distintos, una sola nota haciendo el trabajo. Esa es la unidad sonora del tema y vale la pena escucharla asi.\n\nTecnicamente: **sin cejilla**, todo en posicion abierta. El Gsus4 es simplemente un Sol agregando el meñique, y la gracia esta en el vaiven sus4 ↔ mayor, que es articulacion de mano derecha, no cambio de acorde. La intro es arpegiada con dedos, no rasgueada. Dejá sonar las cuerdas al aire para que las notas comunes se sostengan entre D y Gsus4.",
-  "sources": [
-   "https://acordes.lacuerda.net/charly_garcia/rezo_por_vos-2.shtml",
-   "https://chords.lacuerda.net/luis_a_spinetta/rezo_por_vos.shtml",
-   "https://www.cifraclub.com/charly-garcia/rezo-por-vos/",
-   "https://es.wikipedia.org/wiki/Rezo_por_vos"
-  ],
-  "key_note": "En D (Charly, 1987). Spinetta grabó la suya en C el año anterior."
- },
- {
-  "title": "Rockin' in the Free World",
-  "artist": "Neil Young",
-  "key_verified": "Mi menor (Em) en estrofa, con estribillo en Sol mayor (relativo)",
-  "progression_degrees": "Estrofa: i - bVII - bVI (Em - D - C). Estribillo: I - V - IV - vi en Sol (G - D - C - Em). Seccion de solo: IV mayor / V-de-bVII (A y A7), cierre en A5",
-  "analysis_md": "Aca hay un error de analisis muy comun que conviene evitar: **el Em - D - C NO tiene acordes prestados**. i - bVII - bVI son grados propios del menor natural (eolio). Es un descenso eolio, no intercambio modal. Suena oscuro porque baja por grados conjuntos, como si se derrumbara.\n\nLa arquitectura emocional del tema es el contraste entre **estrofa en menor (bleak, gris)** y **estribillo en Sol mayor (himno de estadio)**. Mismas notas, centro tonal distinto. Por eso el estribillo levanta sin necesidad de cambiar de tonalidad: solo reubica el centro de gravedad en el relativo mayor.\n\n**El unico acorde verdaderamente ajeno es el La mayor / A7** de la seccion del solo. En Mi menor el cuarto grado deberia ser Am. Al hacerlo mayor aparece un Do sostenido: es el brillo dorico, y funciona como V/V empujando hacia el Re. Es el unico momento donde el tema sale del marco modal, y justamente por eso sirve para lanzar el solo.\n\nDetalle ritmico que separa una version buena de una mala: **el Do de la estrofa cae sincopado, en el \"y\" despues del 2**, no en el tiempo 3. Esa anticipacion es el groove entero.\n\nTono: \"Old Black\" (Les Paul del 53 con pastilla Firebird) a un Fender Deluxe al mango. Saturacion de valvulas, no pedal.",
-  "sources": [
-   "https://www.cifraclub.com/neil-young/rockin-in-the-free-world/",
-   "https://www.songsterr.com/a/wsa/neil-young-rockin-in-the-free-world-chords-s229548",
-   "https://www.laurenbateman.com/rockin-in-the-free-world-chords-chart/",
-   "https://en.wikipedia.org/wiki/Rockin%27_in_the_Free_World"
-  ],
-  "key_note": "Estrofa en Em, estribillo en G.",
-  "tip": "En 'Freedom' hay dos versiones, acústica y eléctrica. La de estadio es la eléctrica."
- },
- {
-  "title": "Route 66",
-  "artist": "Chuck Berry",
-  "key_verified": "La mayor (A) en la version de Chuck Berry (1961)",
-  "progression_degrees": "Blues de 12 compases estrofico: I7 (4 compases) - IV7 (2) - I7 (2) - V7 (1) - IV7 (1) - I7 - V7 (turnaround). En La: A7 - D7 - E7",
-  "analysis_md": "Primero un dato estructural que importa para el ensayo: **este tema NO tiene estrofa y estribillo con armonias distintas**. Es blues estrofico de 12 compases: todo, incluido el gancho \"get your kicks on Route 66\", pasa por el MISMO ciclo. Si el chart marca dos progresiones distintas, van a ser identicas.\n\nLo teoricamente jugoso: **los tres acordes son dominantes con septima**. En La mayor funcional, solo el E7 seria diatonico. El A7 tiene un Sol natural (b7 sobre la tonica) y el D7 tiene un Do natural, que ni siquiera pertenece a la escala. \n\nUn error clasico es analizar el A7 como V/IV. **No lo es**, porque nunca resuelve como dominante: es una tonica estable. En el blues el I7 no pide resolucion, simplemente es asi. Esa es la diferencia entre pensar en blues y pensar en armonia clasica.\n\nEncima de eso, los solos van con **pentatonica menor de La (A-C-D-E-G)** sobre acordes que tienen tercera MAYOR. El Do natural del solo choca contra el Do sostenido del A7, y el Sol natural contra el Sol sostenido de la tonalidad. **Ese roce es el idioma entero del blues**, no un error.\n\nLo primero que tenes que tener resuelto es el shuffle boogie: indice en fundamental+quinta, meñique agregando la sexta, sobre las cuerdas de La y Re, con triplete bien marcado. Eso ES el arreglo.",
-  "sources": [
-   "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0081281",
-   "https://singingcarrots.com/song?song=chuck-berry-route-66",
-   "https://www.licklibrary.com/learn/lessons/chuck-berry/route-66",
-   "https://www.cifraclub.com/chuck-berry/route-66/"
-  ],
-  "key_note": "Berry lo grabó en A; el chart va en G, el tono del original de Nat King Cole."
- },
- {
-  "title": "Spaghetti del Rock",
-  "artist": "Divididos",
-  "key_verified": "Mi mayor (E)",
-  "progression_degrees": "Estrofa: I - V6 - vi - V - IV - V (E - B/D# - C#m - B - A - B). Estribillo: IV - V - I (A9 - B11 - E - Esus4 - E). Puente: incluye V/V (F#), y bVI - bIII prestados (C, G/B), ademas de iv menor (Am) segun una fuente",
-  "analysis_md": "Este tema es mucho mas armonico que riffero, al reves de lo que uno espera de Divididos. **Mollo arpegia los acordes con inversiones en las cuerdas graves dejando las dos primeras al aire**: ese pedal de Mi y Si sonando arriba de todo es lo que le da el color agridulce, brillante y melancolico a la vez.\n\nLo que hace funcionar la estrofa es el **bajo descendente**: E → B/D# → C#m. Al poner el Re sostenido en el bajo (tercera del Si), la linea baja por grados conjuntos Mi-Re#-Do# en vez de saltar. Suena inevitable, como si se deslizara.\n\nEn el puente aparecen las cosas ricas:\n\n- **F# mayor (V/V)**: dominante secundaria. En Mi el segundo grado deberia ser F#m; al hacerlo mayor aparece el La sostenido, que apunta como flecha al Si.\n- **C y G/B (bVI y bIII)**: prestados de Mi menor. Es mezcla modal genuina y el momento mas oscuro del tema.\n- **A → Am (IV → iv)**: si se confirma, es el clasico movimiento de cuarta mayor a cuarta menor, el mismo recurso que en Rehab. Baja un semitono y te tuerce el animo.\n\nEl solo es melodico, no virtuoso: funciona como segunda voz dialogando con el canto. No lo toques como si fuera una exhibicion tecnica.",
-  "sources": [
-   "https://www.cifraclub.com/divididos/spaghetti-del-rock/",
-   "https://chords.lacuerda.net/divididos/spaghetti_del_rock-6.shtml",
-   "https://www.deguitarra.online/canciones/spaghetti-del-rock/",
-   "https://es.wikipedia.org/wiki/Spaghetti_del_rock"
-  ],
-  "tip": "Es de 'Narigón del siglo' (2000), no de 'La Era de la Boludez'."
- },
- {
-  "title": "Sunshine of Your Love",
-  "artist": "Cream",
-  "key_verified": "Re (D), con ambiguedad modal deliberada: riff en escala de blues de Re menor sobre armonia mayor/dominante",
-  "progression_degrees": "Riff/estrofa: I - IV - I con bVII de bordadura (D con C encima, luego G con F). Estribillo: modula al V (La como tonica temporal): I - bIII - bVII (A - C - G), repetido 3 veces",
-  "analysis_md": "El riff **es** la armonia, no un adorno arriba de ella. Y el truco es de una economia brutal: Clapton toca el mismo riff y, **para el IV grado, lo mueve una cuerda para abajo**. Misma digitacion, otra funcion. Eso es todo.\n\nLa tension central del tema: el riff usa **escala de blues de Re menor (D-F-G-Lab-A-C)** mientras la armonia de abajo es mayor/dominante. Fa natural contra Fa sostenido. Por eso suena \"turbio\" y pesado sin necesidad de distorsion moderna.\n\nEn el estribillo pasa algo que vale la pena entender: **el centro tonal se corre al V grado**, o sea La pasa a funcionar como tonica temporal. Ahi el C y el G dejan de ser lo que eran y se convierten en **bIII y bVII de La**, ambos prestados del menor. Ese par bIII-bVII arriba de una tonica cuasi-mayor es *el* cliche del hard rock, y este tema es literalmente la plantilla: los musicologos Covach y Boone lo señalan como precursor directo de Led Zeppelin.\n\nDetalle que mas te va a servir: **el solo usa pentatonica MAYOR**, en contraste deliberado con el riff que es menor. Misma tonalidad, modalidad opuesta. Escuchar ese cambio de paleta es la mejor leccion del tema.\n\nTono: \"woman tone\": SG del 64, pastilla del mastil, **control de tono de la guitarra en cero** y amplificador al mango.",
-  "sources": [
-   "https://en.wikipedia.org/wiki/Sunshine_of_Your_Love",
-   "https://www.cifraclub.com/cream/sunshine-of-your-love/",
-   "https://www.heartwoodguitar.com/chords/cream-sunshine-of-your-love/",
-   "https://www.jonmaclennan.com/blog/sunshine-of-your-love-guitar-lesson"
-  ],
-  "key_note": "Se toca en D; el disco suena medio tono abajo. Para tocar encima, afiná a Eb."
- },
- {
-  "title": "The Thrill Is Gone",
-  "artist": "B.B. King",
-  "key_verified": "Si menor (Bm)",
-  "progression_degrees": "Blues menor de 12 compases: i7 (comp. 1-4) - iv7 (5-6) - i7 (7-8) - bVImaj7 (9) - V7 (10) - i7 (11-12). En Si menor: Bm7 - Em7 - Gmaj7 - F#7",
-  "analysis_md": "Este es el tema para entender **por que un blues menor no usa el quinto grado menor**.\n\nEn Si menor natural, el quinto grado seria F#m. Pero aca suena **F#7**, con La SOSTENIDO. Esa alteracion es la sensible, y es la unica nota verdaderamente ajena a la tonalidad en todo el tema. El efecto es concreto y lo escuchas: **sin ese La#, la vuelta al Bm no tira; con el, te empuja de cabeza a la tonica**. Es la diferencia entre caer y ser empujado. Si vas a memorizar una sola cosa del tema, que sea esta.\n\nLo otro grande es el **compas 9**. En el blues menor comun, ahi va el V7 y se queda dos compases: asi lo hacia la version original de Roy Hawkins del 51. **B.B. lo cambia por Gmaj7 (bVImaj7)** y recien en el compas 10 baja al F#7. Ese Gmaj7 no es ajeno a la tonalidad (es diatonico del menor natural), pero es **inesperado en un blues**, y eso es lo que le da el aire sofisticado que combina con el arreglo de cuerdas. El movimiento Gmaj7 → F#7 es un descenso de medio tono en el bajo: elegantisimo.\n\nDe interpretacion: B.B. **deja espacio**, nunca toca abajo de la voz. Responde a cada frase cantada. El vibrato de muñeca y el hecho de que jamas se acompaña a si mismo son su firma.",
-  "sources": [
-   "https://en.wikipedia.org/wiki/The_Thrill_Is_Gone",
-   "https://www.jonmaclennan.com/blog/the-thrill-is-gone-guitar-lesson",
-   "https://spytunes.com/the-thrill-is-gone-chords-guitar-lessons/",
-   "https://www.songsterr.com/a/wsa/bb-king-the-thrill-is-gone-chords-s2316"
-  ]
- },
- {
-  "title": "Vultures",
-  "artist": "John Mayer",
-  "key_verified": "Fa sostenido menor, mas precisamente FA SOSTENIDO DORICO (F# Dorian)",
-  "progression_degrees": "Estrofa: vamp estatico sobre i (F#7sus2/4: sin tercera). Estribillo: bIII - IV (Amaj9 - B6/9sus4). Solo: F#m con pasadas por A. No hay NINGUN acorde con funcion de dominante en todo el tema.",
-  "analysis_md": "Lo primero: **este tema es de groove, no de progresion**. La estrofa se planta sobre F#m casi todo el tiempo. Si venis pensando \"que acordes tocar\", estas mirando el lugar equivocado.\n\nEl dato teorico que ordena todo: **el B es MAYOR**. En Fa# menor natural (eolio) el cuarto grado seria Bm. Que sea B mayor mete un **Re sostenido, la sexta ascendida**, y eso es exactamente lo que convierte al tema en **DORICO y no en menor comun**. El efecto es concreto y lo escuchas: el dorico suena mas soleado, mas funky, menos lastimero que el menor natural. Esa sola nota es la diferencia entre soul luminoso y balada oscura.\n\nSegundo dato, y es el que explica el caracter: **no hay ningun acorde dominante en el tema**. Ni C#7, ni cadencia V-i. Nunca. Encima, los voicings **evitan la tercera** (el F#7sus2/4 tiene fundamental, 4ta, 5ta y b7, sin tercera). Sin dominante y sin terceras, **la armonia nunca se define ni resuelve**: queda suspendida a proposito para que el que mande sea el pocket. Por eso el tema puede quedarse ocho compases en un acorde sin aburrir.\n\nMayer usa **Amaj9 y B6/9sus4**, voicings parciales de dos o tres cuerdas. Las extensiones no son adorno: son lo que sostiene el interes.\n\nLo que de verdad tenes que estudiar es la **mano derecha**: semicorcheas con cuerdas apagadas (el \"chuck\") entre los golpes que suenan. Practicá el patron con la izquierda totalmente muteada hasta que suene a bateria; recien despues agregá acordes.",
-  "sources": [
-   "https://spytunes.com/vultures-chords/",
-   "https://www.cifraclub.com/john-mayer/vultures/",
-   "https://ukebuddy.com/ukulele-tabs/john-mayer/vultures",
-   "https://www.guitartabs.cc/tabs/j/john_mayer/vultures_acoustic_tab.html"
-  ],
-  "key_note": "En F#m dórico. La partitura de Hal Leonard lo etiqueta C#m, pero es la misma armadura."
- },
- {
-  "title": "What's Up",
-  "artist": "4 Non Blondes",
-  "key_verified": "La mayor (A) en el disco",
-  "progression_degrees": "I - ii - IV - I (A - Bm - D - A). Son TRES acordes en cuatro compases, y el loop es identico en estrofa y estribillo, sin ninguna variacion.",
-  "analysis_md": "Tema de tres acordes, **todos diatonicos, cero acordes prestados**. Y sin embargo funciona. Entender por que es mas util que analizar armonias raras.\n\nLa clave esta en lo que el loop **no** hace: **nunca aparece el V grado (E)**. El ciclo va I - ii - IV y vuelve al I. Sin dominante no hay cadencia autentica, o sea **nunca hay una resolucion fuerte y definitiva**. El tema gira sobre si mismo. Ese loop sin salida es exactamente el contenido emocional de la letra: la sensacion de estar dando vueltas sin llegar a ningun lado.\n\nEl **ii (Bm)** hace el trabajo emocional: es el unico acorde menor, y al caer entre dos mayores se siente como una nube pasajera. Es lo mas cerca de la tension que ofrece el tema.\n\nComo guitarrista, el desafio real no es armonico sino **dinamico**. La progresion es identica en estrofa y estribillo, asi que si tocas igual en las dos partes el tema muere. Todo el arco depende de: densidad de rasgueo (abierto y espaciado en la estrofa, machacado en corcheas en el estribillo), y de cuanto dejas sonar las cuerdas al aire.\n\nSi usas cejilla en 2 con formas abiertas, las cuerdas al aire arriba de la cejilla dan ese brillo acustico caracteristico que las formas con cejilla real no tienen.",
-  "sources": [
-   "https://www.songsterr.com/a/wsa/4-non-blondes-whats-up-chords-s722",
-   "https://www.laurenbateman.com/whats-up-chord-chart/",
-   "https://www.cifraclub.com/4-non-blondes/whats-up/",
-   "https://en.wikipedia.org/wiki/What%27s_Up%3F_(4_Non_Blondes_song)"
-  ],
-  "key_note": "Suena en A: el 'G' del chart son las formas, con cejilla en 2."
- },
- {
-  "title": "While My Guitar Gently Weeps",
-  "artist": "The Beatles",
-  "key_verified": "La menor (Am) en estrofa; el puente/estribillo modula a LA MAYOR (tonalidad paralela)",
-  "progression_degrees": "Estrofa: i - i/b7 - V7/5 - VImaj7 (Am - Am/G - D7/F# - Fmaj7), luego i - bVII - IV - V (Am - G - D - E). Estribillo/puente EN LA MAYOR: I - Imaj7 - vi - iii - ii - V (A - Amaj7 - F#m - C#m - Bm - E)",
-  "analysis_md": "Aclaracion: lo que el chart llama estribillo es en realidad el **puente**. El tema no tiene estribillo convencional.\n\n**1. El bajo descendente de la estrofa.** La - Sol - Fa# - Fa, sexta cuerda trastes 5-3-2-1, mientras arriba se sostiene el Am. Es un **\"lament bass\"**, el bajo de lamento de la musica antigua para expresar duelo. Por eso suena a derrumbe lento e inevitable, con aire tragico casi barroco.\n\nFijate que **el acorde de Re es MAYOR** (D7/F#). En La menor deberia ser Dm. Ese Fa sostenido es la sexta ascendida, o sea **color dorico**, e ilumina un segundo antes de que el Fa natural del Fmaj7 vuelva a oscurecer. Detalle fino: **ese Fa# ya anticipa el puente en mayor**, el modo se filtra antes de que la modulacion ocurra.\n\n**2. La modulacion a La MAYOR en el puente.** No va al relativo (Do mayor), que seria lo obvio: va a la **paralela**, misma tonica, modo opuesto. Es mas dramatico justamente porque **la tonica no se mueve**: no cambia el centro, cambia el color. Es el sol saliendo. Y Harrison lo dosifica: llena ese La mayor de acordes menores (C#m, F#m, Bm) para que no sea un estallido, y despues te devuelve de golpe al Am.\n\nEl solo lo toca **Eric Clapton**, sin acreditar, con la Les Paul \"Lucy\" que el mismo le habia regalado a Harrison. El ondulado NO es vibrato de dedos: es **varispeed sobre el ADT**. No lo busques con la muñeca.",
-  "sources": [
-   "https://en.wikipedia.org/wiki/While_My_Guitar_Gently_Weeps",
-   "https://www.musicradar.com/news/while-my-guitar-gently-weeps-theory",
-   "https://www.heartwoodguitar.com/chords/the-beatles-while-my-guitar-gently-weeps/",
-   "https://www.jonmaclennan.com/blog/while-my-guitar-gently-weeps-guitar-lesson",
-   "https://www.cifraclub.com/the-beatles/while-my-guitar-gently-weeps/"
-  ],
-  "key_note": "Estrofa en Am; el puente pasa a La mayor."
- },
- {
-  "title": "Why Did You Do It",
-  "artist": "Stretch",
-  "key_verified": "SI menor (Bm), NO La menor",
-  "progression_degrees": "Intro/turnaround: bVI - V - bVII - #VI (G - F# - A - G#), triadas mayores planeando cromaticamente. Estrofa: vamp de un solo acorde, i con novena agregada y sacada (Bm - Badd9). Estribillo: iv - i - V (Em - Bm - F#)",
-  "analysis_md": "Lo mas util de este tema es entender que **tiene dos logicas armonicas distintas segun la seccion**, y que confundirlas te hace tocar mal:\n\n**La estrofa NO tiene cambios de acorde.** Bm ↔ Badd9 no es una progresion: es **un solo campo armonico de Bm** al que se le agrega y se le saca la novena (Do#) como decoracion melodica y ritmica. Es funk modal puro. Tu laburo ahi no es armonico, es ritmico: sostener el groove sin moverte.\n\n**La intro y el estribillo si tienen armonia funcional.** Y el acorde importante es el **F# MAYOR**: en Si menor natural el quinto grado seria F#m. Al hacerlo mayor aparece el La sostenido, la sensible, y por eso el estribillo tira de vuelta al Bm con fuerza. Es exactamente el mismo recurso que en The Thrill Is Gone: **dominante mayor prestado del menor armonico**. Si estan tocando los dos temas en el mismo concierto, vale la pena señalar el paralelismo.\n\nLa intro (G - F# - A - G#) es otra cosa distinta: son **triadas mayores paralelas moviendose por semitonos** (A→G#, G→F#). No es armonia funcional, es planeo cromatico. Por eso suena resbaladiza y no resuelve: no esta tratando de resolver.\n\nEl G# es puro acorde de paso cromatico.",
-  "sources": [
-   "https://www.cifraclub.com/stretch/why-did-you-do-it/",
-   "https://www.songsterr.com/a/wsa/stretch-why-did-you-do-it-chords-s251259",
-   "https://www.guitartabs.cc/tabs/s/stretch/why_did_you_do_it_tab.html",
-   "https://en.wikipedia.org/wiki/Stretch_(band)"
-  ],
-  "key_note": "En estudio es Bm; el chart dice Am. Chequealo con la banda.",
-  "tip": "Es lo único del repertorio sin resolver. Definilo antes del ensayo, no en el escenario."
- },
- {
-  "title": "Yellow",
-  "artist": "Coldplay",
-  "key_verified": "Si mayor (B). Wikipedia lo indica explicitamente: B major, 88 BPM",
-  "progression_degrees": "Estrofa: I - V - IV (formas G-D-C con cejilla 4 = suenan B - F# - E). Estribillo: IV - vi - V (formas C-Em-D = suenan E - G#m - F#). Acorde clave: v menor (F#m11, forma Dm7)",
-  "analysis_md": "Antes que nada, la confusion mas comun de este tema: **forma tocada vs. acorde sonante**. Con cejilla en 4, todo sube una tercera mayor. Las formas G-D-C suenan **B-F#-E**. Los charts \"en G\" y los charts \"en B\" describen la MISMA grabacion desde marcos distintos. Ninguno esta mal.\n\nArmonicamente el tema es sencillo: I-V-IV y IV-vi-V, todo diatonico. Lo que lo hace sonar como suena son dos cosas:\n\n**1. Las cuerdas al aire sonando por encima de la cejilla.** Por eso los transcriptores discuten si es E o Emaj7, F# o F#sus2: no es que discrepen, es que **las notas al aire agregan extensiones solas**. No hagas cejillas completas: la gracia es dejar las cuerdas agudas libres. Ese es literalmente el sonido del disco.\n\n**2. El acorde prestado: F#m (v MENOR).** Aca esta la joya. El quinto grado deberia ser F# mayor. Al hacerlo menor, **le sacas la sensible (La#)**. Sin sensible, el acorde deja de empujar hacia la tonica: en vez de resolver con fuerza, **se desinfla**. Ese es el motivo tecnico exacto por el cual un tema en tonalidad MAYOR suena melancolico y agridulce en lugar de triunfal. Si tuvieras que justificar una sola eleccion armonica del tema, es esta.\n\nDinamica: las estrofas van notoriamente mas bajas que los estribillos. No es opcional, es el arreglo.",
-  "sources": [
-   "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)",
-   "https://www.songsterr.com/a/wsa/coldplay-yellow-chords-s434",
-   "https://www.modernguitartuition.com/all-posts/how-to-play-yellow-by-coldplay",
-   "https://www.jonmaclennan.com/blog/yellow-chords"
-  ],
-  "key_note": "En B, con cejilla en 4 y formas de G."
- },
- {
-  "title": "Have You Ever Seen The Rain",
-  "artist": "Creedence Clearwater Revival",
-  "key_verified": "Do mayor (C)",
-  "progression_degrees": "Estrofa: I–V (C–G) machacado. Estribillo: IV–V–I–I/VII–vi–I/V (F–G–C–C/B–Am–C/G), o sea IV–V y después un descenso I–vi con bajo cromático.",
-  "analysis_md": "Tema tramposo: parece tres acordes y en realidad la gracia está en el **bajo que baja**, no en los acordes.\n\nLa estrofa es puro **I–V**: no hay drama armónico, es un balanceo. Toda la tensión la guarda para el estribillo, que arranca en **IV** (F). Eso es clave: empezar la frase en el IV en vez del I te da sensación de que la canción ya venía andando, de que entrás en el medio de algo. Es un truco viejísimo del gospel y del country.\n\nLo que realmente hace llorar al estribillo es el tramo **C–C/B–Am–C/G**. Los acordes de arriba casi no se mueven, pero el bajo camina Do–Si–La–Sol. Eso se llama *línea de bajo descendente* y el efecto audible es de derrumbe suave, de algo que se te escurre. Fijate que el Am aparece justo en \"comin' down on a sunny day\": el relativo menor entra exactamente cuando la letra dice que llueve con sol. No es casualidad.\n\nComo guitarrista: no toques los bajos con la púa como si nada. Esas inversiones (C/B, C/G) son el tema. Si tocás todo con fundamental, la canción se muere.",
-  "sources": [
-   "https://tabs.ultimate-guitar.com/tab/creedence-clearwater-revival/have-you-ever-seen-the-rain-chords-56479",
-   "https://www.songsterr.com/a/wsa/creedence-clearwater-revival-have-you-ever-seen-the-rain-chords-s351",
-   "https://www.laurenbateman.com/have-you-ever-seen-the-rain-chord-chart/"
-  ]
- },
- {
-  "title": "I Shot the Sheriff",
-  "artist": "Bob Marley",
-  "key_verified": "Sol menor (Gm)",
-  "progression_degrees": "Estribillo: i–iv (Gm–Cm). Estrofa: VI–v–i (Ebmaj7–Dm7–Gm).",
-  "analysis_md": "Acá hay una decisión armónica que mucha gente toca mal y no sabe por qué le suena raro.\n\nEl estribillo es **i–iv**, dos acordes menores y nada más. Ese vaivén menor-a-menor no resuelve nunca del todo; queda dando vueltas, y esa es justamente la sensación de declaración obstinada que pide la letra.\n\nLo bueno está en la estrofa: **VI–v–i** (Eb–Dm–Gm). Fijate en el **v menor** (Dm), no Re mayor. Esto es menor natural / eólico puro. Si tocaras D7 ahí (el V dominante que pide el reflejo del rock), meterías un Fa# y la canción se te va al blues o al flamenco al toque — pierde el aire modal, plano, casi resignado que tiene el reggae. El menor natural no tiene *sensible*, esa nota que empuja a resolver; por eso el reggae suena circular y sin urgencia en vez de dramático.\n\nEl Eb (VI) es perfectamente diatónico, no es prestado. Su efecto es de apertura: es el único acorde mayor del ciclo, así que entra como un respiro de luz antes de volver a caer al Gm.\n\nComo guitarrista: lo tuyo acá es el *skank*, el acorde seco en el contratiempo (el \"y\" de cada tiempo). Cortado, sin dejar sonar. El silencio en los tiempos fuertes es tan importante como el acorde.",
-  "sources": [
-   "https://www.songsterr.com/a/wsa/bob-marley-i-shot-the-sheriff-chords-s13578",
-   "https://tabs.ultimate-guitar.com/tab/bob-marley/i-shot-the-sheriff-chords-213453",
-   "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0275939"
-  ],
-  "key_note": "En Gm. Ojo: la versión de Clapton no está en el mismo tono."
- },
- {
-  "title": "Isn't She Lovely",
-  "artist": "Stevie Wonder",
-  "key_verified": "Mi mayor (E)",
-  "progression_degrees": "vi–II7–V–I (C#m7–F#9–B9/B11–Emaj7), girando en loop.",
-  "analysis_md": "Este es el tema donde más vas a aprender de los doce, porque tiene el recurso jazzero más útil del mundo.\n\nEl ciclo es **vi–II7–V–I**. Los cuatro acordes bajan por *quintas*: Do#→Fa#→Si→Mi. Cada acorde cae en el que está una quinta abajo, y ese es el movimiento más \"resuelto\" que existe en la música occidental. Por eso el tema gira eterno y nunca cansa: es una cadena de resoluciones encadenadas.\n\nAhora lo importante. Ese **F#9 es II7, un acorde MAYOR con séptima menor**, cuando lo diatónico en Mi sería F#m (ii menor). Al hacerlo mayor aparece un La# que no pertenece a la tonalidad. Eso se llama **dominante secundaria** (es el V7 de Si, el V). ¿El efecto audible? Un empujón, un brillo momentáneo, la sensación de que la música te tira hacia adelante con más ganas de las que tendría con el menor. Es exactamente el sonido \"soul luminoso\" de Stevie.\n\nY nada de tríadas: todo va con séptimas y novenas (m7, 9, 11, maj7). Las tríadas secas acá suenan a canción infantil; las séptimas son lo que le da el terciopelo.\n\nComo guitarrista: buscá voicings cerrados de cuatro notas en las cuerdas 4-3-2-1, sin fundamental. Dejale el bajo al bajista.",
-  "sources": [
-   "https://www.hooktheory.com/theorytab/view/stevie-wonder/isnt-she-lovely",
-   "https://tabs.ultimate-guitar.com/tab/stevie-wonder/isnt-she-lovely-chords-213358",
-   "https://www.cifraclub.com/stevie-wonder/isnt-she-lovely/"
-  ]
- },
- {
-  "title": "It's My Life",
-  "artist": "Bon Jovi",
-  "key_verified": "Do menor (Cm)",
-  "progression_degrees": "Estribillo: i–bVI–bIII–bVII (Cm–Ab–Eb–Bb), con Bb/D (bVII en primera inversión) para caminar el bajo de vuelta al i.",
-  "analysis_md": "Esta es LA progresión del rock épico, y conviene que sepas por qué funciona.\n\n**i–bVI–bIII–bVII** son los cuatro acordes del menor natural que suenan más grandes. Fijate que ninguno es el V (Sol mayor): la canción evita deliberadamente la dominante. ¿Por qué importa? Porque el V con sensible suena a resolución clásica, a \"final\". Al usar **bVII (Bb) en vez de V (G)**, la vuelta al Cm no resuelve, *cae*. Es un aterrizaje, no un cierre. Por eso podés repetir el ciclo cincuenta veces sin que se agote — es himno, no cadencia.\n\nOtra cosa: bVI–bIII–bVII (Ab–Eb–Bb) son los tres acordes mayores de la escala menor. La progresión es menor en la raíz pero *mayor en el cuerpo*. Eso explica la contradicción emocional del tema: desafío, no tristeza.\n\nEl **Bb/D** es un detalle que separa al que la tocó del que la escuchó. Poner Re en el bajo hace que el bajo suba Sib→Re→Do para volver al Cm en vez de saltar. Movimiento suave, empuje hacia el downbeat.\n\nComo guitarrista: quintas (power chords) sí o sí, sin terceras. Con acordes completos se empasta y pierde el peso. Y el riff es en octavas, palm mute.",
-  "sources": [
-   "https://www.hooktheory.com/theorytab/view/bon-jovi/its-my-life",
-   "https://tabs.ultimate-guitar.com/tab/bon-jovi/its-my-life-chords-596069",
-   "https://www.cifraclub.com/bon-jovi/its-my-life/"
-  ],
-  "tip": "Muchas tabs escriben G#5/D#5/A#5 en vez de Ab5/Eb5/Bb5: son los mismos trastes."
- },
- {
-  "title": "Knockin' on Heaven's Door",
-  "artist": "Bob Dylan",
-  "key_verified": "Sol mayor (G)",
-  "progression_degrees": "I–V–ii (G–D/F#–Am) | I–V–IV (G–D/F#–C). Dos frases de cuatro compases que se alternan.",
-  "analysis_md": "Cuatro acordes, y sin embargo es una lección entera de composición.\n\nLas dos frases arrancan igual — **I–V** — y se separan recién en el tercer acorde: una va a **ii (Am)** y la otra a **IV (C)**. Eso es todo el tema. Y funciona porque el oído ya aprendió el camino y entonces registra la desviación. La primera frase (al Am, menor) queda abierta, suspendida, sin resolver: es la *pregunta*. La segunda (al C, mayor) asienta y cierra: es la *respuesta*. Pregunta y respuesta, eternamente. Por eso el tema suena a letanía, a rezo.\n\nEl detalle que hace la diferencia es el **D/F#**. No es un adorno: pone Fa# en el bajo, así que la línea grave baja Sol–Fa#–Mi (con el Am). Escalonado, suave, sin saltos. Si tocás D con fundamental en la quinta cuerda, el tema se pone torpe y se nota.\n\nOjo con el **Am**: es el ii menor y es el único color \"nublado\" de la canción. Ahí vive toda la melancolía. Dylan a veces le agrega el Sol de la primera cuerda (Am7), lo que lo vuelve aún más difuso y menos definido.\n\nComo guitarrista: lo más difícil acá es no tocar de más. Es un tema de aire.",
-  "sources": [
-   "https://www.fender.com/articles/chords/learn-to-play-knockin-on-heavens-door",
-   "https://tabs.ultimate-guitar.com/tab/bob-dylan/knockin-on-heavens-door-chords-66587",
-   "https://songnotes.net/lessons/88/"
-  ]
- },
- {
-  "title": "La Flaca",
-  "artist": "Jarabe de Palo",
-  "key_verified": "La menor (Am)",
-  "progression_degrees": "Estrofa: i–V7–IV7 (Am–E7–D7), con cromatismos de paso. Estribillo: VI–VII–i (F–G–Am), a veces con IV (D) mayor.",
-  "analysis_md": "Acá conviven dos lógicas distintas y por eso el tema tiene ese sabor mestizo, entre cubano y mediterráneo.\n\nLa estrofa usa **E7, o sea V7 con sensible (Sol#)**. Eso es menor *armónica*, no natural. El efecto audible es inmediato: ese Sol# contra el La del acorde de tónica crea el intervalo de segunda aumentada, el color \"español/árabe\" que le da el aire flamenco y caliente. Es lo opuesto de lo que hace Marley en I Shot the Sheriff con el v menor — comparalos, es el mismo grado con decisión contraria.\n\nEl **D7 (IV mayor con séptima)** en contexto menor es el otro truco: lo diatónico sería Dm. Al hacerlo mayor entra un Fa# prestado del **modo dórico**, y eso levanta la canción, le saca el luto, la vuelve bailable. Menor pero con la cadera suelta: eso es dórico.\n\nEl estribillo cambia de estrategia y va a **VI–VII–i (F–G–Am)**, que es menor natural puro, sin sensible. Por eso el estribillo suena más ancho y más pop, mientras la estrofa suena más apretada y latina. La canción alterna entre esos dos mundos.\n\nComo guitarrista: el rasgueo es son cubano, con acentos en el contratiempo. No lo toques a lo balada.",
-  "sources": [
-   "https://www.cifraclub.com/jarabe-de-palo/la-flaca/simp.html",
-   "https://acordes.lacuerda.net/jarabe_de_palo/la_flaca.shtml",
-   "https://letrasyacordesweb.com/jarabe-de-palo/cancion/la-flaca-42159.html"
-  ]
- },
- {
-  "title": "Miss You",
-  "artist": "The Rolling Stones",
-  "key_verified": "La menor (Am)",
-  "progression_degrees": "i–iv, prácticamente todo el tema (Am7–Dm7). Es un vamp de dos acordes, no una progresión que va a algún lado.",
-  "analysis_md": "Lo primero que tenés que aceptar: acá la armonía casi no existe, y es a propósito.\n\nDos acordes, **i–iv (Am7–Dm7)**, dando vueltas. Cuando una progresión no se mueve, se llama **vamp**, y el efecto es hipnótico: al no haber tensión ni resolución que perseguir, tu oído deja de escuchar acordes y empieza a escuchar *ritmo y textura*. Por eso este tema funciona como disco/funk aunque lo toquen los Stones. La armonía se corre para que el groove sea el protagonista.\n\nLas **séptimas (m7)** son obligatorias. Am–Dm con tríadas secas suena a folk triste. Am7–Dm7 suena a club nocturno. Esa séptima menor le saca peso dramático al acorde y lo vuelve suave, flotante, un poco indiferente — exactamente el aire cool del tema.\n\ni–iv, dos menores, tampoco resuelve nunca (mismo principio que el reggae de Marley, resultado estético opuesto). Y como no hay dominante, no hay cadencia, no hay \"fin\". El tema podría durar veinte minutos.\n\nComo guitarrista: tu trabajo es el picado en semicorcheas con muteo de palma izquierda, casi percusivo. Y respetá el espacio: el gancho real del tema es el bajo de Bill Wyman y el falsete de Jagger. Vos sos el colchón.",
-  "sources": [
-   "https://www.hooktheory.com/theorytab/view/the-rolling-stones/miss-you",
-   "https://tabs.ultimate-guitar.com/tab/the-rolling-stones/miss-you-chords-815773",
-   "https://www.e-chords.com/chords/the-rolling-stones/miss-you"
-  ]
- },
- {
-  "title": "Mustang Sally",
-  "artist": "Wilson Pickett",
-  "key_verified": "Do mayor (C), blues en Do — todo con séptimas dominantes",
-  "progression_degrees": "I7–IV7–I7–V7–(#IV7 de paso)–IV7–I7 (C7–F7–C7–G7–F#7–F7–C7).",
-  "analysis_md": "Blues, pero con una particularidad de forma y un acorde que casi nadie toca.\n\nLo primero, lo esencial del blues: **los tres acordes son dominantes (I7, IV7, V7)**. En una tonalidad mayor normal, solo el V puede llevar séptima menor. Acá el I y el IV también. Eso rompe la teoría clásica y por eso el blues suena como suena: cada acorde lleva adentro su propia tensión sin resolver, y ninguna se resuelve nunca. Es tensión permanente como estado de ánimo, no como camino.\n\nEl detalle fino es el **F#7 entre el G7 y el F7**. Es un **acorde de paso cromático** (#IV7): no cumple ninguna función armónica, existe solo para que el bajo baje Sol–Fa#–Fa por semitonos en vez de saltar. El efecto audible es de deslizamiento aceitado, resbaloso — es puro sabor Stax/Memphis. Es lo que separa la versión con onda de la versión de karaoke.\n\nY la forma AAB de 24 compases: dos secciones iguales y una tercera distinta, el doble de largo que el blues típico. Da más espacio para que el cantante juegue.\n\nComo guitarrista: acordes de novena (C9, F9) en vez de séptimas simples te acercan mucho más al sonido soul. Y rasgueo seco, corto, en el 2 y el 4.",
-  "sources": [
-   "https://www.songsterr.com/a/wsa/wilson-pickett-mustang-sally-chords-s42555",
-   "https://tabs.ultimate-guitar.com/tab/wilson-pickett/mustang-sally-chords-1402487",
-   "https://www.justinguitar.com/songs/the-commitments-wilson-picket-mustang-sally-chords-tabs-guitar-lesson-bs-523"
-  ],
-  "tip": "No es un blues de 12 compases: son 24, con forma AAB. Contá la forma en el ensayo."
- },
- {
-  "title": "No Pienses de Más",
-  "artist": "Jaime Roos",
-  "key_verified": "La mayor (A)",
-  "progression_degrees": "Estrofa: I–IV (A–D). Estribillo: II–IV–I (B–D–A). Puente: VI (F#m) y ii (Bm), con un C no diatónico (bIII).",
-  "analysis_md": "Candombe uruguayo, y la armonía tiene una rareza que vale la pena mirar de cerca.\n\nLa base es **I–IV (A–D)**, lo más simple que hay: dos acordes mayores, luminosos, sin conflicto. En el candombe eso es habitual, porque el interés no está en la armonía sino en la *clave* del tamboril — el ritmo manda y los acordes acompañan.\n\nLo interesante es el **B mayor (II)** del estribillo. Lo diatónico en La sería Bm (ii menor). Al ser mayor aparece un Re# ajeno a la tonalidad: es una **dominante secundaria (V/V)**, el mismo recurso que usa Stevie Wonder en Isn't She Lovely. Pero acá tiene un giro: en vez de resolver al Mi (V) como manda el manual, va a **D (IV)**. Esa resolución \"fallada\" es lo que le da al estribillo ese aire agridulce, de promesa que no llega adonde iba — que le calza justo a la letra (\"no pienses de más\").\n\nEl **C (bIII)** del puente es prestado del modo menor y funciona como una sombra momentánea: oscurece un tema que por lo demás es soleado.\n\nComo guitarrista rioplatense: no lo toques como rock. El rasguido tiene que dialogar con el chico, el repique y el piano. Acordes cortos, mucho aire, acentos corridos.",
-  "sources": [
-   "https://chords.lacuerda.net/jaime_roos/no_pienses_de_mas",
-   "https://www.cifraclub.com/jaime-roos/no-pienses-de-mas/",
-   "https://acordesweb.com/cancion/jaime-roos/no-pienses-de-mas"
-  ],
-  "key_note": "La mayor, aunque las fuentes publicadas de este tema son pocas."
- },
- {
-  "title": "Oh! Darling",
-  "artist": "The Beatles",
-  "key_verified": "La mayor (A)",
-  "progression_degrees": "Intro: V+ (Mi aumentado). Estrofa: I–V–vi–IV con ii intercalado. Puente: bVI7 (F7) prestado, más V7/IV (A7) y V7/V (B7).",
-  "analysis_md": "Doo-wop de los 50 pasado por blues pesado, con dos acordes que valen todo el análisis.\n\nEl arranque es un **Mi aumentado (V+)**. Un acorde aumentado tiene la quinta subida, y suena *inestable, mareado, sin piso* — no pertenece a ninguna tonalidad con comodidad. Empezar la canción ahí es una declaración: antes de que suene una sola palabra ya estás incómodo. Y como es el V, te tira con violencia hacia el I. Por eso la entrada de \"Oh! Darling\" pega como un portazo.\n\nEl otro es el **F7 (bVI7)**, prestado del La menor. Es un **acorde prestado del modo paralelo**: mismo centro tonal, escala menor. El efecto es de nube que tapa el sol de golpe, un ensombrecimiento repentino en medio de un tema mayor. (Algunos analistas discuten si es una sexta aumentada alemana, pero no resuelve como tal, así que lo práctico es pensarlo como bVI prestado con blues adentro.)\n\nEn el puente aparecen **A7 (V7/IV)** y **B7 (V7/V)**: dominantes secundarias, otra vez el mismo recurso que Stevie y que Roos. Empujan la música hacia adelante con urgencia.\n\nComo guitarrista: tríadas con tresillos, tipo balada 50s, pero con actitud. El compás es 12/8 sentido, no 4/4 recto.",
-  "sources": [
-   "https://popgrammar.com/the-beatles-oh-darling/",
-   "https://www.recmusicbeatles.com/public/files/awp/od.html",
-   "https://www.e-chords.com/chords/the-beatles/oh-darling"
-  ],
-  "tip": "Es lo más exigente del repertorio para el cantante. Ubicalo donde la voz esté fresca."
- },
- {
-  "title": "Paranoid",
-  "artist": "Black Sabbath",
-  "key_verified": "Mi menor (Em)",
-  "progression_degrees": "Riff sobre i (Em) con pentatónica menor. Estrofa: i–bVII–bIII–bVII / i (Em–D–G–D–Em), o sea i–bVII–bIII y vuelta.",
-  "analysis_md": "El tema más rápido y más simple del set, y aun así tiene una decisión armónica que define un género entero.\n\nLa estrofa es **i–bVII–bIII–bVII (Em–D–G–D)**. Como en el Bon Jovi, **no hay V (Si mayor)**. Todo sale del menor natural / eólico. Y ahí está el nacimiento del heavy metal: el V con sensible suena a música clásica y a resolución educada; el **bVII (D)** suena a modal, antiguo, medieval, pesado. Ese acorde es literalmente el sonido del metal, y viene de acá.\n\nEl **bIII (G)** es el único mayor con peso: aporta un destello de amplitud sin sacar al tema del terreno oscuro, porque es el relativo mayor y sigue siendo diatónico al Mi menor.\n\nEl riff no es de acordes sino melódico: **pentatónica menor de Mi** con ligados (hammer-on y pull-off), más apoyaturas — notas de adorno rápidas que golpean antes de la nota real y crean ese efecto nervioso, urgente, como si el riff tartamudeara. Eso es lo que hace que suene desesperado y no solo rápido.\n\nComo guitarrista: quintas con distorsión, palm mute selectivo, y el tempo es 166 BPM — el problema real acá es la mano derecha, no la izquierda. Corcheas parejas sin arrastrar.",
-  "sources": [
-   "https://www.hooktheory.com/theorytab/view/black-sabbath/paranoid",
-   "https://tabs.ultimate-guitar.com/tab/black-sabbath/paranoid-chords-1167469",
-   "https://www.e-chords.com/chords/black-sabbath/paranoid"
-  ],
-  "key_note": "En Em y afinación estándar. Es del 70, antes de que Iommi bajara todo."
- },
- {
-  "title": "Pet Sematary",
-  "artist": "Ramones",
-  "key_verified": "Re menor (Dm)",
-  "progression_degrees": "i–bVII–bIII (Dm–C–F), en loop sobre intro y estrofa.",
-  "analysis_md": "Fijate qué interesante: es **exactamente la misma fórmula que Paranoid**, i–bVII–bIII, transportada a Re menor. Dos bandas, dos géneros, veinte años de distancia, misma armonía. Eso te dice algo importante: la progresión no determina el estilo. El tempo, el timbre y el ataque sí.\n\n**i–bVII–bIII (Dm–C–F)** otra vez sin dominante. Sin sensible (sin Do#), la vuelta al Dm no resuelve, cae por gravedad. El efecto es de círculo cerrado, de cosa inevitable — que para una canción sobre un cementerio donde los muertos vuelven, es un acierto poético además de musical.\n\nEl **bIII (F)** es el relativo mayor y funciona como el único respiro luminoso: sobre él entra el gancho melódico del estribillo. Es el truco pop escondido dentro de un tema punk, y explica por qué este fue uno de los mayores éxitos radiales de los Ramones.\n\nY lo dicho: los mismos grados que Sabbath, pero acá con corcheas parejas de púa hacia abajo, distorsión más brillante y menos grave. Eso solo ya cambia el género entero.\n\nComo guitarrista: TODO con púa hacia abajo, sin alternar. Es la firma de Johnny Ramone y es agotador — practicá la resistencia del antebrazo, no la velocidad.",
-  "sources": [
-   "https://www.hooktheory.com/theorytab/view/ramones/pet-sematary",
-   "https://www.songsterr.com/a/wsa/ramones-pet-sematary-chords-s16429",
-   "https://tabs.ultimate-guitar.com/tab/ramones/pet-sematary-chords-1501932"
-  ],
-  "tip": "En el disco hay teclados y capas de guitarra: en vivo hay que resumirlas en una sola viola."
- }
+  {
+    "title": "Balada del diablo y la muerte",
+    "artist": "La Renga",
+    "key_verified": "Mi menor (Em)",
+    "progression_degrees": "i–III–VII–IV (Em–G–D–A) en loop; sección final VII–bIII... en realidad IV–VI–III–VII (A–C–G–D), y aparece un V7 (B7) antes de volver a i",
+    "analysis_md": "El tema entero se para sobre un loop de cuatro acordes: **i–III–VII–IV** (Em–G–D–A). Fijate que ese último acorde, el **La mayor**, es el que define todo. En Mi menor natural el cuarto grado tendría que ser **Am**, menor. Que sea **mayor** significa que aparece un Do# donde esperabas Do natural: eso es **modo dórico**, y el efecto audible es que el tema no termina de sonar triste. Tiene una cosa abierta, casi luminosa, que es exactamente por qué suena a ruta y no a velorio. Comparalo mentalmente con Em–G–D–Am y vas a escuchar cómo esa versión se apaga.\n\nLos grados III y VII (Sol y Re) son el préstamo típico del menor natural: bajan la tensión y hacen que el loop pueda girar sin resolver nunca. Por eso el tema puede sostener un solo largo arriba sin cansarse.\n\nEn la sección del final aparece un **B7**: ese es el **V7 de verdad**, con Re# adentro, o sea la sensible que el loop te venía negando toda la canción. Cuando entra, el regreso a Em pega distinto — recién ahí hay una resolución real. Es el único momento en que la armonía cierra la puerta.\n\nLa armónica, además, se mueve de La mayor a Re mayor entre secciones, reforzando ese balanceo entre los dos polos del loop.",
+    "sources": [
+      "https://acordes.lacuerda.net/renga/balada_del_diablo_y_de_la_muerte",
+      "https://www.cifraclub.com/la-renga/balada-del-diablo-y-de-la-muerte/tzthhk.html",
+      "https://chordify.net/chords/la-renga-songs/balada-del-diablo-y-la-muerte-2-chords",
+      "https://www.tusacordes.com/tab/la_renga-balada_del_diablo_y_la_muerte-acordes-16131",
+      "https://chords.lacuerda.net/renga/balada_del_diablo_y_la_muerte-9.shtml"
+    ]
+  },
+  {
+    "title": "Chau",
+    "artist": "No Te Va Gustar",
+    "key_verified": "Si menor (Bm) en la grabación de estudio",
+    "progression_degrees": "i–iv7–VII–III–V (Bm–Em7–A–D–F#), y la cadencia clave del estribillo: VI#–V (G#–F#)",
+    "analysis_md": "El loop base es **i–iv7–VII–III–V**. Lo importante es el final: ese **F# mayor** es el **V mayor** de Si menor, con La# adentro. En menor natural tendrías F#m; que sea mayor mete la sensible y genera un empuje fuerte de vuelta a la tónica. Es lo que hace que cada frase suene como que \"pide\" seguir — el tema nunca se queda quieto.\n\nPero el acorde que realmente vale la pena es el **G# mayor** del pre-estribillo y estribillo (`G#–F#`). En Si menor, el sexto grado natural es **Sol natural**. Acá aparece **Sol#**: sexta mayor, prestada del **dórico** o directamente de Si mayor. El efecto es muy físico — es una subida inesperada de brillo justo antes de caer al F#. Suena a que la canción se levanta un segundo antes de resignarse. En un tema que letrísticamente es una despedida, ese acorde es el que aporta la ambigüedad: no es puro lamento.\n\nEl movimiento `G#–F#` es además descenso por tono entero, no por quinta: suena moderno, medio circular, en vez de clásico y cerrado.",
+    "sources": [
+      "https://www.cifraclub.com/no-te-va-gustar/chau/thgphp.html",
+      "https://chords.lacuerda.net/no_te_va_gustar/chau-7.shtml",
+      "https://acordesweb.com/cancion/no-te-va-gustar/chau",
+      "https://tabs.ultimate-guitar.com/tab/no-te-va-gustar/chau-chords-1187619",
+      "https://chordify.net/chords/no-te-va-gustar-songs/chau-chords"
+    ],
+    "key_note": "Tocamos en Em, el tono de la versión con Julieta Venegas; la grabación de estudio está en Bm.",
+    "tip": "En Em los grados no cambian respecto del disco: cambian sólo los nombres."
+  },
+  {
+    "title": "Cocaine",
+    "artist": "Eric Clapton",
+    "key_verified": "Centro tonal Mi con séptima menor — Mi mixolidio según Hooktheory, pero el modo está genuinamente en disputa entre las fuentes",
+    "progression_degrees": "Riff y estrofa: I–bVII (E–D) en vamp. Estribillo: I–bVII–bVI–V (E–D–C–B)",
+    "analysis_md": "El riff es un vamp de dos acordes: **I–bVII** (E–D). Ese **Re natural** es la séptima menor, y es todo. Si fuera Mi mayor tendrías Re#. La séptima bemol le saca el carácter \"resuelto\" de una tonalidad mayor y lo deja girando: por eso el riff puede repetirse indefinidamente sin sonar a que falta algo.\n\nAcá hay un detalle que a un guitarrista le importa más que la etiqueta: el acorde de Mi está tocado como **power chord, sin tercera**. Al no haber ni Sol# ni Sol natural, la armonía **no define si es mayor o menor**. Por eso las fuentes se pelean: Hooktheory dice mixolidio, Desi Serna documenta que el propio Clapton improvisa en **Mi dórico** mientras Albert Lee toca sobre el mismo vamp en **Mi mixolidio**, y los dos suenan bien. No es que una fuente esté equivocada — el tema está escrito para admitir las dos lecturas. En vivo, eso significa que podés elegir: si querés que suene más oscuro, tercera menor; más country-blues, tercera mayor.\n\nEl estribillo (`E–D–C–B`) es lo único que se mueve: **I–bVII–bVI–V**. El **Do** es un bVI prestado del menor, y el **Si** funciona como V. Ese descenso cromático es la única vez que la canción va a algún lado.",
+    "sources": [
+      "https://www.guitarmusictheory.com/how-to-play-over-cocaine-by-eric-clapton-with-modal-scales/",
+      "https://www.hooktheory.com/theorytab/view/eric-clapton/cocaine",
+      "https://www.guitartabsexplorer.com/eric-clapton/cocaine-chords",
+      "https://www.andyguitar.co.uk/online-lessons/lessons/electric-guitar-song-12-cocaine-by-eric-clapton-jj-cale/",
+      "https://tabs.ultimate-guitar.com/tab/eric-clapton/cocaine-chords-63555"
+    ],
+    "key_note": "En E, pero mixolidio: el Re natural lo saca de Mi mayor."
+  },
+  {
+    "title": "Colombina",
+    "artist": "Jaime Roos",
+    "key_verified": "La mayor (A)",
+    "progression_degrees": "Estrofa: I–V/3ª–IV/3ª (A–E/G#–D/F#) sobre pedal de La. Estribillo: vi–V7/V (F#m–B7), después ii7–V7–I (Bm7–E7–A)",
+    "analysis_md": "Lo primero que hay que entender es que gran parte del tema pasa **sobre un pedal de La**: el bajo se queda quieto y los acordes se mueven arriba. Por eso las transcripciones difieren tanto — Cifra Club lo escribe con bajos que caminan (`A–E/G#–D/F#`) y lacuerda lo escribe todo sobre La (`A–E/A–D9/A`). No se contradicen: es la misma música mirada desde el bajo o desde la guitarra. Esa quietud del bajo es lo que le da el balanceo de candombe, porque deja que el peso rítmico lo lleve el tamboril y no la armonía.\n\nEl acorde que da el color es el **B7**: un **V7/V**, dominante secundaria. En La mayor el acorde sobre Si tendría que ser **Bm**; que sea B7 mete un **Re#** que no pertenece a la tonalidad. El efecto es de apertura momentánea, como si el tema por un segundo apuntara a Mi mayor en vez de a La. Después cae en E7 y de ahí a casa: **V/V → V → I**, la cadencia más sólida que existe. Por eso el estribillo suena tan redondo y tan cantable.\n\nLos acordes de Re sin tercera sobre pedal de La (`D9/A`) no son cambios reales: son colores suspendidos, aire.",
+    "sources": [
+      "https://www.cifraclub.com.br/jaime-roos/colombina/",
+      "https://acordes.lacuerda.net/jaime_roos/colombina-2.shtml",
+      "https://tabs.ultimate-guitar.com/tab/jaime-roos/colombina-chords-1587489",
+      "https://www.chords-and-tabs.net/song/name/jaime-roos-colombina-2",
+      "https://chordify.net/chords/jaime-roos-songs/colombina-3-chords"
+    ]
+  },
+  {
+    "title": "Creep",
+    "artist": "Radiohead",
+    "key_verified": "Sol mayor (G)",
+    "progression_degrees": "I–V7/vi–IV–iv (G–B–C–Cm), el mismo loop en toda la canción",
+    "analysis_md": "Cuatro acordes, sin cambio entre estrofa y estribillo: **I–V7/vi–IV–iv**. Toda la canción vive de dos acordes que no pertenecen a Sol mayor.\n\nEl **Si mayor** es el primero. En Sol mayor, el acorde sobre Si es **Bm**. Al volverlo mayor aparece un **Re#** — nota totalmente ajena — y funciona como **dominante secundaria de Mim (V7/vi)**. Lo interesante es que después **no va a Mim**: va a Do. O sea, te promete el relativo menor y te deja colgado. Ese es buena parte del malestar del tema. Wikipedia lo cita como V7/vi; otras fuentes lo llaman mediante mayor o intercambio modal — son etiquetas distintas para el mismo Re#.\n\nEl **Do menor** del final es el golpe real: un **iv prestado** de Sol menor. Venís del Do mayor y se te oscurece la tercera bajo los dedos (Mi natural → Mib). Es el mismo acorde, un dedo movido, y es exactamente donde la canción se derrumba. Esa **cadencia plagal menor** es puro suspiro, resignación.\n\nEl detalle que hace que funcione y no suene a ejercicio: hay **notas comunes** entre acordes vecinos. El Si se sostiene entre G y B; el Do y el Sol se sostienen entre C y Cm. La armonía se mueve muchísimo pero la voz superior casi no — por eso es raro y suave a la vez.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Creep_(Radiohead_song)",
+      "https://realworldmusictheory.com/modal-interchange-in-radioheads-creep/",
+      "https://www.hooktheory.com/theorytab/view/radiohead/creep",
+      "https://blog.discmakers.com/2022/04/major-mediant-chord-adds-surprise/"
+    ]
+  },
+  {
+    "title": "Crimen",
+    "artist": "Gustavo Cerati",
+    "key_verified": "Mi mayor (E)",
+    "progression_degrees": "Intro: I–IV–V (E–A–B), después vi–iv–vi (C#m–Am–C#m). Estrofa: I–bVI–bVII (E–C–D), luego iii7–IV / ii7–V–I",
+    "analysis_md": "Está en **Mi mayor**, pero suena mucho más oscuro de lo que esa frase sugiere, y hay tres acordes prestados que explican por qué.\n\nEl **Do mayor (bVI)** y el **Re mayor (bVII)** de la estrofa son ambos ajenos a Mi mayor. Vienen del **menor** y del **mixolidio** respectivamente. El efecto es de piso que se corre: venís de un Mi mayor luminoso y de golpe la armonía baja en bloque, sin preparación. No es una modulación — no cambia de tonalidad — es **intercambio modal**: mismo centro, colores prestados de la versión menor.\n\nEl más interesante es el **La menor (iv)**. En Mi mayor el cuarto grado es **La mayor**. Cuando aparece Am en la figura `C#m–Am–C#m`, esa tercera bemol (Do natural) es la que te aprieta el pecho. Es el mismo recurso que el Cm de \"Creep\": **subdominante menor**, el acorde del suspiro. Que aparezca al lado de C#m, que comparte notas, hace que el cambio suene deslizado y no abrupto.\n\nCerati además usa **sextas** (C6, B6) en vez de tríadas secas: le saca peso a los acordes y los deja flotando, que es marca de la casa. Un acorde con sexta no cierra tan fuerte como uno con séptima.",
+    "sources": [
+      "https://acordes.lacuerda.net/gustavo_cerati/crimen-2.shtml",
+      "https://acordes.lacuerda.net/gustavo_cerati/crimen-7.shtml",
+      "https://www.cifraclub.com/gustavo-cerati/crimen/thzkww.html",
+      "https://en.wikipedia.org/wiki/Crimen_(song)"
+    ]
+  },
+  {
+    "title": "Every Breath You Take",
+    "artist": "The Police",
+    "key_verified": "Escrito y tocado en La mayor; suena en Lab mayor en el disco",
+    "progression_degrees": "Estrofa: I–vi–IV–V con add9 en todo (Aadd9–F#m9–Dadd9–Eadd9). Puente: bVI–bVII (F–G)",
+    "analysis_md": "La estrofa es **I–vi–IV–V**: literalmente la progresión más usada de la historia. Lo que la salva de ser genérica no es la armonía, son las **voicings**. Summers toca todo con **add9**, o sea agregando la segunda/novena a cada acorde. Esa nota extra choca suavemente contra la tercera y produce ese brillo suspendido, medio campanudo, que hace que el arpegio no suene a acordes sino a una textura. Si tocás esa misma progresión con tríadas comunes, se te cae al piso: es la prueba más clara del catálogo de que la digitación *es* el arreglo. Summers se inspiró en Bartók y lo grabó de una sola toma.\n\nEl puente (\"Since you've gone...\") es donde pasa lo bueno: **F–G**, o sea **bVI–bVII**. Los dos son ajenos a La mayor, prestados del **La menor/eólico**. El efecto es de subida por tonos enteros, sin dominante, sin preparación: la música se despega y flota. SpyTunes lo describe como si por un momento pensaras en Do mayor (donde F–G serían IV–V), pero nunca cadencia a Do: se resbala de vuelta a La. Por eso queda como un paréntesis suspendido y no como un cambio de tonalidad.\n\nAntes del puente aparece un **B(add9)**, un II mayor donde correspondería Bm: otra dominante secundaria que abre hacia Mi.",
+    "sources": [
+      "https://www.cifraclub.com/the-police/every-breath-you-take/",
+      "https://www.jonmaclennan.com/blog/every-breath-you-take-chords",
+      "https://spytunes.com/every-breath-you-take-chords/",
+      "https://en.wikipedia.org/wiki/Every_Breath_You_Take",
+      "https://www.keysignary.com/song/the-police-every-breath-you-take/"
+    ],
+    "key_note": "Se toca en A; el disco está afinado alto y suena en Lab. Para tocar encima, bajá medio tono."
+  },
+  {
+    "title": "Flaca",
+    "artist": "Andrés Calamaro",
+    "key_verified": "Sol mayor (G)",
+    "progression_degrees": "I–V7/vi–vi–IV–I–V (G–B7–Em–C–G–D), con D7 como variante del V",
+    "analysis_md": "Un solo ciclo para todo el tema: **I–V7/vi–vi–IV–I–V**. No hay estribillo armónicamente distinto — cambia la melodía y la letra, la armonía gira igual. Eso es una decisión, no una limitación: hace que el tema se sienta como una sola confesión continua.\n\nEl acorde que hace el trabajo es el **B7**. En Sol mayor el acorde sobre Si es **Bm**; al volverlo B7 aparece un **Re#** ajeno a la tonalidad y se convierte en **dominante secundaria de Mim (V7/vi)**. Acá sí resuelve a Em, y esa resolución es la que le da el tinte agridulce: el tema se va al relativo menor de manera preparada, casi inevitable. Es un movimiento clásico de canción popular rioplatense y de bolero.\n\nAcá va un dato que te sirve para el concierto: **es el mismo acorde y la misma función que el Si mayor de \"Creep\"**, y las dos están en Sol mayor. La diferencia es lo que pasa después. En \"Flaca\" el B7 **resuelve** a Em, y suena melancólico pero natural. En \"Creep\" el B **no resuelve** — va a Do — y suena inquietante. Mismo acorde, efecto opuesto, según a dónde lo mandes. Si tenés los dos temas en el mismo set, ese contraste es oro para escuchar.\n\nEl resto (Em, C, D) es puro diatónico: el B7 es la única nota de color.",
+    "sources": [
+      "https://chords.lacuerda.net/andres_calamaro/flaca-2.shtml",
+      "https://www.cifraclub.com/andres-calamaro/flaca/",
+      "https://www.songsterr.com/a/wsa/andres-calamaro-flaca-chords-s25320",
+      "https://www.e-chords.com/chords/andres-calamaro/flaca"
+    ]
+  },
+  {
+    "title": "Fly Away",
+    "artist": "Lenny Kravitz",
+    "key_verified": "Centro tonal La con séptima menor — La mixolidio según Hooktheory; las fuentes discrepan sobre cuál acorde es la tónica",
+    "progression_degrees": "Riff principal: I–bIII–bVII–IV (A–C–G–D), con un B mayor (II) en algunas transcripciones",
+    "analysis_md": "El riff es **I–bIII–bVII–IV** (A–C–G–D). El propio Kravitz contó que lo armó moviéndose entre La, Do, Sol y Re.\n\nDos de esos cuatro acordes son ajenos a La mayor. El **Do mayor (bIII)** y el **Sol mayor (bVII)** vienen del mundo menor/blues. El bIII es el que más se nota: mete un **Do natural** contra un contexto que la guitarra trata como mayor, y ese choque entre tercera mayor y tercera menor es literalmente el sonido del rock y del blues. No es un error de la armonía, es el recurso central del género — la misma ambigüedad que en \"Cocaine\", pero acá explícita en los acordes en vez de escondida en un power chord.\n\nPor eso las fuentes no se ponen de acuerdo en la tonalidad: Hooktheory dice **La mixolidio**, Cifra Club lo cataloga en **Re** y Chordify en **Sol**. Los tres describen las mismas notas; discuten cuál manda. Y esa discusión existe porque el riff **es un loop sin cadencia**: nunca hay un V–I que declare un ganador. En la práctica el oído toma el La como casa porque es donde arranca y donde vuelve el riff, y porque la voz se apoya ahí.\n\nPara tocarlo: pensá en La como centro y no te preocupes por la etiqueta modal.",
+    "sources": [
+      "https://www.songsterr.com/a/wsa/lenny-kravitz-fly-away-chords-s10805",
+      "https://www.cifraclub.com/lenny-kravitz/fly-away/",
+      "https://www.hooktheory.com/theorytab/view/lenny-kravitz/fly-away",
+      "https://chordify.net/chords/lenny-kravitz-songs/fly-away-2-chords"
+    ],
+    "key_note": "En A mixolidio: el Do natural del riff no es de La mayor."
+  },
+  {
+    "title": "Get Lucky",
+    "artist": "Daft Punk ft. Pharrell Williams y Nile Rodgers",
+    "key_verified": "Loop verificado Bm7–D–F#m7–E; el centro tonal está en disputa teórica documentada (Si dórico / Fa# menor / Re mixolidio)",
+    "progression_degrees": "Leyendo Sim como tónica: i7–III–v7–IV (Bm7–D–F#m7–E). Leyendo Fa#m como tónica sería iv7–VI–i7–VII",
+    "analysis_md": "Cuatro acordes en loop infinito: **Bm7–D–F#m7–E**. Los dos menores son **menores con séptima** — ese detalle importa, porque una séptima le saca el peso al acorde y lo deja rodando en vez de aterrizando. Es lo que hace que el tema sea imposible de detener.\n\nEl acorde clave es el **Mi mayor**. Si Sim es la casa, el cuarto grado tendría que ser **Mim**. Que sea **mayor** significa Sol# en vez de Sol natural: eso es **modo dórico**, la misma sexta mayor que hace brillar a \"Balada del diablo y la muerte\". En un contexto menor, esa nota es exactamente la que impide que suene triste. Un tema en menor natural no puede sonar festivo; uno en dórico sí. Ahí está el secreto del tema.\n\nAhora, la parte honesta: **las fuentes no se ponen de acuerdo sobre cuál acorde es la tónica**, y no es descuido. Wikipedia se contradice en una sola oración (\"en la tonalidad de Fa# menor, en el modo si dórico\"). SpyTunes defiende Sim. Slate argumenta que es deliberadamente ambiguo y lo llama \"una calesita musical\". Philip Tagg usa este tema justamente como caso de estudio para argumentar que la teoría clásica no sirve para el pop de loops. El motivo es estructural: **un loop que no cadencia nunca no declara tónica**. Cada vuelta te deja reinterpretar dónde estás parado.\n\nPara vos, guitarrista: el groove de Nile Rodgers vive en el rasgueo de dieciseisavos apagados, no en los acordes.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Get_Lucky_(Daft_Punk_song)",
+      "https://spytunes.com/get-lucky-chords/",
+      "https://slate.com/culture/2014/03/daft-punks-get-lucky-explained-using-music-theory.html",
+      "https://ethanhein.com/wp/2017/philip-taggs-everyday-tonality/"
+    ],
+    "key_note": "Tratá Sim como casa. El loop es Bm7–D–F#m7–E."
+  },
+  {
+    "title": "Give Me One Reason",
+    "artist": "Tracy Chapman",
+    "key_verified": "Fa# mayor (F#), con acordes de séptima dominante",
+    "progression_degrees": "I7–IV–V (F#7–B–C#7) sobre un blues de 12 compases MODIFICADO",
+    "analysis_md": "Es un **blues de 12 compases, pero modificado**, y la modificación es justamente lo que lo hace sonar a Tracy Chapman y no a un blues de manual. La estructura verificada es:\n\n```\n| I | IV V | I | I |\n| IV | IV V | I | I |\n| V IV | I | I |\n```\n\nEn un blues estándar, los compases **2 y 6** se quedan en el I. Acá Chapman mete **IV y V** en los dos. ¿El efecto audible? El blues normal te deja reposar en la tónica antes de moverse; este no te deja parar nunca. La armonía se adelanta a la voz y el tema camina hacia adelante todo el tiempo. Por eso suena inquieto, casi impaciente — que es exactamente lo que dice la letra. Ojo que **no es un \"quick change\"** común, porque el quick change va I→IV; acá va I→IV→V, que es más movido todavía.\n\nEl otro detalle grande no es armónico sino rítmico: se toca en **corcheas rectas, sin swing**. Un blues casi siempre está \"shuffleado\"; al enderezar las corcheas, el tema se corre hacia el folk y pierde el balanceo de bar. Es la decisión que lo vuelve suyo. Chapman además lo toca con **pulgar con uñeta**, lo que le da ese ataque redondo del bajo.\n\nLos acordes son séptimas dominantes: el I7 lleva séptima menor, que ya de por sí es \"no diatónico\" y es lo que hace que un blues suene a blues.",
+    "sources": [
+      "https://laurenbateman.com/give-me-one-reason-chords/",
+      "https://www.jonmaclennan.com/blog/give-me-one-reason-chords",
+      "https://drewbentley.com/give-me-one-reason-chord-chart-by-tracy-chapman/",
+      "https://www.songsterr.com/a/wsa/tracy-chapman-give-me-one-reason-chords-s4019"
+    ],
+    "key_note": "En F#. Lo práctico: cejilla en 2 con formas de E (E–A–B7)."
+  },
+  {
+    "title": "Going Down",
+    "artist": "Freddie King (compuesto por Don Nix)",
+    "key_verified": "Re (D) — centro tonal Re con material de blues; las transcripciones humanas coinciden en Re",
+    "progression_degrees": "Blues de 12 compases estándar: I (comp. 1-4) – IV (5-6) – I (7-8) – V (9-10) – I (11-12). Giro descendente I–bVII–IV–bIII (D–C–G–F) en los compases 2, 6 y 10",
+    "analysis_md": "Blues de 12 compases con la forma **estándar**, sin quick change: el compás 2 se queda en el I. Los grados son los de siempre — **I–IV–V** — y ahí no hay misterio.\n\nLo que hace propio al tema es la **figura descendente D–C–G–F** que aparece siempre justo antes de volver al I, o sea en los compases **2, 6 y 10**. En grados: **I–bVII–IV–bIII**. Los dos acordes prestados son el **Do (bVII)** y el **Fa (bIII)**, ambos del mundo menor/blues sobre una armonía que por lo demás es mayor-dominante. Esa caída en bloque funciona como un empujón: en vez de esperar quieto el cambio de acorde, la banda se tira en picada hacia él. Es lo que le da el carácter de locomotora.\n\nEl riff base es un **deslizamiento de power chord de Do5 a Re5** con palm mute. Otra vez: power chords, sin tercera, así que la armonía **no declara mayor ni menor**. Por eso las fuentes se dividen (unas dicen Re mayor, otras Re menor) y por eso los solos van cómodos en **pentatónica menor de Re** aunque el acompañamiento tenga sabor dominante. Ese roce entre tercera menor solista y tercera mayor implícita es el sonido del blues eléctrico, no un problema a corregir.\n\nEl tempo real es de shuffle: se cuenta cómodo alrededor de 84.",
+    "sources": [
+      "https://guitartabs.cc/tabs/f/freddie_king/going_down_crd_ver_2.html",
+      "https://www.songsterr.com/a/wsa/freddie-king-going-down-chords-s187238",
+      "https://www.jonmaclennan.com/blog/how-to-play-going-down-on-guitar-freddie-king-guitar-lesson-tutorial",
+      "https://guitarclub.io/blog/going-down-freddie-king-guitar-lesson"
+    ],
+    "key_note": "En D, con afinación Drop D: de ahí sale el peso del riff."
+  },
+  {
+    "title": "Rehab",
+    "artist": "Amy Winehouse",
+    "key_verified": "Do (C), con mezcla modal permanente entre C mayor y C menor",
+    "progression_degrees": "Estribillo: I7 - V7 - IV7 (C7 - G7 - F7). Estrofa: iii - vi - iv - bVI7 (Em7 - Am7 - Fm7 - Ab7)",
+    "analysis_md": "El truco de este tema es que **el acorde de tonica ya viene con septima menor**: C7, no Cmaj7. Eso solo te tira de cabeza al blues y al soul, porque el I7 no es un acorde \"de reposo\" clasico sino uno que suena permanentemente inclinado hacia adelante.\n\nLa estrofa es donde esta la joya. Fijate en dos movimientos:\n\n- **El iv menor (Fm7)**: en el estribillo el IV es F7 (mayor), y en la estrofa aparece Fm7. Ese cambio de F a Fm es el famoso *IV - iv*. El efecto audible es concreto: baja un semitono una nota interna (La → Lab) y la musica se te viene abajo emocionalmente, como si se nublara. Es puro Motown/Brill Building.\n- **El bVI7 (Ab7)**: acorde prestado de Do menor. Cae como una puerta que se abre a un cuarto mas oscuro. No resuelve como dominante clasico, te deposita de vuelta en la tonica por atras (\"backdoor\").\n\nComo guitarrista tu laburo aca **no es lucirte**: es Steve Cropper puro. Acordes cortados, secos, en el contratiempo, sin sustain, poca ganancia y algo de reverb de resorte. El riff protagonista lo lleva el saxo baritono; si llenas los medios-graves con acordes largos te lo comes. Tocá menos y mas corto.",
+    "sources": [
+      "https://www.songsterr.com/a/wsa/amy-winehouse-rehab-acoustic-chords-s165767",
+      "https://www.cifraclub.com/amy-winehouse/rehab/",
+      "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0058863",
+      "https://en.wikipedia.org/wiki/Rehab_(Amy_Winehouse_song)"
+    ],
+    "key_note": "Tocamos en D, un tono arriba de la grabación de estudio, que está en C."
+  },
+  {
+    "title": "Rezo por vos",
+    "artist": "Charly García / Luis Alberto Spinetta",
+    "key_verified": "Re mayor (D), con coloreo mixolidio",
+    "progression_degrees": "Estrofa: I - IV - I - ii - IV - v - iii - v - iii (D - G - D - Em - G - Am - Bm - Am - Bm). Estribillo: I - IVsus4 (D - Gsus4). Puente: V - bVII - V - I ... I/3 - IV - v - bVII - iii (A - G - A - D ... D/F# - G - Am - C - Bm)",
+    "analysis_md": "Ojo con la autoria: **el tema es de Charly García y Luis Alberto Spinetta**, no de Fito Páez. Sale de las sesiones frustradas del proyecto conjunto del 85.\n\nLo que hace que este tema flote y nunca aterrice del todo es **un solo sonido: el Do natural**. Mirá donde aparece:\n\n- En el **Am (v menor)**: en Re mayor el quinto grado deberia ser La MAYOR. Al hacerlo menor le sacas el Do sostenido, o sea **le sacas la sensible**. Sin sensible no hay tension que empuje a la tonica, y por eso el tema no cadencia nunca de manera triunfal: reza, no afirma.\n- En el **C (bVII)** del puente: mismo Do natural, confirmando mixolidio.\n- En el **Gsus4** del estribillo: la cuarta suspendida sobre Sol ES un Do. El acorde queda colgado, sin resolver.\n\nO sea: tres recursos distintos, una sola nota haciendo el trabajo. Esa es la unidad sonora del tema y vale la pena escucharla asi.\n\nTecnicamente: **sin cejilla**, todo en posicion abierta. El Gsus4 es simplemente un Sol agregando el meñique, y la gracia esta en el vaiven sus4 ↔ mayor, que es articulacion de mano derecha, no cambio de acorde. La intro es arpegiada con dedos, no rasgueada. Dejá sonar las cuerdas al aire para que las notas comunes se sostengan entre D y Gsus4.",
+    "sources": [
+      "https://acordes.lacuerda.net/charly_garcia/rezo_por_vos-2.shtml",
+      "https://chords.lacuerda.net/luis_a_spinetta/rezo_por_vos.shtml",
+      "https://www.cifraclub.com/charly-garcia/rezo-por-vos/",
+      "https://es.wikipedia.org/wiki/Rezo_por_vos"
+    ],
+    "key_note": "En D (Charly, 1987). Spinetta grabó la suya en C el año anterior."
+  },
+  {
+    "title": "Rockin' in the Free World",
+    "artist": "Neil Young",
+    "key_verified": "Mi menor (Em) en estrofa, con estribillo en Sol mayor (relativo)",
+    "progression_degrees": "Estrofa: i - bVII - bVI (Em - D - C). Estribillo: I - V - IV - vi en Sol (G - D - C - Em). Seccion de solo: IV mayor / V-de-bVII (A y A7), cierre en A5",
+    "analysis_md": "Aca hay un error de analisis muy comun que conviene evitar: **el Em - D - C NO tiene acordes prestados**. i - bVII - bVI son grados propios del menor natural (eolio). Es un descenso eolio, no intercambio modal. Suena oscuro porque baja por grados conjuntos, como si se derrumbara.\n\nLa arquitectura emocional del tema es el contraste entre **estrofa en menor (bleak, gris)** y **estribillo en Sol mayor (himno de estadio)**. Mismas notas, centro tonal distinto. Por eso el estribillo levanta sin necesidad de cambiar de tonalidad: solo reubica el centro de gravedad en el relativo mayor.\n\n**El unico acorde verdaderamente ajeno es el La mayor / A7** de la seccion del solo. En Mi menor el cuarto grado deberia ser Am. Al hacerlo mayor aparece un Do sostenido: es el brillo dorico, y funciona como V/V empujando hacia el Re. Es el unico momento donde el tema sale del marco modal, y justamente por eso sirve para lanzar el solo.\n\nDetalle ritmico que separa una version buena de una mala: **el Do de la estrofa cae sincopado, en el \"y\" despues del 2**, no en el tiempo 3. Esa anticipacion es el groove entero.\n\nTono: \"Old Black\" (Les Paul del 53 con pastilla Firebird) a un Fender Deluxe al mango. Saturacion de valvulas, no pedal.",
+    "sources": [
+      "https://www.cifraclub.com/neil-young/rockin-in-the-free-world/",
+      "https://www.songsterr.com/a/wsa/neil-young-rockin-in-the-free-world-chords-s229548",
+      "https://www.laurenbateman.com/rockin-in-the-free-world-chords-chart/",
+      "https://en.wikipedia.org/wiki/Rockin%27_in_the_Free_World"
+    ],
+    "key_note": "Estrofa en Em, estribillo en G.",
+    "tip": "En 'Freedom' hay dos versiones, acústica y eléctrica. La de estadio es la eléctrica."
+  },
+  {
+    "title": "Route 66",
+    "artist": "Chuck Berry",
+    "key_verified": "La mayor (A) en la version de Chuck Berry (1961)",
+    "progression_degrees": "Blues de 12 compases estrofico: I7 (4 compases) - IV7 (2) - I7 (2) - V7 (1) - IV7 (1) - I7 - V7 (turnaround). En La: A7 - D7 - E7",
+    "analysis_md": "Primero un dato estructural que importa para el ensayo: **este tema NO tiene estrofa y estribillo con armonias distintas**. Es blues estrofico de 12 compases: todo, incluido el gancho \"get your kicks on Route 66\", pasa por el MISMO ciclo. Si el chart marca dos progresiones distintas, van a ser identicas.\n\nLo teoricamente jugoso: **los tres acordes son dominantes con septima**. En La mayor funcional, solo el E7 seria diatonico. El A7 tiene un Sol natural (b7 sobre la tonica) y el D7 tiene un Do natural, que ni siquiera pertenece a la escala. \n\nUn error clasico es analizar el A7 como V/IV. **No lo es**, porque nunca resuelve como dominante: es una tonica estable. En el blues el I7 no pide resolucion, simplemente es asi. Esa es la diferencia entre pensar en blues y pensar en armonia clasica.\n\nEncima de eso, los solos van con **pentatonica menor de La (A-C-D-E-G)** sobre acordes que tienen tercera MAYOR. El Do natural del solo choca contra el Do sostenido del A7, y el Sol natural contra el Sol sostenido de la tonalidad. **Ese roce es el idioma entero del blues**, no un error.\n\nLo primero que tenes que tener resuelto es el shuffle boogie: indice en fundamental+quinta, meñique agregando la sexta, sobre las cuerdas de La y Re, con triplete bien marcado. Eso ES el arreglo.",
+    "sources": [
+      "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0081281",
+      "https://singingcarrots.com/song?song=chuck-berry-route-66",
+      "https://www.licklibrary.com/learn/lessons/chuck-berry/route-66",
+      "https://www.cifraclub.com/chuck-berry/route-66/"
+    ],
+    "key_note": "Tocamos en G, el tono del original de Nat King Cole; Berry lo grabó en A."
+  },
+  {
+    "title": "Spaghetti del Rock",
+    "artist": "Divididos",
+    "key_verified": "Mi mayor (E)",
+    "progression_degrees": "Estrofa: I - V6 - vi - V - IV - V (E - B/D# - C#m - B - A - B). Estribillo: IV - V - I (A9 - B11 - E - Esus4 - E). Puente: incluye V/V (F#), y bVI - bIII prestados (C, G/B), ademas de iv menor (Am) segun una fuente",
+    "analysis_md": "Este tema es mucho mas armonico que riffero, al reves de lo que uno espera de Divididos. **Mollo arpegia los acordes con inversiones en las cuerdas graves dejando las dos primeras al aire**: ese pedal de Mi y Si sonando arriba de todo es lo que le da el color agridulce, brillante y melancolico a la vez.\n\nLo que hace funcionar la estrofa es el **bajo descendente**: E → B/D# → C#m. Al poner el Re sostenido en el bajo (tercera del Si), la linea baja por grados conjuntos Mi-Re#-Do# en vez de saltar. Suena inevitable, como si se deslizara.\n\nEn el puente aparecen las cosas ricas:\n\n- **F# mayor (V/V)**: dominante secundaria. En Mi el segundo grado deberia ser F#m; al hacerlo mayor aparece el La sostenido, que apunta como flecha al Si.\n- **C y G/B (bVI y bIII)**: prestados de Mi menor. Es mezcla modal genuina y el momento mas oscuro del tema.\n- **A → Am (IV → iv)**: si se confirma, es el clasico movimiento de cuarta mayor a cuarta menor, el mismo recurso que en Rehab. Baja un semitono y te tuerce el animo.\n\nEl solo es melodico, no virtuoso: funciona como segunda voz dialogando con el canto. No lo toques como si fuera una exhibicion tecnica.",
+    "sources": [
+      "https://www.cifraclub.com/divididos/spaghetti-del-rock/",
+      "https://chords.lacuerda.net/divididos/spaghetti_del_rock-6.shtml",
+      "https://www.deguitarra.online/canciones/spaghetti-del-rock/",
+      "https://es.wikipedia.org/wiki/Spaghetti_del_rock"
+    ],
+    "tip": "Es de 'Narigón del siglo' (2000), no de 'La Era de la Boludez'."
+  },
+  {
+    "title": "Sunshine of Your Love",
+    "artist": "Cream",
+    "key_verified": "Re (D), con ambiguedad modal deliberada: riff en escala de blues de Re menor sobre armonia mayor/dominante",
+    "progression_degrees": "Riff/estrofa: I - IV - I con bVII de bordadura (D con C encima, luego G con F). Estribillo: modula al V (La como tonica temporal): I - bIII - bVII (A - C - G), repetido 3 veces",
+    "analysis_md": "El riff **es** la armonia, no un adorno arriba de ella. Y el truco es de una economia brutal: Clapton toca el mismo riff y, **para el IV grado, lo mueve una cuerda para abajo**. Misma digitacion, otra funcion. Eso es todo.\n\nLa tension central del tema: el riff usa **escala de blues de Re menor (D-F-G-Lab-A-C)** mientras la armonia de abajo es mayor/dominante. Fa natural contra Fa sostenido. Por eso suena \"turbio\" y pesado sin necesidad de distorsion moderna.\n\nEn el estribillo pasa algo que vale la pena entender: **el centro tonal se corre al V grado**, o sea La pasa a funcionar como tonica temporal. Ahi el C y el G dejan de ser lo que eran y se convierten en **bIII y bVII de La**, ambos prestados del menor. Ese par bIII-bVII arriba de una tonica cuasi-mayor es *el* cliche del hard rock, y este tema es literalmente la plantilla: los musicologos Covach y Boone lo señalan como precursor directo de Led Zeppelin.\n\nDetalle que mas te va a servir: **el solo usa pentatonica MAYOR**, en contraste deliberado con el riff que es menor. Misma tonalidad, modalidad opuesta. Escuchar ese cambio de paleta es la mejor leccion del tema.\n\nTono: \"woman tone\": SG del 64, pastilla del mastil, **control de tono de la guitarra en cero** y amplificador al mango.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sunshine_of_Your_Love",
+      "https://www.cifraclub.com/cream/sunshine-of-your-love/",
+      "https://www.heartwoodguitar.com/chords/cream-sunshine-of-your-love/",
+      "https://www.jonmaclennan.com/blog/sunshine-of-your-love-guitar-lesson"
+    ],
+    "key_note": "Se toca en D; el disco suena medio tono abajo. Para tocar encima, afiná a Eb."
+  },
+  {
+    "title": "The Thrill Is Gone",
+    "artist": "B.B. King",
+    "key_verified": "Si menor (Bm)",
+    "progression_degrees": "Blues menor de 12 compases: i7 (comp. 1-4) - iv7 (5-6) - i7 (7-8) - bVImaj7 (9) - V7 (10) - i7 (11-12). En Si menor: Bm7 - Em7 - Gmaj7 - F#7",
+    "analysis_md": "Este es el tema para entender **por que un blues menor no usa el quinto grado menor**.\n\nEn Si menor natural, el quinto grado seria F#m. Pero aca suena **F#7**, con La SOSTENIDO. Esa alteracion es la sensible, y es la unica nota verdaderamente ajena a la tonalidad en todo el tema. El efecto es concreto y lo escuchas: **sin ese La#, la vuelta al Bm no tira; con el, te empuja de cabeza a la tonica**. Es la diferencia entre caer y ser empujado. Si vas a memorizar una sola cosa del tema, que sea esta.\n\nLo otro grande es el **compas 9**. En el blues menor comun, ahi va el V7 y se queda dos compases: asi lo hacia la version original de Roy Hawkins del 51. **B.B. lo cambia por Gmaj7 (bVImaj7)** y recien en el compas 10 baja al F#7. Ese Gmaj7 no es ajeno a la tonalidad (es diatonico del menor natural), pero es **inesperado en un blues**, y eso es lo que le da el aire sofisticado que combina con el arreglo de cuerdas. El movimiento Gmaj7 → F#7 es un descenso de medio tono en el bajo: elegantisimo.\n\nDe interpretacion: B.B. **deja espacio**, nunca toca abajo de la voz. Responde a cada frase cantada. El vibrato de muñeca y el hecho de que jamas se acompaña a si mismo son su firma.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Thrill_Is_Gone",
+      "https://www.jonmaclennan.com/blog/the-thrill-is-gone-guitar-lesson",
+      "https://spytunes.com/the-thrill-is-gone-chords-guitar-lessons/",
+      "https://www.songsterr.com/a/wsa/bb-king-the-thrill-is-gone-chords-s2316"
+    ]
+  },
+  {
+    "title": "Vultures",
+    "artist": "John Mayer",
+    "key_verified": "Fa sostenido menor, mas precisamente FA SOSTENIDO DORICO (F# Dorian)",
+    "progression_degrees": "Estrofa: vamp estatico sobre i (F#7sus2/4: sin tercera). Estribillo: bIII - IV (Amaj9 - B6/9sus4). Solo: F#m con pasadas por A. No hay NINGUN acorde con funcion de dominante en todo el tema.",
+    "analysis_md": "Lo primero: **este tema es de groove, no de progresion**. La estrofa se planta sobre F#m casi todo el tiempo. Si venis pensando \"que acordes tocar\", estas mirando el lugar equivocado.\n\nEl dato teorico que ordena todo: **el B es MAYOR**. En Fa# menor natural (eolio) el cuarto grado seria Bm. Que sea B mayor mete un **Re sostenido, la sexta ascendida**, y eso es exactamente lo que convierte al tema en **DORICO y no en menor comun**. El efecto es concreto y lo escuchas: el dorico suena mas soleado, mas funky, menos lastimero que el menor natural. Esa sola nota es la diferencia entre soul luminoso y balada oscura.\n\nSegundo dato, y es el que explica el caracter: **no hay ningun acorde dominante en el tema**. Ni C#7, ni cadencia V-i. Nunca. Encima, los voicings **evitan la tercera** (el F#7sus2/4 tiene fundamental, 4ta, 5ta y b7, sin tercera). Sin dominante y sin terceras, **la armonia nunca se define ni resuelve**: queda suspendida a proposito para que el que mande sea el pocket. Por eso el tema puede quedarse ocho compases en un acorde sin aburrir.\n\nMayer usa **Amaj9 y B6/9sus4**, voicings parciales de dos o tres cuerdas. Las extensiones no son adorno: son lo que sostiene el interes.\n\nLo que de verdad tenes que estudiar es la **mano derecha**: semicorcheas con cuerdas apagadas (el \"chuck\") entre los golpes que suenan. Practicá el patron con la izquierda totalmente muteada hasta que suene a bateria; recien despues agregá acordes.",
+    "sources": [
+      "https://spytunes.com/vultures-chords/",
+      "https://www.cifraclub.com/john-mayer/vultures/",
+      "https://ukebuddy.com/ukulele-tabs/john-mayer/vultures",
+      "https://www.guitartabs.cc/tabs/j/john_mayer/vultures_acoustic_tab.html"
+    ],
+    "key_note": "En F#m dórico. La partitura de Hal Leonard lo etiqueta C#m, pero es la misma armadura."
+  },
+  {
+    "title": "What's Up",
+    "artist": "4 Non Blondes",
+    "key_verified": "La mayor (A) en el disco",
+    "progression_degrees": "I - ii - IV - I (A - Bm - D - A). Son TRES acordes en cuatro compases, y el loop es identico en estrofa y estribillo, sin ninguna variacion.",
+    "analysis_md": "Tema de tres acordes, **todos diatonicos, cero acordes prestados**. Y sin embargo funciona. Entender por que es mas util que analizar armonias raras.\n\nLa clave esta en lo que el loop **no** hace: **nunca aparece el V grado (E)**. El ciclo va I - ii - IV y vuelve al I. Sin dominante no hay cadencia autentica, o sea **nunca hay una resolucion fuerte y definitiva**. El tema gira sobre si mismo. Ese loop sin salida es exactamente el contenido emocional de la letra: la sensacion de estar dando vueltas sin llegar a ningun lado.\n\nEl **ii (Bm)** hace el trabajo emocional: es el unico acorde menor, y al caer entre dos mayores se siente como una nube pasajera. Es lo mas cerca de la tension que ofrece el tema.\n\nComo guitarrista, el desafio real no es armonico sino **dinamico**. La progresion es identica en estrofa y estribillo, asi que si tocas igual en las dos partes el tema muere. Todo el arco depende de: densidad de rasgueo (abierto y espaciado en la estrofa, machacado en corcheas en el estribillo), y de cuanto dejas sonar las cuerdas al aire.\n\nSi usas cejilla en 2 con formas abiertas, las cuerdas al aire arriba de la cejilla dan ese brillo acustico caracteristico que las formas con cejilla real no tienen.",
+    "sources": [
+      "https://www.songsterr.com/a/wsa/4-non-blondes-whats-up-chords-s722",
+      "https://www.laurenbateman.com/whats-up-chord-chart/",
+      "https://www.cifraclub.com/4-non-blondes/whats-up/",
+      "https://en.wikipedia.org/wiki/What%27s_Up%3F_(4_Non_Blondes_song)"
+    ],
+    "key_note": "Suena en A: el 'G' del chart son las formas, con cejilla en 2."
+  },
+  {
+    "title": "While My Guitar Gently Weeps",
+    "artist": "The Beatles",
+    "key_verified": "La menor (Am) en estrofa; el puente/estribillo modula a LA MAYOR (tonalidad paralela)",
+    "progression_degrees": "Estrofa: i - i/b7 - V7/5 - VImaj7 (Am - Am/G - D7/F# - Fmaj7), luego i - bVII - IV - V (Am - G - D - E). Estribillo/puente EN LA MAYOR: I - Imaj7 - vi - iii - ii - V (A - Amaj7 - F#m - C#m - Bm - E)",
+    "analysis_md": "Aclaracion: lo que el chart llama estribillo es en realidad el **puente**. El tema no tiene estribillo convencional.\n\n**1. El bajo descendente de la estrofa.** La - Sol - Fa# - Fa, sexta cuerda trastes 5-3-2-1, mientras arriba se sostiene el Am. Es un **\"lament bass\"**, el bajo de lamento de la musica antigua para expresar duelo. Por eso suena a derrumbe lento e inevitable, con aire tragico casi barroco.\n\nFijate que **el acorde de Re es MAYOR** (D7/F#). En La menor deberia ser Dm. Ese Fa sostenido es la sexta ascendida, o sea **color dorico**, e ilumina un segundo antes de que el Fa natural del Fmaj7 vuelva a oscurecer. Detalle fino: **ese Fa# ya anticipa el puente en mayor**, el modo se filtra antes de que la modulacion ocurra.\n\n**2. La modulacion a La MAYOR en el puente.** No va al relativo (Do mayor), que seria lo obvio: va a la **paralela**, misma tonica, modo opuesto. Es mas dramatico justamente porque **la tonica no se mueve**: no cambia el centro, cambia el color. Es el sol saliendo. Y Harrison lo dosifica: llena ese La mayor de acordes menores (C#m, F#m, Bm) para que no sea un estallido, y despues te devuelve de golpe al Am.\n\nEl solo lo toca **Eric Clapton**, sin acreditar, con la Les Paul \"Lucy\" que el mismo le habia regalado a Harrison. El ondulado NO es vibrato de dedos: es **varispeed sobre el ADT**. No lo busques con la muñeca.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/While_My_Guitar_Gently_Weeps",
+      "https://www.musicradar.com/news/while-my-guitar-gently-weeps-theory",
+      "https://www.heartwoodguitar.com/chords/the-beatles-while-my-guitar-gently-weeps/",
+      "https://www.jonmaclennan.com/blog/while-my-guitar-gently-weeps-guitar-lesson",
+      "https://www.cifraclub.com/the-beatles/while-my-guitar-gently-weeps/"
+    ],
+    "key_note": "Estrofa en Am; el puente pasa a La mayor."
+  },
+  {
+    "title": "Why Did You Do It",
+    "artist": "Stretch",
+    "key_verified": "SI menor (Bm), NO La menor",
+    "progression_degrees": "Intro/turnaround: bVI - V - bVII - #VI (G - F# - A - G#), triadas mayores planeando cromaticamente. Estrofa: vamp de un solo acorde, i con novena agregada y sacada (Bm - Badd9). Estribillo: iv - i - V (Em - Bm - F#)",
+    "analysis_md": "Lo mas util de este tema es entender que **tiene dos logicas armonicas distintas segun la seccion**, y que confundirlas te hace tocar mal:\n\n**La estrofa NO tiene cambios de acorde.** Bm ↔ Badd9 no es una progresion: es **un solo campo armonico de Bm** al que se le agrega y se le saca la novena (Do#) como decoracion melodica y ritmica. Es funk modal puro. Tu laburo ahi no es armonico, es ritmico: sostener el groove sin moverte.\n\n**La intro y el estribillo si tienen armonia funcional.** Y el acorde importante es el **F# MAYOR**: en Si menor natural el quinto grado seria F#m. Al hacerlo mayor aparece el La sostenido, la sensible, y por eso el estribillo tira de vuelta al Bm con fuerza. Es exactamente el mismo recurso que en The Thrill Is Gone: **dominante mayor prestado del menor armonico**. Si estan tocando los dos temas en el mismo concierto, vale la pena señalar el paralelismo.\n\nLa intro (G - F# - A - G#) es otra cosa distinta: son **triadas mayores paralelas moviendose por semitonos** (A→G#, G→F#). No es armonia funcional, es planeo cromatico. Por eso suena resbaladiza y no resuelve: no esta tratando de resolver.\n\nEl G# es puro acorde de paso cromatico.",
+    "sources": [
+      "https://www.cifraclub.com/stretch/why-did-you-do-it/",
+      "https://www.songsterr.com/a/wsa/stretch-why-did-you-do-it-chords-s251259",
+      "https://www.guitartabs.cc/tabs/s/stretch/why_did_you_do_it_tab.html",
+      "https://en.wikipedia.org/wiki/Stretch_(band)"
+    ],
+    "key_note": "Tocamos en Am; la grabación de estudio está en Bm.",
+    "tip": "En Am usás las mismas formas que el disco, dos trastes abajo."
+  },
+  {
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "key_verified": "Si mayor (B). Wikipedia lo indica explicitamente: B major, 88 BPM",
+    "progression_degrees": "Estrofa: I - V - IV (formas G-D-C con cejilla 4 = suenan B - F# - E). Estribillo: IV - vi - V (formas C-Em-D = suenan E - G#m - F#). Acorde clave: v menor (F#m11, forma Dm7)",
+    "analysis_md": "Antes que nada, la confusion mas comun de este tema: **forma tocada vs. acorde sonante**. Con cejilla en 4, todo sube una tercera mayor. Las formas G-D-C suenan **B-F#-E**. Los charts \"en G\" y los charts \"en B\" describen la MISMA grabacion desde marcos distintos. Ninguno esta mal.\n\nArmonicamente el tema es sencillo: I-V-IV y IV-vi-V, todo diatonico. Lo que lo hace sonar como suena son dos cosas:\n\n**1. Las cuerdas al aire sonando por encima de la cejilla.** Por eso los transcriptores discuten si es E o Emaj7, F# o F#sus2: no es que discrepen, es que **las notas al aire agregan extensiones solas**. No hagas cejillas completas: la gracia es dejar las cuerdas agudas libres. Ese es literalmente el sonido del disco.\n\n**2. El acorde prestado: F#m (v MENOR).** Aca esta la joya. El quinto grado deberia ser F# mayor. Al hacerlo menor, **le sacas la sensible (La#)**. Sin sensible, el acorde deja de empujar hacia la tonica: en vez de resolver con fuerza, **se desinfla**. Ese es el motivo tecnico exacto por el cual un tema en tonalidad MAYOR suena melancolico y agridulce en lugar de triunfal. Si tuvieras que justificar una sola eleccion armonica del tema, es esta.\n\nDinamica: las estrofas van notoriamente mas bajas que los estribillos. No es opcional, es el arreglo.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)",
+      "https://www.songsterr.com/a/wsa/coldplay-yellow-chords-s434",
+      "https://www.modernguitartuition.com/all-posts/how-to-play-yellow-by-coldplay",
+      "https://www.jonmaclennan.com/blog/yellow-chords"
+    ],
+    "key_note": "En B, con cejilla en 4 y formas de G."
+  },
+  {
+    "title": "Have You Ever Seen The Rain",
+    "artist": "Creedence Clearwater Revival",
+    "key_verified": "Do mayor (C)",
+    "progression_degrees": "Estrofa: I–V (C–G) machacado. Estribillo: IV–V–I–I/VII–vi–I/V (F–G–C–C/B–Am–C/G), o sea IV–V y después un descenso I–vi con bajo cromático.",
+    "analysis_md": "Tema tramposo: parece tres acordes y en realidad la gracia está en el **bajo que baja**, no en los acordes.\n\nLa estrofa es puro **I–V**: no hay drama armónico, es un balanceo. Toda la tensión la guarda para el estribillo, que arranca en **IV** (F). Eso es clave: empezar la frase en el IV en vez del I te da sensación de que la canción ya venía andando, de que entrás en el medio de algo. Es un truco viejísimo del gospel y del country.\n\nLo que realmente hace llorar al estribillo es el tramo **C–C/B–Am–C/G**. Los acordes de arriba casi no se mueven, pero el bajo camina Do–Si–La–Sol. Eso se llama *línea de bajo descendente* y el efecto audible es de derrumbe suave, de algo que se te escurre. Fijate que el Am aparece justo en \"comin' down on a sunny day\": el relativo menor entra exactamente cuando la letra dice que llueve con sol. No es casualidad.\n\nComo guitarrista: no toques los bajos con la púa como si nada. Esas inversiones (C/B, C/G) son el tema. Si tocás todo con fundamental, la canción se muere.",
+    "sources": [
+      "https://tabs.ultimate-guitar.com/tab/creedence-clearwater-revival/have-you-ever-seen-the-rain-chords-56479",
+      "https://www.songsterr.com/a/wsa/creedence-clearwater-revival-have-you-ever-seen-the-rain-chords-s351",
+      "https://www.laurenbateman.com/have-you-ever-seen-the-rain-chord-chart/"
+    ]
+  },
+  {
+    "title": "I Shot the Sheriff",
+    "artist": "Bob Marley",
+    "key_verified": "Sol menor (Gm)",
+    "progression_degrees": "Estribillo: i–iv (Gm–Cm). Estrofa: VI–v–i (Ebmaj7–Dm7–Gm).",
+    "analysis_md": "Acá hay una decisión armónica que mucha gente toca mal y no sabe por qué le suena raro.\n\nEl estribillo es **i–iv**, dos acordes menores y nada más. Ese vaivén menor-a-menor no resuelve nunca del todo; queda dando vueltas, y esa es justamente la sensación de declaración obstinada que pide la letra.\n\nLo bueno está en la estrofa: **VI–v–i** (Eb–Dm–Gm). Fijate en el **v menor** (Dm), no Re mayor. Esto es menor natural / eólico puro. Si tocaras D7 ahí (el V dominante que pide el reflejo del rock), meterías un Fa# y la canción se te va al blues o al flamenco al toque — pierde el aire modal, plano, casi resignado que tiene el reggae. El menor natural no tiene *sensible*, esa nota que empuja a resolver; por eso el reggae suena circular y sin urgencia en vez de dramático.\n\nEl Eb (VI) es perfectamente diatónico, no es prestado. Su efecto es de apertura: es el único acorde mayor del ciclo, así que entra como un respiro de luz antes de volver a caer al Gm.\n\nComo guitarrista: lo tuyo acá es el *skank*, el acorde seco en el contratiempo (el \"y\" de cada tiempo). Cortado, sin dejar sonar. El silencio en los tiempos fuertes es tan importante como el acorde.",
+    "sources": [
+      "https://www.songsterr.com/a/wsa/bob-marley-i-shot-the-sheriff-chords-s13578",
+      "https://tabs.ultimate-guitar.com/tab/bob-marley/i-shot-the-sheriff-chords-213453",
+      "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0275939"
+    ],
+    "key_note": "Tocamos en Gm, como el original de Marley; la versión de Clapton no está en el mismo tono."
+  },
+  {
+    "title": "Isn't She Lovely",
+    "artist": "Stevie Wonder",
+    "key_verified": "Mi mayor (E)",
+    "progression_degrees": "vi–II7–V–I (C#m7–F#9–B9/B11–Emaj7), girando en loop.",
+    "analysis_md": "Este es el tema donde más vas a aprender de los doce, porque tiene el recurso jazzero más útil del mundo.\n\nEl ciclo es **vi–II7–V–I**. Los cuatro acordes bajan por *quintas*: Do#→Fa#→Si→Mi. Cada acorde cae en el que está una quinta abajo, y ese es el movimiento más \"resuelto\" que existe en la música occidental. Por eso el tema gira eterno y nunca cansa: es una cadena de resoluciones encadenadas.\n\nAhora lo importante. Ese **F#9 es II7, un acorde MAYOR con séptima menor**, cuando lo diatónico en Mi sería F#m (ii menor). Al hacerlo mayor aparece un La# que no pertenece a la tonalidad. Eso se llama **dominante secundaria** (es el V7 de Si, el V). ¿El efecto audible? Un empujón, un brillo momentáneo, la sensación de que la música te tira hacia adelante con más ganas de las que tendría con el menor. Es exactamente el sonido \"soul luminoso\" de Stevie.\n\nY nada de tríadas: todo va con séptimas y novenas (m7, 9, 11, maj7). Las tríadas secas acá suenan a canción infantil; las séptimas son lo que le da el terciopelo.\n\nComo guitarrista: buscá voicings cerrados de cuatro notas en las cuerdas 4-3-2-1, sin fundamental. Dejale el bajo al bajista.",
+    "sources": [
+      "https://www.hooktheory.com/theorytab/view/stevie-wonder/isnt-she-lovely",
+      "https://tabs.ultimate-guitar.com/tab/stevie-wonder/isnt-she-lovely-chords-213358",
+      "https://www.cifraclub.com/stevie-wonder/isnt-she-lovely/"
+    ]
+  },
+  {
+    "title": "It's My Life",
+    "artist": "Bon Jovi",
+    "key_verified": "Do menor (Cm)",
+    "progression_degrees": "Estribillo: i–bVI–bIII–bVII (Cm–Ab–Eb–Bb), con Bb/D (bVII en primera inversión) para caminar el bajo de vuelta al i.",
+    "analysis_md": "Esta es LA progresión del rock épico, y conviene que sepas por qué funciona.\n\n**i–bVI–bIII–bVII** son los cuatro acordes del menor natural que suenan más grandes. Fijate que ninguno es el V (Sol mayor): la canción evita deliberadamente la dominante. ¿Por qué importa? Porque el V con sensible suena a resolución clásica, a \"final\". Al usar **bVII (Bb) en vez de V (G)**, la vuelta al Cm no resuelve, *cae*. Es un aterrizaje, no un cierre. Por eso podés repetir el ciclo cincuenta veces sin que se agote — es himno, no cadencia.\n\nOtra cosa: bVI–bIII–bVII (Ab–Eb–Bb) son los tres acordes mayores de la escala menor. La progresión es menor en la raíz pero *mayor en el cuerpo*. Eso explica la contradicción emocional del tema: desafío, no tristeza.\n\nEl **Bb/D** es un detalle que separa al que la tocó del que la escuchó. Poner Re en el bajo hace que el bajo suba Sib→Re→Do para volver al Cm en vez de saltar. Movimiento suave, empuje hacia el downbeat.\n\nComo guitarrista: quintas (power chords) sí o sí, sin terceras. Con acordes completos se empasta y pierde el peso. Y el riff es en octavas, palm mute.",
+    "sources": [
+      "https://www.hooktheory.com/theorytab/view/bon-jovi/its-my-life",
+      "https://tabs.ultimate-guitar.com/tab/bon-jovi/its-my-life-chords-596069",
+      "https://www.cifraclub.com/bon-jovi/its-my-life/"
+    ],
+    "tip": "Muchas tabs escriben G#5/D#5/A#5 en vez de Ab5/Eb5/Bb5: son los mismos trastes."
+  },
+  {
+    "title": "Knockin' on Heaven's Door",
+    "artist": "Bob Dylan",
+    "key_verified": "Sol mayor (G)",
+    "progression_degrees": "I–V–ii (G–D/F#–Am) | I–V–IV (G–D/F#–C). Dos frases de cuatro compases que se alternan.",
+    "analysis_md": "Cuatro acordes, y sin embargo es una lección entera de composición.\n\nLas dos frases arrancan igual — **I–V** — y se separan recién en el tercer acorde: una va a **ii (Am)** y la otra a **IV (C)**. Eso es todo el tema. Y funciona porque el oído ya aprendió el camino y entonces registra la desviación. La primera frase (al Am, menor) queda abierta, suspendida, sin resolver: es la *pregunta*. La segunda (al C, mayor) asienta y cierra: es la *respuesta*. Pregunta y respuesta, eternamente. Por eso el tema suena a letanía, a rezo.\n\nEl detalle que hace la diferencia es el **D/F#**. No es un adorno: pone Fa# en el bajo, así que la línea grave baja Sol–Fa#–Mi (con el Am). Escalonado, suave, sin saltos. Si tocás D con fundamental en la quinta cuerda, el tema se pone torpe y se nota.\n\nOjo con el **Am**: es el ii menor y es el único color \"nublado\" de la canción. Ahí vive toda la melancolía. Dylan a veces le agrega el Sol de la primera cuerda (Am7), lo que lo vuelve aún más difuso y menos definido.\n\nComo guitarrista: lo más difícil acá es no tocar de más. Es un tema de aire.",
+    "sources": [
+      "https://www.fender.com/articles/chords/learn-to-play-knockin-on-heavens-door",
+      "https://tabs.ultimate-guitar.com/tab/bob-dylan/knockin-on-heavens-door-chords-66587",
+      "https://songnotes.net/lessons/88/"
+    ]
+  },
+  {
+    "title": "La Flaca",
+    "artist": "Jarabe de Palo",
+    "key_verified": "La menor (Am)",
+    "progression_degrees": "Estrofa: i–V7–IV7 (Am–E7–D7), con cromatismos de paso. Estribillo: VI–VII–i (F–G–Am), a veces con IV (D) mayor.",
+    "analysis_md": "Acá conviven dos lógicas distintas y por eso el tema tiene ese sabor mestizo, entre cubano y mediterráneo.\n\nLa estrofa usa **E7, o sea V7 con sensible (Sol#)**. Eso es menor *armónica*, no natural. El efecto audible es inmediato: ese Sol# contra el La del acorde de tónica crea el intervalo de segunda aumentada, el color \"español/árabe\" que le da el aire flamenco y caliente. Es lo opuesto de lo que hace Marley en I Shot the Sheriff con el v menor — comparalos, es el mismo grado con decisión contraria.\n\nEl **D7 (IV mayor con séptima)** en contexto menor es el otro truco: lo diatónico sería Dm. Al hacerlo mayor entra un Fa# prestado del **modo dórico**, y eso levanta la canción, le saca el luto, la vuelve bailable. Menor pero con la cadera suelta: eso es dórico.\n\nEl estribillo cambia de estrategia y va a **VI–VII–i (F–G–Am)**, que es menor natural puro, sin sensible. Por eso el estribillo suena más ancho y más pop, mientras la estrofa suena más apretada y latina. La canción alterna entre esos dos mundos.\n\nComo guitarrista: el rasgueo es son cubano, con acentos en el contratiempo. No lo toques a lo balada.",
+    "sources": [
+      "https://www.cifraclub.com/jarabe-de-palo/la-flaca/simp.html",
+      "https://acordes.lacuerda.net/jarabe_de_palo/la_flaca.shtml",
+      "https://letrasyacordesweb.com/jarabe-de-palo/cancion/la-flaca-42159.html"
+    ]
+  },
+  {
+    "title": "Miss You",
+    "artist": "The Rolling Stones",
+    "key_verified": "La menor (Am)",
+    "progression_degrees": "i–iv, prácticamente todo el tema (Am7–Dm7). Es un vamp de dos acordes, no una progresión que va a algún lado.",
+    "analysis_md": "Lo primero que tenés que aceptar: acá la armonía casi no existe, y es a propósito.\n\nDos acordes, **i–iv (Am7–Dm7)**, dando vueltas. Cuando una progresión no se mueve, se llama **vamp**, y el efecto es hipnótico: al no haber tensión ni resolución que perseguir, tu oído deja de escuchar acordes y empieza a escuchar *ritmo y textura*. Por eso este tema funciona como disco/funk aunque lo toquen los Stones. La armonía se corre para que el groove sea el protagonista.\n\nLas **séptimas (m7)** son obligatorias. Am–Dm con tríadas secas suena a folk triste. Am7–Dm7 suena a club nocturno. Esa séptima menor le saca peso dramático al acorde y lo vuelve suave, flotante, un poco indiferente — exactamente el aire cool del tema.\n\ni–iv, dos menores, tampoco resuelve nunca (mismo principio que el reggae de Marley, resultado estético opuesto). Y como no hay dominante, no hay cadencia, no hay \"fin\". El tema podría durar veinte minutos.\n\nComo guitarrista: tu trabajo es el picado en semicorcheas con muteo de palma izquierda, casi percusivo. Y respetá el espacio: el gancho real del tema es el bajo de Bill Wyman y el falsete de Jagger. Vos sos el colchón.",
+    "sources": [
+      "https://www.hooktheory.com/theorytab/view/the-rolling-stones/miss-you",
+      "https://tabs.ultimate-guitar.com/tab/the-rolling-stones/miss-you-chords-815773",
+      "https://www.e-chords.com/chords/the-rolling-stones/miss-you"
+    ]
+  },
+  {
+    "title": "Mustang Sally",
+    "artist": "Wilson Pickett",
+    "key_verified": "Do mayor (C), blues en Do — todo con séptimas dominantes",
+    "progression_degrees": "I7–IV7–I7–V7–(#IV7 de paso)–IV7–I7 (C7–F7–C7–G7–F#7–F7–C7).",
+    "analysis_md": "Blues, pero con una particularidad de forma y un acorde que casi nadie toca.\n\nLo primero, lo esencial del blues: **los tres acordes son dominantes (I7, IV7, V7)**. En una tonalidad mayor normal, solo el V puede llevar séptima menor. Acá el I y el IV también. Eso rompe la teoría clásica y por eso el blues suena como suena: cada acorde lleva adentro su propia tensión sin resolver, y ninguna se resuelve nunca. Es tensión permanente como estado de ánimo, no como camino.\n\nEl detalle fino es el **F#7 entre el G7 y el F7**. Es un **acorde de paso cromático** (#IV7): no cumple ninguna función armónica, existe solo para que el bajo baje Sol–Fa#–Fa por semitonos en vez de saltar. El efecto audible es de deslizamiento aceitado, resbaloso — es puro sabor Stax/Memphis. Es lo que separa la versión con onda de la versión de karaoke.\n\nY la forma AAB de 24 compases: dos secciones iguales y una tercera distinta, el doble de largo que el blues típico. Da más espacio para que el cantante juegue.\n\nComo guitarrista: acordes de novena (C9, F9) en vez de séptimas simples te acercan mucho más al sonido soul. Y rasgueo seco, corto, en el 2 y el 4.",
+    "sources": [
+      "https://www.songsterr.com/a/wsa/wilson-pickett-mustang-sally-chords-s42555",
+      "https://tabs.ultimate-guitar.com/tab/wilson-pickett/mustang-sally-chords-1402487",
+      "https://www.justinguitar.com/songs/the-commitments-wilson-picket-mustang-sally-chords-tabs-guitar-lesson-bs-523"
+    ],
+    "tip": "No es un blues de 12 compases: son 24, con forma AAB. Contá la forma en el ensayo."
+  },
+  {
+    "title": "No Pienses de Más",
+    "artist": "Jaime Roos",
+    "key_verified": "La mayor (A)",
+    "progression_degrees": "Estrofa: I–IV (A–D). Estribillo: II–IV–I (B–D–A). Puente: VI (F#m) y ii (Bm), con un C no diatónico (bIII).",
+    "analysis_md": "Candombe uruguayo, y la armonía tiene una rareza que vale la pena mirar de cerca.\n\nLa base es **I–IV (A–D)**, lo más simple que hay: dos acordes mayores, luminosos, sin conflicto. En el candombe eso es habitual, porque el interés no está en la armonía sino en la *clave* del tamboril — el ritmo manda y los acordes acompañan.\n\nLo interesante es el **B mayor (II)** del estribillo. Lo diatónico en La sería Bm (ii menor). Al ser mayor aparece un Re# ajeno a la tonalidad: es una **dominante secundaria (V/V)**, el mismo recurso que usa Stevie Wonder en Isn't She Lovely. Pero acá tiene un giro: en vez de resolver al Mi (V) como manda el manual, va a **D (IV)**. Esa resolución \"fallada\" es lo que le da al estribillo ese aire agridulce, de promesa que no llega adonde iba — que le calza justo a la letra (\"no pienses de más\").\n\nEl **C (bIII)** del puente es prestado del modo menor y funciona como una sombra momentánea: oscurece un tema que por lo demás es soleado.\n\nComo guitarrista rioplatense: no lo toques como rock. El rasguido tiene que dialogar con el chico, el repique y el piano. Acordes cortos, mucho aire, acentos corridos.",
+    "sources": [
+      "https://chords.lacuerda.net/jaime_roos/no_pienses_de_mas",
+      "https://www.cifraclub.com/jaime-roos/no-pienses-de-mas/",
+      "https://acordesweb.com/cancion/jaime-roos/no-pienses-de-mas"
+    ],
+    "key_note": "En La mayor."
+  },
+  {
+    "title": "Oh! Darling",
+    "artist": "The Beatles",
+    "key_verified": "La mayor (A)",
+    "progression_degrees": "Intro: V+ (Mi aumentado). Estrofa: I–V–vi–IV con ii intercalado. Puente: bVI7 (F7) prestado, más V7/IV (A7) y V7/V (B7).",
+    "analysis_md": "Doo-wop de los 50 pasado por blues pesado, con dos acordes que valen todo el análisis.\n\nEl arranque es un **Mi aumentado (V+)**. Un acorde aumentado tiene la quinta subida, y suena *inestable, mareado, sin piso* — no pertenece a ninguna tonalidad con comodidad. Empezar la canción ahí es una declaración: antes de que suene una sola palabra ya estás incómodo. Y como es el V, te tira con violencia hacia el I. Por eso la entrada de \"Oh! Darling\" pega como un portazo.\n\nEl otro es el **F7 (bVI7)**, prestado del La menor. Es un **acorde prestado del modo paralelo**: mismo centro tonal, escala menor. El efecto es de nube que tapa el sol de golpe, un ensombrecimiento repentino en medio de un tema mayor. (Algunos analistas discuten si es una sexta aumentada alemana, pero no resuelve como tal, así que lo práctico es pensarlo como bVI prestado con blues adentro.)\n\nEn el puente aparecen **A7 (V7/IV)** y **B7 (V7/V)**: dominantes secundarias, otra vez el mismo recurso que Stevie y que Roos. Empujan la música hacia adelante con urgencia.\n\nComo guitarrista: tríadas con tresillos, tipo balada 50s, pero con actitud. El compás es 12/8 sentido, no 4/4 recto.",
+    "sources": [
+      "https://popgrammar.com/the-beatles-oh-darling/",
+      "https://www.recmusicbeatles.com/public/files/awp/od.html",
+      "https://www.e-chords.com/chords/the-beatles/oh-darling"
+    ],
+    "tip": "Es lo más exigente del repertorio para el cantante. Ubicalo donde la voz esté fresca."
+  },
+  {
+    "title": "Paranoid",
+    "artist": "Black Sabbath",
+    "key_verified": "Mi menor (Em)",
+    "progression_degrees": "Riff sobre i (Em) con pentatónica menor. Estrofa: i–bVII–bIII–bVII / i (Em–D–G–D–Em), o sea i–bVII–bIII y vuelta.",
+    "analysis_md": "El tema más rápido y más simple del set, y aun así tiene una decisión armónica que define un género entero.\n\nLa estrofa es **i–bVII–bIII–bVII (Em–D–G–D)**. Como en el Bon Jovi, **no hay V (Si mayor)**. Todo sale del menor natural / eólico. Y ahí está el nacimiento del heavy metal: el V con sensible suena a música clásica y a resolución educada; el **bVII (D)** suena a modal, antiguo, medieval, pesado. Ese acorde es literalmente el sonido del metal, y viene de acá.\n\nEl **bIII (G)** es el único mayor con peso: aporta un destello de amplitud sin sacar al tema del terreno oscuro, porque es el relativo mayor y sigue siendo diatónico al Mi menor.\n\nEl riff no es de acordes sino melódico: **pentatónica menor de Mi** con ligados (hammer-on y pull-off), más apoyaturas — notas de adorno rápidas que golpean antes de la nota real y crean ese efecto nervioso, urgente, como si el riff tartamudeara. Eso es lo que hace que suene desesperado y no solo rápido.\n\nComo guitarrista: quintas con distorsión, palm mute selectivo, y el tempo es 166 BPM — el problema real acá es la mano derecha, no la izquierda. Corcheas parejas sin arrastrar.",
+    "sources": [
+      "https://www.hooktheory.com/theorytab/view/black-sabbath/paranoid",
+      "https://tabs.ultimate-guitar.com/tab/black-sabbath/paranoid-chords-1167469",
+      "https://www.e-chords.com/chords/black-sabbath/paranoid"
+    ],
+    "key_note": "En Em y afinación estándar. Es del 70, antes de que Iommi bajara todo."
+  },
+  {
+    "title": "Pet Sematary",
+    "artist": "Ramones",
+    "key_verified": "Re menor (Dm)",
+    "progression_degrees": "i–bVII–bIII (Dm–C–F), en loop sobre intro y estrofa.",
+    "analysis_md": "Fijate qué interesante: es **exactamente la misma fórmula que Paranoid**, i–bVII–bIII, transportada a Re menor. Dos bandas, dos géneros, veinte años de distancia, misma armonía. Eso te dice algo importante: la progresión no determina el estilo. El tempo, el timbre y el ataque sí.\n\n**i–bVII–bIII (Dm–C–F)** otra vez sin dominante. Sin sensible (sin Do#), la vuelta al Dm no resuelve, cae por gravedad. El efecto es de círculo cerrado, de cosa inevitable — que para una canción sobre un cementerio donde los muertos vuelven, es un acierto poético además de musical.\n\nEl **bIII (F)** es el relativo mayor y funciona como el único respiro luminoso: sobre él entra el gancho melódico del estribillo. Es el truco pop escondido dentro de un tema punk, y explica por qué este fue uno de los mayores éxitos radiales de los Ramones.\n\nY lo dicho: los mismos grados que Sabbath, pero acá con corcheas parejas de púa hacia abajo, distorsión más brillante y menos grave. Eso solo ya cambia el género entero.\n\nComo guitarrista: TODO con púa hacia abajo, sin alternar. Es la firma de Johnny Ramone y es agotador — practicá la resistencia del antebrazo, no la velocidad.",
+    "sources": [
+      "https://www.hooktheory.com/theorytab/view/ramones/pet-sematary",
+      "https://www.songsterr.com/a/wsa/ramones-pet-sematary-chords-s16429",
+      "https://tabs.ultimate-guitar.com/tab/ramones/pet-sematary-chords-1501932"
+    ],
+    "tip": "En el disco hay teclados y capas de guitarra: en vivo hay que resumirlas en una sola viola."
+  }
 ]
