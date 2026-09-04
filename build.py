@@ -229,7 +229,15 @@ Cada ficha aclara la diferencia cuando existe.</footer></div>"""
                     ("La clave del sonido", g.get("signature_move")),
                     ("Cómo acercarte con lo que tenés", g.get("diy"))]
             dl = "".join(f"<dt>{html.escape(k)}</dt><dd>{md(v)}</dd>" for k, v in rows if v)
-            b.append(f'<div class="card"><dl class="gear">{dl}</dl></div>')
+            extra = ""
+            if g.get("confidence"):
+                extra += (f'<div class="note">Qué tan documentado está: '
+                          f'<b>{html.escape(g["confidence"])}</b>.</div>')
+            if g.get("sources"):
+                links = " · ".join(f'<a href="{html.escape(u)}" target="_blank" rel="noopener">'
+                                   f'{html.escape(u[:60])}</a>' for u in g["sources"])
+                extra += f'<div class="srcs">Fuentes: {links}</div>'
+            b.append(f'<div class="card"><dl class="gear">{dl}</dl>{extra}</div>')
 
         if t.get("analysis_md") or t.get("progression_degrees"):
             b.append("<h2>Análisis armónico</h2>")
