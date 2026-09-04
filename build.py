@@ -150,8 +150,7 @@ def main():
     playlist_pill = (f'<div class="meta"><a class="pill" href="{html.escape(spot["playlist_url"])}" '
                      f'target="_blank" rel="noopener">🎧 <b>Escuchar el repertorio</b> en Spotify</a></div>'
                      if spot.get("playlist_url") else "")
-    idx = f"""<header><div class="wrap"><h1>Repertorio · 16 de octubre</h1>
-<p class="sub">Tablaturas, videos y análisis armónico para guitarra eléctrica.</p></div></header>
+    idx = f"""<header><div class="wrap"><h1>Repertorio · 16 de octubre</h1></div></header>
 <div class="wrap">
 {playlist_pill}
 <ol class="songs">{''.join(items)}</ol></div>"""
