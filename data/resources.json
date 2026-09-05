@@ -82,15 +82,16 @@
     ],
     "videos": [
       {
-        "channel": "Marty Music",
-        "title": "How to Play \"Cocaine\" by Eric Clapton (JJ Cale) On Guitar",
-        "url": "https://www.youtube.com/watch?v=TlrlvVfFeXk",
-        "quality_note": "Marty Schwartz, uno de los canales de enseñanza más establecidos. Su lección canónica del tema."
+        "channel": "JustinGuitar Songs",
+        "title": "Cocaine Easy Guitar Lesson | Eric Clapton",
+        "url": "https://www.youtube.com/watch?v=WkF6kaqcV3I",
+        "quality_note": "El canal de enseñanza más establecido que hay; va directo al riff."
       },
       {
-        "channel": "GuitarJamz",
-        "title": "How to Play \"Cocaine\" by Eric Clapton (JJ Cale) Tutorial",
-        "url": "https://www.youtube.com/watch?v=Vuod8KKQgdA"
+        "channel": "GuitarLessons365Song",
+        "title": "Cocaine Guitar Lesson - Eric Clapton",
+        "url": "https://www.youtube.com/watch?v=B-77UWlEnVk",
+        "quality_note": "Media hora sobre el tema, solos incluidos."
       }
     ],
     "notes": "Entrada limpia y de alta confianza. Bajate aparte la pista t1 de Songsterr para el solo."
@@ -141,16 +142,16 @@
     ],
     "videos": [
       {
-        "channel": "Marty Music",
-        "title": "Creep - Radiohead - Guitar Lesson - How to Play on Guitar",
-        "url": "https://www.youtube.com/watch?v=0-IAFa5Hz8M",
-        "quality_note": "La lección estándar de Marty Music para este tema."
+        "channel": "GuitarLessons365Song",
+        "title": "Creep Guitar Lesson - Radiohead",
+        "url": "https://www.youtube.com/watch?v=Mu9fxsSyJEI",
+        "quality_note": "Once minutos y millón y medio de reproducciones; la lección de referencia del tema."
       },
       {
         "channel": "Nikola Gugoski",
         "title": "Radiohead - Creep (Guitar lesson with TAB)",
         "url": "https://www.youtube.com/watch?v=sdv_zBXZjvQ",
-        "quality_note": "Incluye TAB en pantalla, útil para el detalle de notas muertas y golpes de acorde que Marty pasa más por arriba."
+        "quality_note": "Incluye TAB en pantalla, útil para el detalle de las notas muertas y los golpes de acorde."
       }
     ],
     "notes": "El chart dice G, que es el tono original: la tab de Songsterr debería calzar directo."
@@ -206,12 +207,6 @@
         "title": "Every Breath You Take by The Police | Guitar Lesson",
         "url": "https://www.youtube.com/watch?v=OBYYSvb08EQ",
         "quality_note": "JustinGuitar es de los canales de enseñanza más confiables; este riff es una de sus lecciones conocidas."
-      },
-      {
-        "channel": "Marty Music",
-        "title": "The Police Every Breath You Take Guitar Lesson + Tutorial",
-        "url": "https://www.youtube.com/watch?v=kiw_wzMx8UU",
-        "quality_note": "Buen segundo ángulo sobre las formas Add9 de Andy Summers."
       }
     ],
     "notes": "La tab más floja del set: es de usuario. Apoyate en los dos videos para el arpegio característico."
@@ -252,12 +247,6 @@
       }
     ],
     "videos": [
-      {
-        "channel": "Marty Music",
-        "title": "Lenny Kravitz Fly Away Guitar Lesson + Tutorial",
-        "url": "https://www.youtube.com/watch?v=Rq8kDTpU7kk",
-        "quality_note": "Buen encaje: el tema es puro riff y Marty se enfoca en tono y feel."
-      },
       {
         "channel": "JustinGuitar Songs",
         "title": "Fly Away - Lenny Kravitz - Easy Guitar Lesson",
@@ -351,12 +340,6 @@
         "quality_note": "La referencia: la versión que vamos a tocar, oficial y completa."
       },
       {
-        "channel": "Marty Music",
-        "title": "Freddie King Going Down Guitar Lesson + Tutorial",
-        "url": "https://www.youtube.com/watch?v=CxZIjh8QR0g",
-        "quality_note": "Está armado sobre la versión de Freddie King, pero el riff y la forma son los mismos que toca Bonamassa. Es la mejor lección para la parte rítmica."
-      },
-      {
         "channel": "Learn to Play it Right",
         "title": "Going Down Solo 1 (Live at the Greek Theatre) - Joe Bonamassa",
         "url": "https://www.youtube.com/watch?v=qLacfMvq3MA",
@@ -383,16 +366,16 @@
     ],
     "videos": [
       {
-        "channel": "Marty Music",
-        "title": "CCR Have You Ever Seen The Rain Guitar Lesson + Tutorial",
-        "url": "https://www.youtube.com/watch?v=XYi_3Ne4ZfA",
-        "quality_note": "Tutorial completo de Marty Schwartz de 2016; lección de referencia de larga data para este tema."
+        "channel": "GuitarLessons365Song",
+        "title": "Have You Ever Seen The Rain? Guitar Lesson - Creedence Clearwater Revival",
+        "url": "https://www.youtube.com/watch?v=BKM5cPzsMf0",
+        "quality_note": "Corto y completo, con los acordes y el rasgueo."
       },
       {
-        "channel": "GuitarJamz",
-        "title": "CCR Number 1 Acoustic Song (EASY Chords)",
-        "url": "https://www.youtube.com/watch?v=NsnFoggzaHc",
-        "quality_note": "Re-enseñanza de 2023, simplificada. Útil si querés la versión rápida de acordes y rasgueo."
+        "channel": "Jerry's Guitar Bar",
+        "title": "Have You Ever Seen The Rain Creedence Intro Guitar Lesson",
+        "url": "https://www.youtube.com/watch?v=4Yy2M5RoVPE",
+        "quality_note": "Dedicado sólo a la intro, que es la parte que se reconoce."
       }
     ],
     "notes": "En Do mayor (familia C-G-Am-F). El chart no traía tono, así que la tab en tono original debería calzar."
@@ -470,10 +453,16 @@
     ],
     "videos": [
       {
-        "channel": "Marty Music",
-        "title": "Bon Jovi It's My Life Guitar Lesson + Tutorial",
-        "url": "https://www.youtube.com/watch?v=Y4QtX1DlZB8",
-        "quality_note": "Marty Schwartz, abril 2020. Atribución confirmada por su propio posteo oficial enlazando este video."
+        "channel": "guitarraviva",
+        "title": "Cómo tocar It's My Life de Bon Jovi en guitarra, con solo",
+        "url": "https://www.youtube.com/watch?v=r5LfcKNs-9w",
+        "quality_note": "En español y con el solo completo, que es lo que falta en la mayoría."
+      },
+      {
+        "channel": "Cifra Club",
+        "title": "It's My Life - Bon Jovi (aula de guitarra)",
+        "url": "https://www.youtube.com/watch?v=hsd5WRD30XM",
+        "quality_note": "Clase completa de veinticuatro minutos. Está en portugués."
       }
     ],
     "notes": "El chart dice Cm y el disco está en Cm: la tab calza directo. El talk-box de la intro se suele tocar como línea de guitarra en vivo — la versión de una guitarra lo resuelve."
@@ -602,12 +591,6 @@
         "title": "Mustang Sally Easy Guitar Lesson | The Commitments",
         "url": "https://www.youtube.com/watch?v=l7bW3JvHheY",
         "quality_note": "Específico de esta versión y del canal más confiable en enseñanza."
-      },
-      {
-        "channel": "Marty Music",
-        "title": "Master Mustang Sally on Guitar | Full Tutorial",
-        "url": "https://www.youtube.com/watch?v=7O-Z-1Bfh8s",
-        "quality_note": "Tutorial completo con el detalle del rasgueo seco, que es la parte difícil del tema."
       }
     ],
     "notes": "Recursos de la versión de The Commitments (banda de sonido de 1991). Va en C, igual que el chart y que el original de Wilson Pickett."
@@ -654,10 +637,16 @@
     ],
     "videos": [
       {
-        "channel": "Marty Music",
-        "title": "The Beatles Oh! Darling Guitar Lesson - How to Play + Tutorial",
-        "url": "https://www.youtube.com/watch?v=BZWcR7rONgg",
-        "quality_note": "Marty Schwartz, octubre 2017, unos 10 minutos. Aparece en su playlist curada de tutoriales Beatles."
+        "channel": "24/7 Guitar with Howard Hart",
+        "title": "Oh Darling! Guitar Lesson - How To Play Oh Darling! By The Beatles",
+        "url": "https://www.youtube.com/watch?v=zntUPJ7SwPA",
+        "quality_note": "Dieciocho minutos, con el detalle de los tresillos que sostienen el tema."
+      },
+      {
+        "channel": "Cifra Club",
+        "title": "Oh! Darling - The Beatles (aula completa)",
+        "url": "https://www.youtube.com/watch?v=83pSygRtfj8",
+        "quality_note": "Clase completa. Está en portugués."
       }
     ],
     "notes": "El chart dice A, igual que Abbey Road. El tema está en 6/8 — avisale a la base rítmica."
@@ -792,10 +781,16 @@
     ],
     "videos": [
       {
-        "channel": "Marty Music",
-        "title": "Neil Young Rockin In The Free World Guitar Lesson + Tutorial",
-        "url": "https://www.youtube.com/watch?v=DJ3baSjTigo",
-        "quality_note": "Marty Schwartz, uno de los docentes de guitarra más vistos y mejor valorados de YouTube. Su lección de larga data para el tema."
+        "channel": "JustinGuitar Songs",
+        "title": "Rockin In The Free World by Neil Young | Lead Guitar Lesson",
+        "url": "https://www.youtube.com/watch?v=P8Bvo1MTgtY",
+        "quality_note": "Enfocado en la parte de guitarra líder, que es la que te toca."
+      },
+      {
+        "channel": "GuitarLessons365Song",
+        "title": "Rockin' In The Free World Guitar Lesson - Neil Young",
+        "url": "https://www.youtube.com/watch?v=hgPEc7l9QUA",
+        "quality_note": "La rítmica y los cambios, más corto y al grano."
       }
     ],
     "notes": "El chart dice Em, que coincide con la grabación estándar: ni la tab ni la lección necesitan transposición."
@@ -948,10 +943,16 @@
     ],
     "videos": [
       {
-        "channel": "Marty Music",
-        "title": "4 Non Blondes \"What's Up\" Guitar Lesson",
-        "url": "https://www.youtube.com/watch?v=sBC9vHxhw_o",
-        "quality_note": "Marty Music, canal de primera línea y muy visto; su lección establecida para el tema."
+        "channel": "swiftlessons",
+        "title": "4 Non Blondes \"What's Up\" Guitar Lesson - Rhythm & Lead Tutorial",
+        "url": "https://www.youtube.com/watch?v=6DhH5vseL0A",
+        "quality_note": "Cubre rítmica y lead, que en este tema es todo dinámica."
+      },
+      {
+        "channel": "The Stellar Guitarist",
+        "title": "What's Up? - 4 Non Blondes Guitar Lesson Tutorial",
+        "url": "https://www.youtube.com/watch?v=d-4py-9EK3s",
+        "quality_note": "Veinte minutos, con el detalle del rasgueo abierto de la estrofa."
       }
     ],
     "notes": "Ojo con la variante 'G maj' de Songsterr: el chart dice G pero eso son las FORMAS con cejilla en 2, que suenan en La. Ver la nota de tonalidad."
@@ -967,12 +968,6 @@
       }
     ],
     "videos": [
-      {
-        "channel": "Marty Music",
-        "title": "How To Play The Beatles - While My Guitar Gently Weeps",
-        "url": "https://www.youtube.com/watch?v=yrsCL7olPpo",
-        "quality_note": "Unos 15 minutos, parte de su bien recibida serie de tutoriales Beatles; minucioso para su duración."
-      },
       {
         "channel": "Jon MacLennan",
         "title": "While My Guitar Gently Weeps Guitar Lesson (Beatles)",
@@ -1018,12 +1013,6 @@
       }
     ],
     "videos": [
-      {
-        "channel": "Marty Music",
-        "title": "How to Play \"Yellow\" by Coldplay on Guitar",
-        "url": "https://www.youtube.com/watch?v=Cda88AP_hjc",
-        "quality_note": "Sus tutoriales de Coldplay están entre los más vistos y mejor valorados de su canal."
-      },
       {
         "channel": "Bernadette Teaches Music",
         "title": "Yellow by Coldplay EASY Guitar Tutorial",
