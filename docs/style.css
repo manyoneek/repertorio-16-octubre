@@ -9,12 +9,26 @@ h2{font-size:1.25rem;margin:2.5rem 0 1rem;padding-bottom:.4rem;border-bottom:1px
 h3{font-size:1rem;margin:1.5rem 0 .6rem;color:var(--acc)}
 .sub{color:var(--dim);margin-top:.4rem;font-size:.95rem}
 .back{display:inline-block;margin-bottom:1.5rem;color:var(--dim);font-size:.9rem}
-ol.songs{list-style:none;counter-reset:s}
-ol.songs li{counter-increment:s;border:1px solid var(--line);background:var(--card);border-radius:10px;margin-bottom:.6rem;transition:border-color .15s}
+ol.songs{list-style:none}
+ol.songs li{border:1px solid var(--line);background:var(--card);border-radius:10px;margin-bottom:.6rem;transition:border-color .15s}
 ol.songs li:hover{border-color:var(--acc)}
+ol.songs li[hidden]{display:none}
 ol.songs a{display:flex;align-items:center;gap:1rem;padding:.85rem 1.1rem;color:var(--tx)}
 ol.songs a:hover{text-decoration:none}
-ol.songs a::before{content:counter(s);color:var(--dim);font-variant-numeric:tabular-nums;font-size:.85rem;min-width:1.6rem}
+/* El número es la posición en el setlist, así que no se renumera al filtrar. */
+ol.songs a::before{content:attr(data-n);color:var(--dim);font-variant-numeric:tabular-nums;font-size:.85rem;min-width:1.6rem}
+.find{position:relative;margin:0 0 1.2rem}
+.find input{width:100%;background:var(--card);border:1px solid var(--line);border-radius:10px;
+color:var(--tx);font:inherit;font-size:1rem;padding:.75rem 2.4rem .75rem 2.5rem;outline:none}
+.find input:focus{border-color:var(--acc)}
+.find input::placeholder{color:var(--dim)}
+/* La X nativa de type=search duplicaría nuestro botón de limpiar. */
+.find input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}
+.find .ico{position:absolute;left:.9rem;top:50%;transform:translateY(-50%);color:var(--dim);font-size:.95rem}
+.find .clr{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);background:none;border:0;
+color:var(--dim);font-size:1.2rem;cursor:pointer;padding:.2rem .5rem;line-height:1}
+.find .clr:hover{color:var(--tx)}
+.count{color:var(--dim);font-size:.88rem;margin:-.6rem 0 1rem}
 .t{font-weight:600}.a{color:var(--dim);font-size:.9rem}
 .k{margin-left:auto;background:#20242d;border:1px solid var(--line);color:var(--acc);border-radius:6px;padding:.15rem .55rem;font-size:.8rem;font-weight:600}
 .meta{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 2rem}

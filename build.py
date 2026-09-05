@@ -81,12 +81,26 @@ h2{font-size:1.25rem;margin:2.5rem 0 1rem;padding-bottom:.4rem;border-bottom:1px
 h3{font-size:1rem;margin:1.5rem 0 .6rem;color:var(--acc)}
 .sub{color:var(--dim);margin-top:.4rem;font-size:.95rem}
 .back{display:inline-block;margin-bottom:1.5rem;color:var(--dim);font-size:.9rem}
-ol.songs{list-style:none;counter-reset:s}
-ol.songs li{counter-increment:s;border:1px solid var(--line);background:var(--card);border-radius:10px;margin-bottom:.6rem;transition:border-color .15s}
+ol.songs{list-style:none}
+ol.songs li{border:1px solid var(--line);background:var(--card);border-radius:10px;margin-bottom:.6rem;transition:border-color .15s}
 ol.songs li:hover{border-color:var(--acc)}
+ol.songs li[hidden]{display:none}
 ol.songs a{display:flex;align-items:center;gap:1rem;padding:.85rem 1.1rem;color:var(--tx)}
 ol.songs a:hover{text-decoration:none}
-ol.songs a::before{content:counter(s);color:var(--dim);font-variant-numeric:tabular-nums;font-size:.85rem;min-width:1.6rem}
+/* El número es la posición en el setlist, así que no se renumera al filtrar. */
+ol.songs a::before{content:attr(data-n);color:var(--dim);font-variant-numeric:tabular-nums;font-size:.85rem;min-width:1.6rem}
+.find{position:relative;margin:0 0 1.2rem}
+.find input{width:100%;background:var(--card);border:1px solid var(--line);border-radius:10px;
+color:var(--tx);font:inherit;font-size:1rem;padding:.75rem 2.4rem .75rem 2.5rem;outline:none}
+.find input:focus{border-color:var(--acc)}
+.find input::placeholder{color:var(--dim)}
+/* La X nativa de type=search duplicaría nuestro botón de limpiar. */
+.find input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}
+.find .ico{position:absolute;left:.9rem;top:50%;transform:translateY(-50%);color:var(--dim);font-size:.95rem}
+.find .clr{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);background:none;border:0;
+color:var(--dim);font-size:1.2rem;cursor:pointer;padding:.2rem .5rem;line-height:1}
+.find .clr:hover{color:var(--tx)}
+.count{color:var(--dim);font-size:.88rem;margin:-.6rem 0 1rem}
 .t{font-weight:600}.a{color:var(--dim);font-size:.9rem}
 .k{margin-left:auto;background:#20242d;border:1px solid var(--line);color:var(--acc);border-radius:6px;padding:.15rem .55rem;font-size:.8rem;font-weight:600}
 .meta{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 2rem}
@@ -113,14 +127,57 @@ p{margin:.7rem 0}ul{margin:.7rem 0 .7rem 1.3rem}li{margin:.3rem 0}
 """
 
 
-def page(title, body, depth=0):
+def page(title, body, depth=0, script=""):
     up = "../" * depth
+    js = f"<script>{script}</script>" if script else ""
     return f"""<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
 <link rel="stylesheet" href="{up}style.css"></head>
-<body>{body}</body></html>"""
+<body>{body}{js}</body></html>"""
+
+
+# Filtro en el cliente: sin dependencias, para que GitHub Pages lo sirva tal cual.
+FIND_JS = """
+(function () {
+  var q = document.getElementById('q'),
+      clr = document.getElementById('clr'),
+      out = document.getElementById('count'),
+      items = [].slice.call(document.querySelectorAll('ol.songs li'));
+  // Sin tildes ni mayúsculas: buscar "flaca" tiene que encontrar "La Flaca".
+  function norm(s) {
+    return s.normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase();
+  }
+  items.forEach(function (li) { li.dataset.k = norm(li.innerText); });
+  function run() {
+    var terms = norm(q.value).split(/\\s+/).filter(Boolean), n = 0;
+    items.forEach(function (li) {
+      var ok = terms.every(function (t) { return li.dataset.k.indexOf(t) > -1; });
+      li.hidden = !ok;
+      if (ok) n++;
+    });
+    clr.hidden = !q.value;
+    out.textContent = !q.value ? '' :
+      n === 0 ? 'Ningún tema coincide con "' + q.value + '".' :
+      n === 1 ? '1 tema' : n + ' temas';
+  }
+  q.addEventListener('input', run);
+  q.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { q.value = ''; run(); }
+    // Enter con un solo resultado entra directo a la ficha.
+    if (e.key === 'Enter') {
+      var v = items.filter(function (li) { return !li.hidden; });
+      if (v.length === 1) v[0].querySelector('a').click();
+    }
+  });
+  clr.addEventListener('click', function () { q.value = ''; run(); q.focus(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && document.activeElement !== q) { e.preventDefault(); q.focus(); }
+  });
+  run();
+})();
+"""
 
 
 def main():
@@ -140,22 +197,29 @@ def main():
 
     # --- index ---
     items = []
-    for s in songs:
+    for n, s in enumerate(songs, 1):
         slug = slugify(s["title"])
         k = f'<span class="k">{html.escape(s["key"])}</span>' if s.get("key") else ""
         items.append(
-            f'<li><a href="temas/{slug}.html"><span><span class="t">{html.escape(s["title"])}</span>'
+            f'<li><a data-n="{n}" href="temas/{slug}.html">'
+            f'<span><span class="t">{html.escape(s["title"])}</span>'
             f'<br><span class="a">{html.escape(s["artist"])}</span></span>{k}</a></li>'
         )
     playlist_pill = (f'<div class="meta"><a class="pill" href="{html.escape(spot["playlist_url"])}" '
                      f'target="_blank" rel="noopener">🎧 <b>Escuchar el repertorio</b> en Spotify</a></div>'
                      if spot.get("playlist_url") else "")
+    buscador = ('<div class="find"><span class="ico">⌕</span>'
+                '<input id="q" type="search" autocomplete="off" spellcheck="false" '
+                'placeholder="Buscar por tema, artista o tonalidad…" aria-label="Buscar tema">'
+                '<button class="clr" id="clr" hidden aria-label="Limpiar búsqueda">×</button></div>'
+                '<div class="count" id="count" role="status"></div>')
     idx = f"""<header><div class="wrap"><h1>Repertorio · 16 de octubre</h1></div></header>
 <div class="wrap">
 {playlist_pill}
+{buscador}
 <ol class="songs">{''.join(items)}</ol></div>"""
     with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as f:
-        f.write(page("Repertorio · 16 de octubre", idx))
+        f.write(page("Repertorio · 16 de octubre", idx, script=FIND_JS))
 
     # --- página por tema ---
     for s in songs:
