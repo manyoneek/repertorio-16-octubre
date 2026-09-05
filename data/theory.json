@@ -155,17 +155,17 @@
   },
   {
     "title": "Going Down",
-    "artist": "Freddie King (compuesto por Don Nix)",
-    "key_verified": "D — centro tonal D con material de blues; las transcripciones humanas coinciden en D",
+    "artist": "Joe Bonamassa (compuesto por Don Nix)",
+    "key_verified": "D",
     "progression_degrees": "Blues de 12 compases estándar: I (comp. 1-4) – IV (5-6) – I (7-8) – V (9-10) – I (11-12). Giro descendente I–bVII–IV–bIII (D–C–G–F) en los compases 2, 6 y 10",
-    "analysis_md": "Blues de 12 compases con la forma **estándar**, sin quick change: el compás 2 se queda en el I. Los grados son los de siempre — **I–IV–V** — y ahí no hay misterio.\n\nLo que hace propio al tema es la **figura descendente D–C–G–F** que aparece siempre justo antes de volver al I, o sea en los compases **2, 6 y 10**. En grados: **I–bVII–IV–bIII**. Los dos acordes prestados son el **C (bVII)** y el **F (bIII)**, ambos del mundo menor/blues sobre una armonía que por lo demás es mayor-dominante. Esa caída en bloque funciona como un empujón: en vez de esperar quieto el cambio de acorde, la banda se tira en picada hacia él. Es lo que le da el carácter de locomotora.\n\nEl riff base es un **deslizamiento de power chord de Do5 a Re5** con palm mute. Otra vez: power chords, sin tercera, así que la armonía **no declara mayor ni menor**. Por eso las fuentes se dividen (unas dicen D mayor, otras D menor) y por eso los solos van cómodos en **pentatónica menor de D** aunque el acompañamiento tenga sabor dominante. Ese roce entre tercera menor solista y tercera mayor implícita es el sonido del blues eléctrico, no un problema a corregir.\n\nEl tempo real es de shuffle: se cuenta cómodo alrededor de 84.",
+    "analysis_md": "Blues de 12 compases con la forma **estándar**, sin quick change: el compás 2 se queda en el I. Los grados son los de siempre — **I–IV–V** — y ahí no hay misterio.\n\nLo que hace propio al tema es la **figura descendente D–C–G–F** que aparece siempre justo antes de volver al I, o sea en los compases **2, 6 y 10**. En grados: **I–bVII–IV–bIII**. Los dos acordes prestados son el **C (bVII)** y el **F (bIII)**, ambos del mundo menor/blues sobre una armonía que por lo demás es mayor-dominante. Esa caída en bloque funciona como un empujón: en vez de esperar quieto el cambio de acorde, la banda se tira en picada hacia él. Es lo que le da el carácter de locomotora. Cifra Club la escribe como D–D/C–D/G–D/F, o sea el mismo movimiento leído desde el bajo.\n\nEl riff base es un **deslizamiento de power chord de C5 a D5** con palm mute. Power chords, sin tercera, así que la armonía **no declara mayor ni menor**. Por eso las fuentes se dividen: Ultimate Guitar aclara que hay que pensarlo todo como blues de D menor, y ChordU lo detecta directamente en Dm, mientras el acompañamiento tiene sabor dominante. Los solos van cómodos en **pentatónica menor de D**, y ese roce entre la tercera menor del solista y la tercera mayor implícita es el sonido del blues eléctrico, no un problema a corregir.\n\nBonamassa lo toma más rápido que Freddie King: la versión del Greek Theatre corre alrededor de 93, contra los 84 del disco del 71. Y donde King dejaba huecos, él llena — dos solos largos, con la banda entera empujando atrás.",
     "sources": [
-      "https://guitartabs.cc/tabs/f/freddie_king/going_down_crd_ver_2.html",
-      "https://www.songsterr.com/a/wsa/freddie-king-going-down-chords-s187238",
-      "https://www.jonmaclennan.com/blog/how-to-play-going-down-on-guitar-freddie-king-guitar-lesson-tutorial",
-      "https://guitarclub.io/blog/going-down-freddie-king-guitar-lesson"
+      "https://tabs.ultimate-guitar.com/tab/joe-bonamassa/going-down-chords-3725783",
+      "https://www.cifraclub.com/joe-bonamassa/going-down/",
+      "https://www.songsterr.com/a/wsa/joe-bonamassa-going-down-live-tab-s1006361",
+      "https://chordify.net/chords/joe-bonamassa-songs/going-down-chords"
     ],
-    "key_note": "Afinación Drop D: de ahí sale el peso del riff."
+    "key_note": "En D, afinación estándar."
   },
   {
     "title": "Rehab",

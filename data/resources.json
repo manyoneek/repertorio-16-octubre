@@ -319,33 +319,51 @@
   },
   {
     "title": "Going Down",
-    "artist": "Freddie King",
+    "artist": "Joe Bonamassa",
     "tabs": [
       {
         "source": "Songsterr",
-        "url": "https://www.songsterr.com/a/wsa/freddie-king-going-down-tab-s679879",
-        "note": "Hay otros ids: versión Universal Music (s1738637), jam tab (s1169982) y acordes (s187238)."
+        "url": "https://www.songsterr.com/a/wsa/joe-bonamassa-going-down-live-tab-s1006361",
+        "note": "La versión del Greek Theatre, con banda completa. Afinación estándar."
       },
       {
-        "source": "Ultimate-Guitar",
-        "url": "https://tabs.ultimate-guitar.com/tab/freddie-king/going-down-tabs-1720929"
+        "source": "Ultimate Guitar",
+        "url": "https://tabs.ultimate-guitar.com/tab/joe-bonamassa/going-down-chords-3725783",
+        "note": "Acordes de esta versión, con la aclaración de pensarlo todo como blues de D menor."
+      },
+      {
+        "source": "Cifra Club",
+        "url": "https://www.cifraclub.com/joe-bonamassa/going-down/",
+        "note": "Escribe la caída como D–D/C–D/G–D/F, que deja ver el movimiento del bajo."
       }
     ],
     "videos": [
       {
+        "channel": "JoeBonamassaTV",
+        "title": "Joe Bonamassa Official - \"Going Down\" - Live at the Greek Theatre",
+        "url": "https://www.youtube.com/watch?v=S79d6DZwPQQ",
+        "quality_note": "La referencia: la versión que vamos a tocar, oficial y completa."
+      },
+      {
         "channel": "Marty Music",
         "title": "Freddie King Going Down Guitar Lesson + Tutorial",
         "url": "https://www.youtube.com/watch?v=CxZIjh8QR0g",
-        "quality_note": "Marty Music sobre un clásico del blues — buen encaje para el riff principal y el feel."
+        "quality_note": "Está armado sobre la versión de Freddie King, pero el riff y la forma son los mismos que toca Bonamassa. Es la mejor lección para la parte rítmica."
       },
       {
-        "channel": "Kirklees Guitar School",
-        "title": "Freddie King | Going Down Guitar Tutorial | FREE DOWNLOADABLE TABS",
-        "url": "https://www.youtube.com/watch?v=8zh_PauA__A",
-        "quality_note": "Ofrece tabs descargables gratis junto al video. Canal chico."
+        "channel": "Learn to Play it Right",
+        "title": "Going Down Solo 1 (Live at the Greek Theatre) - Joe Bonamassa",
+        "url": "https://www.youtube.com/watch?v=qLacfMvq3MA",
+        "quality_note": "El primer solo de esta versión exacta, lento y con tablatura."
+      },
+      {
+        "channel": "Blues Guitar Unleashed",
+        "title": "Fast Blues Licks - Joe Bonamassa Style Lick (Going Down)",
+        "url": "https://www.youtube.com/watch?v=CI3uXX4cumU",
+        "quality_note": "Canal grande y de larga trayectoria; desarma el vocabulario de licks que usa acá."
       }
     ],
-    "notes": "Blues de 12 compases. Confirmá afinación con la banda: algunas versiones van en drop D."
+    "notes": "Recursos de la versión de Joe Bonamassa (Live at the Greek Theatre, 2016). Blues de 12 compases en D, afinación estándar."
   },
   {
     "title": "Have You Ever Seen The Rain",
