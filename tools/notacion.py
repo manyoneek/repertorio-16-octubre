@@ -24,6 +24,10 @@ def convertir(text):
 
     t = re.sub(r"\b([A-G])\s+(?:sostenido|SOSTENIDO)\b", r"\1#", t)
     t = re.sub(r"\b([A-G])\s+(?:bemol|BEMOL)\b", r"\1b", t)
+    # Cifrado pegado al sufijo: Do5, Sol7, Lam7, Fa#m7. El número se limita a
+    # los grados que existen en un acorde, para no tocar modelos como el Laney LA100.
+    t = re.sub(rf"\b({NOTA})([#b]?)((?:m|maj|min|sus|dim|aug|add)?)(2|4|5|6|7|9|11|13)(?!\d)",
+               lambda m: LETRA[m.group(1).lower()] + m.group(2) + m.group(3) + m.group(4), t)
     # Do#, Lab, Fa#m: con alteración nunca son palabras del castellano.
     t = re.sub(rf"\b({NOTA})(#|b)(m|maj|sus|dim|aug|7|m7)?(?![\w#])",
                lambda m: LETRA[m.group(1).lower()] + m.group(2) + (m.group(3) or ""), t)
