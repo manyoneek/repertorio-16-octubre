@@ -276,10 +276,14 @@ def main():
         g = gear.get(s["title"])
         if g:
             b.append("<h2>Setup del guitarrista original</h2>")
+            # El párrafo de Quad Cortex va pegado al DIY, que es donde se busca.
+            diy = g.get("diy")
+            if diy and g.get("quad_cortex"):
+                diy = f'{diy}\n\n**En el Quad Cortex:** {g["quad_cortex"]}'
             rows = [("Guitarrista", g.get("guitarist")), ("Guitarra", g.get("guitar")),
                     ("Amplificador", g.get("amp")), ("Efectos", g.get("effects")),
                     ("La clave del sonido", g.get("signature_move")),
-                    ("Cómo acercarte con lo que tenés", g.get("diy"))]
+                    ("Cómo acercarte con lo que tenés", diy)]
             dl = "".join(f"<dt>{html.escape(k)}</dt><dd>{md(v)}</dd>" for k, v in rows if v)
             # Sólo avisamos cuando el dato es flojo; decir "documentación alta" no aporta.
             warn = {"medio": "Parte de este setup está poco documentado.",
