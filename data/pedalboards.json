@@ -76,17 +76,93 @@
      "note": "El QC no tiene vocoder ni nada que se le parezca, y no hay forma de armarlo con los bloques disponibles. Este pedal se queda: metelo en el loop de efectos estéreo del QC y lo activás donde lo necesites."
     }
    ],
-   "chain": [
-    "**Gain** (el Spark, como empujón de entrada)",
-    "**4-Comp Custom** (Keeley)",
-    "**Green 808** o **Iba Green** (Plumes)",
-    "**Obsessive Drive** (OCD)",
-    "**Exotic BB** (lado moderno del Dual Fusion)",
-    "**Amp + Cab** del tema que estés tocando",
-    "**MX Vibes** (Uni-Vibe)",
-    "**Analog Delay** o **Tape Delay** (Flashback)"
-   ],
-   "chain_note": "Ocho bloques entran cómodos en una fila del grid. El vocoder va aparte, por el loop de efectos. El segundo booster (Rush) conviene ponerlo después del cab si lo usás para levantar solos, porque ahí sube volumen sin cambiar la saturación del ampli."
+   "chain": {
+    "rows": [
+     {
+      "label": "Fila 1 del Grid",
+      "steps": [
+       {
+        "slot": "io",
+        "kind": "Entrada",
+        "block": "Guitarra",
+        "from": "Input 1"
+       },
+       {
+        "slot": "boost",
+        "kind": "Boost",
+        "block": "Gain",
+        "from": "TC Spark Mini"
+       },
+       {
+        "slot": "comp",
+        "kind": "Compresor",
+        "block": "4-Comp Custom",
+        "from": "Keeley 4 Knob"
+       },
+       {
+        "slot": "drive",
+        "kind": "Overdrive",
+        "block": "Green 808",
+        "from": "EQD Plumes"
+       },
+       {
+        "slot": "drive",
+        "kind": "Overdrive",
+        "block": "Obsessive Drive",
+        "from": "Fulltone OCD"
+       },
+       {
+        "slot": "drive",
+        "kind": "Overdrive",
+        "block": "Exotic BB",
+        "from": "Wampler Dual Fusion"
+       },
+       {
+        "slot": "amp",
+        "kind": "Ampli",
+        "block": "Amp",
+        "from": "el del tema"
+       },
+       {
+        "slot": "cab",
+        "kind": "Cab",
+        "block": "Cab",
+        "from": "el del tema"
+       },
+       {
+        "slot": "mod",
+        "kind": "Modulación",
+        "block": "MX Vibes",
+        "from": "MXR Uni-Vibe"
+       }
+      ]
+     },
+     {
+      "label": "Fila 2 del Grid",
+      "steps": [
+       {
+        "slot": "delay",
+        "kind": "Delay",
+        "block": "Analog Delay",
+        "from": "TC Flashback"
+       },
+       {
+        "slot": "boost",
+        "kind": "Boost",
+        "block": "Gain",
+        "from": "TC Rush, para solos"
+       },
+       {
+        "slot": "io",
+        "kind": "Salida",
+        "block": "Out 1/2",
+        "from": "a la consola"
+       }
+      ]
+     }
+    ]
+   },
+   "chain_note": "Son nueve bloques y cada fila del Grid tiene ocho slots, así que la cadena sigue en la fila 2: la salida de la primera fila se rutea a la segunda desde el bloque de output. El Rush queda después del cab a propósito, porque ahí sube volumen para los solos sin cambiar la saturación del ampli. El vocoder Iron Lung no entra en este dibujo: va por el loop de efectos, con los puertos SEND y RETURN."
   },
   {
    "name": "Pedalera 2 · la del case Boss BCB-60",
@@ -135,17 +211,87 @@
      "note": "Los tres modos del pedal tienen su bloque: SPR es Spring (M) o (ST), PLT es Plate y TSP, el de tape spring, se arma con Spring más un Tape Delay corto y modulado detrás. El QC además tiene Spring Reverb Engine si querés meterte a ajustar el resorte a mano."
     }
    ],
-   "chain": [
-    "**Brit 2203** como ampli (que es el AT+) o el ampli del tema",
-    "**Freeman BOD** (BE-OD Deluxe, canal 1)",
-    "**Freeman BOD** segundo bloque (canal 2, más ganancia)",
-    "**Gain** (lado boost del AT+)",
-    "**Graphic-9** (Source Audio Programmable EQ)",
-    "**Cab**",
-    "**Vintage Chorus** / **Phaser** / **Rotary** (Mako M1, según el modo que uses)",
-    "**Digital Delay** + **Spring (ST)** (ARP-87 y Secret Path)"
-   ],
-   "chain_note": "Si el EQ en tu pedalera va antes del ampli en vez de después, movelo: el orden del QC es libre y el gráfico adelante del drive cambia la saturación, mientras que atrás sólo corrige el tono final. Con dos Freeman BOD más el ampli tenés tres niveles de saturación por escenas, que es lo que hacen los dos canales del Deluxe más el AT+."
+   "chain": {
+    "rows": [
+     {
+      "label": "Fila 1 del Grid",
+      "steps": [
+       {
+        "slot": "io",
+        "kind": "Entrada",
+        "block": "Guitarra",
+        "from": "Input 1"
+       },
+       {
+        "slot": "drive",
+        "kind": "Distorsión",
+        "block": "Freeman BOD",
+        "from": "BE-OD, canal 1"
+       },
+       {
+        "slot": "drive",
+        "kind": "Distorsión",
+        "block": "Freeman BOD",
+        "from": "BE-OD, canal 2"
+       },
+       {
+        "slot": "boost",
+        "kind": "Boost",
+        "block": "Gain",
+        "from": "boost del JHS AT+"
+       },
+       {
+        "slot": "amp",
+        "kind": "Ampli",
+        "block": "Brit 2203",
+        "from": "JHS AT+"
+       },
+       {
+        "slot": "eq",
+        "kind": "EQ",
+        "block": "Graphic-9",
+        "from": "SA Programmable EQ"
+       },
+       {
+        "slot": "cab",
+        "kind": "Cab",
+        "block": "Cab",
+        "from": "412 Brit 60B GB 90s"
+       },
+       {
+        "slot": "mod",
+        "kind": "Modulación",
+        "block": "Vintage Chorus",
+        "from": "Walrus Mako M1"
+       }
+      ]
+     },
+     {
+      "label": "Fila 2 del Grid",
+      "steps": [
+       {
+        "slot": "delay",
+        "kind": "Delay",
+        "block": "Digital Delay",
+        "from": "Walrus ARP-87"
+       },
+       {
+        "slot": "reverb",
+        "kind": "Reverb",
+        "block": "Spring (ST)",
+        "from": "BCC Secret Path"
+       },
+       {
+        "slot": "io",
+        "kind": "Salida",
+        "block": "Out 1/2",
+        "from": "a la consola"
+       }
+      ]
+     }
+    ]
+   },
+   "chain_note": "Nueve bloques otra vez, así que la reverb y el delay van en la fila 2. Si el EQ en tu pedalera está antes del drive y no después del ampli, movelo: adelante cambia la saturación, atrás sólo corrige el tono final. Con los dos Freeman BOD más el ampli tenés tres niveles de saturación por escenas, que es lo que hacen los dos canales del Deluxe más el AT+."
   }
  ],
  "closing": "De los dieciséis pedales, tres están modelados tal cual (Keeley 4 Knob, Fulltone OCD y Friedman BE-OD), once tienen un equivalente cercano o se resuelven combinando bloques, y uno solo no tiene reemplazo: el vocoder Iron Lung. Si querés el pedal exacto y no el parecido, acordate de que el QC captura pedales de drive: pasás el Dual Fusion o el AT+ por Neural Capture y te lo llevás adentro."
