@@ -54,6 +54,16 @@ def md(text):
     return "\n".join(blocks)
 
 
+def md_inline(text):
+    """Como md() pero sin envolver en <p>: para ítems de lista y celdas."""
+    if not text:
+        return ""
+    text = html.escape(text)
+    text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    text = re.sub(r"(?<![\*\w])\*([^\*\n]+?)\*(?!\*)", r"<em>\1</em>", text)
+    return re.sub(r"`(.+?)`", r"<code>\1</code>", text)
+
+
 def yt_id(url):
     m = re.search(r"(?:v=|youtu\.be/|embed/)([A-Za-z0-9_-]{11})", url or "")
     return m.group(1) if m else None
@@ -120,6 +130,16 @@ color:var(--dim);font-size:1.2rem;cursor:pointer;padding:.2rem .5rem;line-height
 .gear dt{color:var(--acc);font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;margin-top:1rem}
 .gear dt:first-child{margin-top:0}
 .gear dd{margin:.25rem 0 0}
+.ped{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem;margin-bottom:.15rem}
+.ped .name{font-weight:600}
+.ped .kind{color:var(--dim);font-size:.85rem}
+.tag{border-radius:999px;padding:.1rem .55rem;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.tag.exacto{background:#132a1d;border:1px solid #2f6b47;color:#7fd6a5}
+.tag.cercano{background:#132433;border:1px solid #2f5b7b;color:#8ecbff}
+.tag.no-hay{background:#2a1f14;border:1px solid #5c3d1e;color:#ffcb91}
+.qc{font-family:ui-monospace,Menlo,monospace;font-size:.92rem;color:var(--acc)}
+ol.chain{margin:.7rem 0 .7rem 1.3rem}
+ol.chain li{margin:.35rem 0}
 .srcs{font-size:.82rem;color:var(--dim);margin-top:1rem;word-break:break-all}
 .srcs a{color:var(--dim)}
 footer{color:var(--dim);font-size:.85rem;border-top:1px solid var(--line);margin-top:3rem;padding-top:1.5rem}
@@ -187,6 +207,7 @@ def main():
     gear = {s["title"]: s for s in load("gear.json", [])}
     spot = load("spotify.json", {})
     spot_tracks = {t["title"]: t for t in spot.get("tracks", [])}
+    pedalboards = load("pedalboards.json", {})
 
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
@@ -205,9 +226,13 @@ def main():
             f'<span><span class="t">{html.escape(s["title"])}</span>'
             f'<br><span class="a">{html.escape(s["artist"])}</span></span>{k}</a></li>'
         )
-    playlist_pill = (f'<div class="meta"><a class="pill" href="{html.escape(spot["playlist_url"])}" '
-                     f'target="_blank" rel="noopener">🎧 <b>Escuchar el repertorio</b> en Spotify</a></div>'
-                     if spot.get("playlist_url") else "")
+    pills = []
+    if spot.get("playlist_url"):
+        pills.append(f'<a class="pill" href="{html.escape(spot["playlist_url"])}" target="_blank" '
+                     f'rel="noopener">🎧 <b>Escuchar el repertorio</b> en Spotify</a>')
+    if pedalboards.get("boards"):
+        pills.append('<a class="pill" href="pedaleras.html">🎛️ <b>Tus pedaleras</b> en el Quad Cortex</a>')
+    playlist_pill = f'<div class="meta">{"".join(pills)}</div>' if pills else ""
     buscador = ('<div class="find"><span class="ico">⌕</span>'
                 '<input id="q" type="search" autocomplete="off" spellcheck="false" '
                 'placeholder="Buscar por tema, artista o tonalidad…" aria-label="Buscar tema">'
@@ -220,6 +245,39 @@ def main():
 <ol class="songs">{''.join(items)}</ol></div>"""
     with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as f:
         f.write(page("Repertorio · 16 de octubre", idx, script=FIND_JS))
+
+    # --- pedaleras: equivalencias con el Quad Cortex ---
+    if pedalboards.get("boards"):
+        p = ['<div class="wrap"><a class="back" href="index.html">← Volver al repertorio</a>']
+        p.append("<h1>Tus pedaleras en el Quad Cortex</h1>")
+        if pedalboards.get("intro"):
+            p.append(f'<div class="sub">{md(pedalboards["intro"])}</div>')
+        for board in pedalboards["boards"]:
+            p.append(f'<h2>{html.escape(board["name"])}</h2>')
+            if board.get("subtitle"):
+                p.append(f'<p class="sub">{html.escape(board["subtitle"])}</p>')
+            for ped in board.get("pedals", []):
+                tag = html.escape(ped.get("match", "cercano"))
+                label = {"exacto": "modelado", "cercano": "cercano", "no-hay": "no está"}.get(tag, tag)
+                p.append('<div class="card">')
+                p.append(f'<div class="ped"><span class="name">{html.escape(ped["pedal"])}</span>'
+                         f'<span class="kind">{html.escape(ped.get("type",""))}</span>'
+                         f'<span class="tag {tag}">{html.escape(label)}</span></div>')
+                p.append(f'<div class="qc">→ {html.escape(ped["qc"])}</div>')
+                if ped.get("note"):
+                    p.append(f'<div class="note">{html.escape(ped["note"])}</div>')
+                p.append("</div>")
+            if board.get("chain"):
+                p.append("<h3>La cadena completa en el QC</h3>")
+                items_c = "".join(f"<li>{md_inline(step)}</li>" for step in board["chain"])
+                p.append(f'<ol class="chain">{items_c}</ol>')
+                if board.get("chain_note"):
+                    p.append(f'<div class="note">{html.escape(board["chain_note"])}</div>')
+        if pedalboards.get("closing"):
+            p.append(f'<div class="ear">{md(pedalboards["closing"])}</div>')
+        p.append("</div>")
+        with open(os.path.join(OUT, "pedaleras.html"), "w", encoding="utf-8") as f:
+            f.write(page("Tus pedaleras en el Quad Cortex", "\n".join(p)))
 
     # --- página por tema ---
     for s in songs:

@@ -1,0 +1,152 @@
+{
+ "intro": "Las dos pedaleras de Andy, pedal por pedal, con su equivalente en el Quad Cortex. Los nombres de los bloques están verificados contra la lista oficial de devices de Neural DSP: **exacto** quiere decir que Neural modeló ese pedal puntual, **cercano** que el bloque es de la misma familia pero no es el mismo circuito, y **no está** que no hay nada parecido y conviene seguir usando el pedal real.",
+ "boards": [
+  {
+   "name": "Pedalera 1 · la abierta",
+   "subtitle": "Diez pedales, sin case, dos filas.",
+   "pedals": [
+    {
+     "pedal": "Keeley 4 Knob Compressor",
+     "type": "Compresor",
+     "qc": "4-Comp Custom",
+     "match": "exacto",
+     "note": "Neural lo describe como un device hecho a mano inspirado en el Keeley 4 Knob. Es el más directo de los dieciséis: mismos cuatro controles, mismo comportamiento con Clipping."
+    },
+    {
+     "pedal": "EarthQuaker Devices Plumes",
+     "type": "Overdrive",
+     "qc": "Green 808",
+     "match": "cercano",
+     "note": "El Plumes es un Tube Screamer con la parte de ganancia rediseñada. El modo 2 (clipping simétrico) es el que se parece al 808; para el modo 3, más limpio y fuerte, usá Iba Green con el Drive abajo y el Level arriba."
+    },
+    {
+     "pedal": "Fulltone OCD",
+     "type": "Overdrive / distorsión",
+     "qc": "Obsessive Drive",
+     "match": "exacto",
+     "note": "Modelado tal cual, con la llave HP/LP incluida. Es el pedal de tu pedalera que mejor se traslada."
+    },
+    {
+     "pedal": "Wampler Dual Fusion (Tom Quayle)",
+     "type": "Overdrive doble",
+     "qc": "Iba Green + Exotic BB",
+     "match": "cercano",
+     "note": "No está modelado. El lado vintage es territorio Tube Screamer, o sea Iba Green; el lado moderno, más abierto y con más cuerpo, se acerca con Exotic BB (el BB Preamp). Dos bloques en serie te dan el apilado que hace el Dual Fusion."
+    },
+    {
+     "pedal": "MXR Uni-Vibe",
+     "type": "Modulación",
+     "qc": "MX Vibes",
+     "match": "exacto",
+     "note": "Es el UniVibe de MXR, el mismo pedal. Modo Vibe para el barrido clásico, Chorus para el uso más suave."
+    },
+    {
+     "pedal": "TC Electronic Flashback Delay & Looper",
+     "type": "Delay",
+     "qc": "Analog / Tape / Digital / Slapback Delay",
+     "match": "cercano",
+     "note": "No hay un bloque Flashback, pero cada modo tiene su equivalente: ANA es Analog Delay, TAPE es Tape Delay, DYN y 2290 son Digital Delay, SLAP es Slapback Delay y LOFI es Tape Delay con el wow y flutter arriba. El looper del QC es aparte y sólo graba en una capa."
+    },
+    {
+     "pedal": "TC Electronic MojoMojo Overdrive",
+     "type": "Overdrive",
+     "qc": "No-Bell OD1",
+     "match": "cercano",
+     "note": "No está modelado. El ODR-1 es lo más parecido que hay: overdrive de ganancia baja a media con EQ real y poca coloración de medios, que es justamente el planteo del MojoMojo."
+    },
+    {
+     "pedal": "TC Electronic Spark Mini Booster",
+     "type": "Booster limpio",
+     "qc": "Gain (bloque de utilidad)",
+     "match": "cercano",
+     "note": "No hay modelo del Spark, y tampoco hace falta: un booster limpio de 20 dB es exactamente lo que hace el bloque Gain, sin color agregado. Si querés que empuje con algo de carácter, Exotic Z Boost (el RC Booster) es la otra opción."
+    },
+    {
+     "pedal": "TC Electronic Rush Booster",
+     "type": "Booster limpio",
+     "qc": "Gain (bloque de utilidad)",
+     "match": "cercano",
+     "note": "Mismo caso que el Spark. Si los dos boosters cumplen funciones distintas en tu pedalera (uno para empujar el ampli y otro para levantar solos), ponelos como dos bloques Gain en lugares distintos de la cadena: uno antes del ampli y otro después del cab."
+    },
+    {
+     "pedal": "Electro-Harmonix Iron Lung Vocoder",
+     "type": "Vocoder",
+     "qc": "No está",
+     "match": "no-hay",
+     "note": "El QC no tiene vocoder ni nada que se le parezca, y no hay forma de armarlo con los bloques disponibles. Este pedal se queda: metelo en el loop de efectos estéreo del QC y lo activás donde lo necesites."
+    }
+   ],
+   "chain": [
+    "**Gain** (el Spark, como empujón de entrada)",
+    "**4-Comp Custom** (Keeley)",
+    "**Green 808** o **Iba Green** (Plumes)",
+    "**Obsessive Drive** (OCD)",
+    "**Exotic BB** (lado moderno del Dual Fusion)",
+    "**Amp + Cab** del tema que estés tocando",
+    "**MX Vibes** (Uni-Vibe)",
+    "**Analog Delay** o **Tape Delay** (Flashback)"
+   ],
+   "chain_note": "Ocho bloques entran cómodos en una fila del grid. El vocoder va aparte, por el loop de efectos. El segundo booster (Rush) conviene ponerlo después del cab si lo usás para levantar solos, porque ahí sube volumen sin cambiar la saturación del ampli."
+  },
+  {
+   "name": "Pedalera 2 · la del case Boss BCB-60",
+   "subtitle": "Seis pedales, todo cableado adentro del case.",
+   "pedals": [
+    {
+     "pedal": "Friedman BE-OD Deluxe",
+     "type": "Distorsión de dos canales",
+     "qc": "Freeman BOD",
+     "match": "exacto",
+     "note": "Friedman BE-OD modelado con ese nombre. La versión Deluxe tiene dos canales: en el QC eso son dos bloques Freeman BOD con ajustes distintos, o el mismo bloque con dos escenas. Si querés el ampli entero de la casa, está Freeman 100 (el HBE100)."
+    },
+    {
+     "pedal": "JHS AT+ (Andy Timmons)",
+     "type": "Drive + boost",
+     "qc": "Brit 2203 + Gain",
+     "match": "cercano",
+     "note": "No está modelado. El AT es un JCM800 en formato pedal, así que lo honesto no es buscarle un drive parecido sino usar el bloque de ampli Brit 2203 con el Gain en 5 o 6, y el lado boost del pedal como un bloque Gain independiente después. La llave de 25, 50 y 100 watts no tiene equivalente directo: aproximala bajando el Master y subiendo el Gain para las posiciones de menos watts."
+    },
+    {
+     "pedal": "Source Audio Programmable EQ",
+     "type": "EQ gráfico con presets",
+     "qc": "Graphic-9 / Graphic 10 Band",
+     "match": "cercano",
+     "note": "Mismo concepto, distinto fabricante: el Graphic-9 tiene las mismas nueve bandas y el de diez te da una más. Los cuatro presets del pedal se resuelven con escenas del QC, que es más flexible porque además podés cambiar otros bloques al mismo tiempo."
+    },
+    {
+     "pedal": "Walrus Audio Mako M1",
+     "type": "Modulación multimodo",
+     "qc": "Un bloque por modo",
+     "match": "cercano",
+     "note": "El M1 tiene seis algoritmos y el QC tiene uno para cada uno: Chorus es Vintage Chorus o Chorus Engine, Phaser es Phaser, Tremolo es Tremolo (o Harmonic Tremolo), Vibrato es Vibrato, Rotary es Rotary y Filter es Env. Filter. Lo que no tenés es cambiar de modo con un solo footswitch: en el QC son bloques separados con sus escenas."
+    },
+    {
+     "pedal": "Walrus Audio ARP-87",
+     "type": "Delay multimodo",
+     "qc": "Digital / Analog / Tape / Slapback Delay",
+     "match": "cercano",
+     "note": "Uno por modo: Digital es Digital Delay, Analog es Analog Delay, Lo-Fi es Tape Delay con el wow y flutter arriba y Slap es Slapback Delay. El control Dampen se corresponde con el filtro de agudos de las repeticiones dentro del bloque."
+    },
+    {
+     "pedal": "Black Country Customs Secret Path",
+     "type": "Reverb",
+     "qc": "Spring / Plate / Swell Reverb",
+     "match": "cercano",
+     "note": "Los tres modos del pedal tienen su bloque: SPR es Spring (M) o (ST), PLT es Plate y TSP, el de tape spring, se arma con Spring más un Tape Delay corto y modulado detrás. El QC además tiene Spring Reverb Engine si querés meterte a ajustar el resorte a mano."
+    }
+   ],
+   "chain": [
+    "**Brit 2203** como ampli (que es el AT+) o el ampli del tema",
+    "**Freeman BOD** (BE-OD Deluxe, canal 1)",
+    "**Freeman BOD** segundo bloque (canal 2, más ganancia)",
+    "**Gain** (lado boost del AT+)",
+    "**Graphic-9** (Source Audio Programmable EQ)",
+    "**Cab**",
+    "**Vintage Chorus** / **Phaser** / **Rotary** (Mako M1, según el modo que uses)",
+    "**Digital Delay** + **Spring (ST)** (ARP-87 y Secret Path)"
+   ],
+   "chain_note": "Si el EQ en tu pedalera va antes del ampli en vez de después, movelo: el orden del QC es libre y el gráfico adelante del drive cambia la saturación, mientras que atrás sólo corrige el tono final. Con dos Freeman BOD más el ampli tenés tres niveles de saturación por escenas, que es lo que hacen los dos canales del Deluxe más el AT+."
+  }
+ ],
+ "closing": "De los dieciséis pedales, tres están modelados tal cual (Keeley 4 Knob, Fulltone OCD y Friedman BE-OD), once tienen un equivalente cercano o se resuelven combinando bloques, y uno solo no tiene reemplazo: el vocoder Iron Lung. Si querés el pedal exacto y no el parecido, acordate de que el QC captura pedales de drive: pasás el Dual Fusion o el AT+ por Neural Capture y te lo llevás adentro."
+}
