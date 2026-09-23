@@ -111,6 +111,12 @@ color:var(--tx);font:inherit;font-size:1rem;padding:.75rem 2.4rem .75rem 2.5rem;
 color:var(--dim);font-size:1.2rem;cursor:pointer;padding:.2rem .5rem;line-height:1}
 .find .clr:hover{color:var(--tx)}
 .count{color:var(--dim);font-size:.88rem;margin:-.6rem 0 1rem}
+.filters{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.2rem}
+.filter{background:var(--card);border:1px solid var(--line);border-radius:999px;color:var(--tx);font:inherit;font-size:.9rem;padding:.5rem 1rem;cursor:pointer;min-height:44px}
+.filter:hover{border-color:var(--acc2)}
+.filter[aria-pressed="true"]{background:#163348;border-color:var(--acc2);color:var(--acc2)}
+.filter:focus-visible{outline:2px solid var(--acc2);outline-offset:3px}
+.andy-badge{display:inline-block;vertical-align:middle;margin-left:.4rem;padding:.05rem .5rem;border:1px solid #2f5b7b;border-radius:999px;background:#132433;color:#8ecbff;font-size:.72rem;font-weight:600}
 .t{font-weight:600}.a{color:var(--dim);font-size:.9rem}
 .k{margin-left:auto;background:#20242d;border:1px solid var(--line);color:var(--acc);border-radius:6px;padding:.15rem .55rem;font-size:.8rem;font-weight:600}
 .meta{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 2rem}
@@ -196,6 +202,7 @@ FIND_JS = """
 (function () {
   var q = document.getElementById('q'),
       clr = document.getElementById('clr'),
+      andy = document.getElementById('andy-only'),
       out = document.getElementById('count'),
       items = [].slice.call(document.querySelectorAll('ol.songs li'));
   // Sin tildes ni mayúsculas: buscar "flaca" tiene que encontrar "La Flaca".
@@ -204,17 +211,23 @@ FIND_JS = """
   }
   items.forEach(function (li) { li.dataset.k = norm(li.innerText); });
   function run() {
-    var terms = norm(q.value).split(/\\s+/).filter(Boolean), n = 0;
+    var terms = norm(q.value).split(/\\s+/).filter(Boolean), n = 0,
+        andyOnly = andy.getAttribute('aria-pressed') === 'true';
     items.forEach(function (li) {
-      var ok = terms.every(function (t) { return li.dataset.k.indexOf(t) > -1; });
+      var ok = (!andyOnly || li.dataset.andy === 'true') &&
+        terms.every(function (t) { return li.dataset.k.indexOf(t) > -1; });
       li.hidden = !ok;
       if (ok) n++;
     });
     clr.hidden = !q.value;
-    out.textContent = !q.value ? '' :
-      n === 0 ? 'Ningún tema coincide con "' + q.value + '".' :
-      n === 1 ? '1 tema' : n + ' temas';
+    out.textContent = !q.value && !andyOnly ? '' :
+      n === 0 ? 'Ningún tema coincide con los filtros.' :
+      (n === 1 ? '1 tema' : n + ' temas') + (andyOnly ? ' de Andy' : '');
   }
+  andy.addEventListener('click', function () {
+    andy.setAttribute('aria-pressed', andy.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+    run();
+  });
   q.addEventListener('input', run);
   q.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') { q.value = ''; run(); }
@@ -254,9 +267,10 @@ def main():
     for n, s in enumerate(songs, 1):
         slug = slugify(s["title"])
         k = f'<span class="k">{html.escape(s["key"])}</span>' if s.get("key") else ""
+        andy = '<span class="andy-badge">Andy</span>' if s.get("andy") else ""
         items.append(
-            f'<li><a data-n="{n}" href="temas/{slug}.html">'
-            f'<span><span class="t">{html.escape(s["title"])}</span>'
+            f'<li data-andy="{str(bool(s.get("andy"))).lower()}"><a data-n="{n}" href="temas/{slug}.html">'
+            f'<span><span class="t">{html.escape(s["title"])}</span>{andy}'
             f'<br><span class="a">{html.escape(s["artist"])}</span></span>{k}</a></li>'
         )
     pills = []
@@ -270,12 +284,14 @@ def main():
                 '<input id="q" type="search" autocomplete="off" spellcheck="false" '
                 'placeholder="Buscar por tema, artista o tonalidad…" aria-label="Buscar tema">'
                 '<button class="clr" id="clr" hidden aria-label="Limpiar búsqueda">×</button></div>'
+                '<div class="filters"><button class="filter" id="andy-only" type="button" '
+                'aria-pressed="false" aria-controls="songs">Andy only</button></div>'
                 '<div class="count" id="count" role="status"></div>')
     idx = f"""<header><div class="wrap"><h1>Repertorio · 16 de octubre</h1></div></header>
 <div class="wrap">
 {playlist_pill}
 {buscador}
-<ol class="songs">{''.join(items)}</ol></div>"""
+<ol class="songs" id="songs">{''.join(items)}</ol></div>"""
     with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as f:
         f.write(page("Repertorio · 16 de octubre", idx, script=FIND_JS))
 

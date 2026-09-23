@@ -9,6 +9,7 @@ Material de estudio para el concierto del 16 de octubre. Guitarra eléctrica.
 👉 **https://manyoneek.github.io/repertorio-16-octubre/**
 
 - Lista de temas con la tonalidad del chart de la banda
+- Badge Andy y filtro «Andy only», combinable con el buscador
 - Una página por tema: tabs, videos embebidos y análisis
 - Sección de teoría musical agrupada por tonalidad
 
@@ -34,6 +35,10 @@ Sin dependencias: sólo Python 3 de sistema. `build.py` borra y reescribe `docs/
 
 Editá el JSON correspondiente en `data/` y volvé a correr `build.py`.
 No edites `docs/` a mano: se sobreescribe en cada build.
+
+`andy: true` en `data/songs.json` marca los temas asignados a Andy. Las nueve
+asignaciones actuales se tomaron de la captura de la planilla del 23/09/2026;
+«Ruta 66» corresponde a «Route 66» en el sitio.
 
 ## Sobre las tonalidades
 

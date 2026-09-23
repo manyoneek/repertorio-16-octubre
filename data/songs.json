@@ -2,7 +2,8 @@
   {
     "title": "Balada del diablo y la muerte",
     "artist": "La Renga",
-    "key": "Em"
+    "key": "Em",
+    "andy": true
   },
   {
     "title": "Chau",
@@ -42,12 +43,14 @@
   {
     "title": "Fly Away",
     "artist": "Lenny Kravitz",
-    "key": "A"
+    "key": "A",
+    "andy": true
   },
   {
     "title": "Get Lucky",
     "artist": "Daft Punk",
-    "key": "Bm"
+    "key": "Bm",
+    "andy": true
   },
   {
     "title": "Give Me One Reason",
@@ -77,7 +80,8 @@
   {
     "title": "It's My Life",
     "artist": "Bon Jovi",
-    "key": "Cm"
+    "key": "Cm",
+    "andy": true
   },
   {
     "title": "Knockin' on Heaven's Door",
@@ -112,12 +116,14 @@
   {
     "title": "Paranoid",
     "artist": "Black Sabbath",
-    "key": "Em"
+    "key": "Em",
+    "andy": true
   },
   {
     "title": "Pet Sematary",
     "artist": "Ramones",
-    "key": "Dm"
+    "key": "Dm",
+    "andy": true
   },
   {
     "title": "Rehab",
@@ -137,7 +143,8 @@
   {
     "title": "Route 66",
     "artist": "Chuck Berry",
-    "key": "G"
+    "key": "G",
+    "andy": true
   },
   {
     "title": "Spaghetti del Rock",
@@ -147,7 +154,8 @@
   {
     "title": "Sunshine of Your Love",
     "artist": "Cream",
-    "key": "D"
+    "key": "D",
+    "andy": true
   },
   {
     "title": "The Thrill Is Gone",
@@ -172,7 +180,8 @@
   {
     "title": "Why Did You Do It",
     "artist": "Stretch",
-    "key": "Am"
+    "key": "Am",
+    "andy": true
   },
   {
     "title": "Yellow",
