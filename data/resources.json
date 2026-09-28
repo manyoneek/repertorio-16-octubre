@@ -857,27 +857,34 @@
   },
   {
     "title": "Route 66",
-    "artist": "Chuck Berry",
+    "artist": "Pappo",
     "tabs": [
       {
         "source": "Cifra Club",
-        "url": "https://www.cifraclub.com/chuck-berry/route-66/",
-        "note": "Blues de 12 compases, así que transponer al G del chart es directo."
+        "url": "https://www.cifraclub.com/pappo/ruta-66/",
+        "note": "Versión de Pappo en Sol: acordes y tablatura del riff de entrada y sus desplazamientos."
       },
       {
-        "source": "Ultimate-Guitar",
-        "url": "https://tabs.ultimate-guitar.com/tab/chuck-berry/route-66-chords-3407972"
+        "source": "Guitar Minute",
+        "url": "https://www.deguitarra.online/canciones/ruta-66/",
+        "note": "Explicación del riff y del blues de 12 compases con cambio a Do en el segundo compás; tutorial con tablaturas y demostración lenta."
       }
     ],
     "videos": [
       {
-        "channel": "TenThumbs Productions",
-        "title": "Chuck Berry - Route 66 - Guitar tutorial with Tabs, Intro, Bonus Licks",
-        "url": "https://www.youtube.com/watch?v=bZWCoK4DvEs",
-        "quality_note": "Canal de tutoriales bien establecido; incluye tabs en pantalla, la intro y licks extra al estilo Berry, que va bien para eléctrica."
+        "channel": "Guitar Minute",
+        "title": "Cómo tocar Ruta 66 — Pappo: tutorial de guitarra eléctrica",
+        "url": "https://www.youtube.com/watch?v=FwLKpVcV9Jk",
+        "quality_note": "Tutorial específico de la versión de Pappo, con tablaturas y demostración lenta según la página del autor."
+      },
+      {
+        "channel": "Nico Ferreira EMDLG",
+        "title": "Ruta 66 Pappo | Guitar cover + TABS | Tutorial",
+        "url": "https://www.youtube.com/watch?v=ty_ZseWtlJ8",
+        "quality_note": "Cover con tabs. El índice publicado marca intro 0:00, estrofa 0:18, estribillo 0:29 y solo 1:29."
       }
     ],
-    "notes": "La URL de Songsterr que aparece en las búsquedas (route-66-tab-s959717) devuelve 404: esa tab fue eliminada, así que se omitió en vez de pasarla. Chuck Berry lo grabó en A, el chart dice G."
+    "notes": "Referencia: Ruta 66 de Pappo y Amigos (Vol. 2). Las fuentes de guitarra coinciden en Sol, igual que el chart de la banda."
   },
   {
     "title": "Spaghetti del Rock",

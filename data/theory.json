@@ -213,17 +213,16 @@
   },
   {
     "title": "Route 66",
-    "artist": "Chuck Berry",
-    "key_verified": "A en la version de Chuck Berry (1961)",
-    "progression_degrees": "Blues de 12 compases estrófico: I7 (4 compases) - IV7 (2) - I7 (2) - V7 (1) - IV7 (1) - I7 - V7 (turnaround). En A: A7 - D7 - E7",
-    "analysis_md": "Primero un dato estructural que importa para el ensayo: **este tema NO tiene estrofa y estribillo con armonías distintas**. Es blues estrófico de 12 compases: todo, incluido el gancho \"get your kicks on Route 66\", pasa por el MISMO ciclo. Si el chart marca dos progresiones distintas, van a ser idénticas.\n\nLo teóricamente jugoso: **los tres acordes son dominantes con séptima**. En A mayor funcional, solo el E7 sería diatónico. El A7 tiene un G natural (b7 sobre la tónica) y el D7 tiene un C natural, que ni siquiera pertenece a la escala. \n\nUn error clásico es analizar el A7 como V/IV. **No lo es**, porque nunca resuelve como dominante: es una tónica estable. En el blues el I7 no pide resolución, simplemente es así. Esa es la diferencia entre pensar en blues y pensar en armonía clásica.\n\nEncima de eso, los solos van con **pentatónica menor de A (A-C-D-E-G)** sobre acordes que tienen tercera MAYOR. El C natural del solo choca contra el C# del A7, y el G natural contra el G# de la tonalidad. **Ese roce es el idioma entero del blues**, no un error.\n\nLo primero que tenés que tener resuelto es el shuffle boogie: indice en fundamental+quinta, meñique agregando la sexta, sobre las cuerdas de A y D, con triplete bien marcado. Eso ES el arreglo.",
+    "artist": "Pappo",
+    "key_verified": "G (Sol), versión de Pappo",
+    "key_note": "Referencia: «Ruta 66» de Pappo y Amigos (Vol. 2). Está en G, igual que el chart de la banda: no hace falta transportar.",
+    "progression_degrees": "Base de blues de 12 compases con quick change: I | IV | I | I | IV | IV | I | I | V | IV | I | I (o V para volver). En G: G | C | G | G | C | C | G | G | D | C | G | G (o D).",
+    "analysis_md": "La referencia ahora es **la versión en español de Pappo**, en **Sol**. La base es un blues de 12 compases con **quick change**: pasa a Do en el segundo compás y vuelve a Sol en el tercero. Guitar Minute muestra el último compás sobre Sol; Cifra Club también anota Re7 como vuelta a la siguiente sección. Usá ese esquema como mapa y seguí los cortes de la grabación elegida.\n\nLos centros armónicos son **G, C y D: I, IV y V**. Cifra Club los escribe como **G7, C7 y D7**, mientras que el riff puede insinuarlos con quintas y notas de paso sin tocar todas las séptimas a la vez. En este idioma, G7 funciona como tónica de blues; su Fa natural no obliga a interpretar cada aparición como una dominante secundaria.\n\nLa intro transcripta arranca con una subida cromática **Mi–Fa–Fa♯–Sol** en la sexta cuerda. El riff combina notas dobles con un **hammer-on de Si♭ a Si**, la tercera menor que se transforma en tercera mayor de Sol. Ese gesto explica mucho del color del arreglo. El patrón se desplaza a Do y Re cuando cambia la armonía.\n\nPara los solos, partí de la **pentatónica menor de Sol: G–B♭–C–D–F**. Podés sumar la tercera mayor **B** y la blue note **D♭**, sin convertir cada frase en una escala corrida. El roce B♭/B contra el acorde mayor es parte del lenguaje del blues. Las transcripciones distinguen secciones vocales y solos: no supongas que el mapa de 12 compases reemplaza los cortes, entradas y cierre de la versión.",
+    "tip": "Estudiá primero la entrada cromática y el hammer-on Si♭–Si. Después practicá la vuelta en Sol contando los 12 compases y escuchando el cambio temprano a Do. Dejá espacio entre frases en el solo.",
     "sources": [
-      "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0081281",
-      "https://singingcarrots.com/song?song=chuck-berry-route-66",
-      "https://www.licklibrary.com/learn/lessons/chuck-berry/route-66",
-      "https://www.cifraclub.com/chuck-berry/route-66/"
-    ],
-    "key_note": "Tocamos en G, el tono del original de Nat King Cole; Berry lo grabó en A."
+      "https://www.deguitarra.online/canciones/ruta-66/",
+      "https://www.cifraclub.com/pappo/ruta-66/"
+    ]
   },
   {
     "title": "Spaghetti del Rock",
