@@ -134,7 +134,7 @@
         "quality_note": "Canal chico independiente, tutorial de acordes en español. Es una lección dedicada real para un tema con casi nada de cobertura."
       }
     ],
-    "notes": "Tabs sólidas y el tono coincide. No se encontró ningún video de lección verificable: Jaime Roos tiene poca cobertura de tutoriales. Los tres charts alcanzan, siendo un candombe en La mayor bastante directo. Videos agregados en una segunda pasada de búsqueda."
+    "notes": "Tabs sólidas y el tono coincide. No se encontró ningún video de lección verificable: Jaime Roos tiene poca cobertura de tutoriales. Los tres charts alcanzan, siendo un candombe en A mayor bastante directo. Videos agregados en una segunda pasada de búsqueda."
   },
   {
     "title": "Creep",
@@ -408,7 +408,7 @@
         "quality_note": "Dedicado sólo a la intro, que es la parte que se reconoce."
       }
     ],
-    "notes": "En Do mayor (familia C-G-Am-F). El chart no traía tono, así que la tab en tono original debería calzar."
+    "notes": "En C mayor (familia C-G-Am-F). El chart no traía tono, así que la tab en tono original debería calzar."
   },
   {
     "title": "I Shot the Sheriff",
@@ -734,7 +734,7 @@
         "quality_note": "Página oficial de la lección de Andy Crowley en su propio sitio."
       }
     ],
-    "notes": "El chart dice Em, igual que el original. Es pentatónica menor de Mi y quintas, así que la tab en afinación estándar aplica directo."
+    "notes": "El chart dice Em, igual que el original. Es pentatónica menor de E y quintas, así que la tab en afinación estándar aplica directo."
   },
   {
     "title": "Pet Sematary",
@@ -862,12 +862,12 @@
       {
         "source": "Cifra Club",
         "url": "https://www.cifraclub.com/pappo/ruta-66/",
-        "note": "Versión de Pappo en Sol: acordes y tablatura del riff de entrada y sus desplazamientos."
+        "note": "Versión de Pappo en G: acordes y tablatura del riff de entrada y sus desplazamientos."
       },
       {
         "source": "Guitar Minute",
         "url": "https://www.deguitarra.online/canciones/ruta-66/",
-        "note": "Explicación del riff y del blues de 12 compases con cambio a Do en el segundo compás; tutorial con tablaturas y demostración lenta."
+        "note": "Explicación del riff y del blues de 12 compases con cambio a C en el segundo compás; tutorial con tablaturas y demostración lenta."
       }
     ],
     "videos": [
@@ -884,7 +884,7 @@
         "quality_note": "Cover con tabs. El índice publicado marca intro 0:00, estrofa 0:18, estribillo 0:29 y solo 1:29."
       }
     ],
-    "notes": "Referencia: Ruta 66 de Pappo y Amigos (Vol. 2). Las fuentes de guitarra coinciden en Sol, igual que el chart de la banda."
+    "notes": "Referencia: Ruta 66 de Pappo y Amigos (Vol. 2). Las fuentes de guitarra coinciden en G, igual que el chart de la banda."
   },
   {
     "title": "Spaghetti del Rock",
